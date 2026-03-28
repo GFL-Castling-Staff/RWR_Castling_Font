@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_base.character">
+    <!-- defined in default.character for differentiation, see maps/lobby/default.character too -->
+    <!-- <comment key="Hmm, no signal" /> -->
+
+	<comment key="Driver, abandon vehicle" text="Kierowca! Wyskakuj!" />
+  <comment key="Driver, abandon vehicle" text="Kierowca! Wyskakuj!" />  
+	<comment key="Gunner, abandon vehicle" text="Strzelec! Wysiadaj!" />
+  <comment key="Gunner, abandon vehicle" text="Strzelec! Wysiadaj!" />  
+	<comment key="Squad, abandon vehicle" text="Druzyna, wysiadac!" />
+	<comment key="Squad, get out" text="Druzyna, wyskakiwac!"/>
+
+	<comment key="Squad, get in" text="Druzyna, wsiadamy" />
+	<comment key="Squad, get in" text="Druzyna, wsiadamy" />
+  <comment key="Squad, get in" text="Druzyna, zajac miejsca w pojezdzie" /> 
+
+	<comment key="Squad, follow the vehicle" text="Druzyna, podazajcie za pojazdem"/>
+	<comment key="Squad, follow the vehicle" text="Druzyna, podazajcie za pojazdem" />
+  <comment key="Squad, follow the vehicle" text="Druzyna, wspierajcie pojazd" />
+
+	<comment key="Squad, follow me" text="Za mna!" />
+	<comment key="Squad, follow me" text="Druzyna, przegrupowac sie!" />
+  <comment key="Squad, follow me" text="Druzyna, do mnie!" />
+  <comment key="Squad, follow me" text="Druzyna, podazamy razem!" />
+	<comment key="Squad, follow me" text="Druzyna, za mna!" />
+	<comment key="Squad, follow me" text="Druzyna, biegniemy razem!" />  
+
+	<comment key="Driver, stop the vehicle" text="Halo, kolego, zatrzymaj sie!"/>
+  <comment key="Driver, stop the vehicle" text="Halo, kolego, zatrzymaj sie!" />
+  <comment key="Driver, stop the vehicle" text="Kierowca, stop!" />
+  <comment key="Driver, stop the vehicle" text="Kierowca, po hamulcach!" />  
+	<comment key="Gunner, fire at will" text="Strzelec, wal bez rozkazu!"/>
+
+	<comment key="Driver, stop the vehicle" text="Kierowca, zatrzymac pojazd!"/>
+
+	<comment key="Driver, stay close" text="Kierowca, trzymaj sie blisko!"/>
+	<comment key="Driver, stay close" text="Kierowca, podazaj za mna!" />
+  <comment key="Driver, stay close" text="Kierowca, trzymaj sie blisko!" />
+
+	<comment key="Squad, move over there" text="Druzyna, tamte pozycje!"/>
+	<comment key="Squad, move over there" text="Druzyna! Zajac te pozycje!" />
+  <comment key="Squad, move over there" text="Druzyna! Jazda na tamte pozycje!" />
+
+	<comment key="Squad, change position" text="Druzyna, zmiana pozycji!"/>
+	<comment key="Squad, change position" text="Jazda! Jazda! Jazda!" />
+	<comment key="Squad, change position" text="Druzyna! Ruszac tylki na te pozycje!" />
+
+	<comment key="Driver, take us there" text="Kierowca, zabierz nas tutaj!"/>
+	<comment key="Driver, over there" text="Kierowca, w tym kierunku!"/>
+
+	<comment key="Gunner, there" text="Strzelec! Wal tam!"/>
+  <comment key="Gunner, there" text="Strzelec, obserwuj te pozycje!" />
+  <comment key="Gunner, there" text="Strzelec, celuj w to miejsce!" />
+  <comment key="Gunner, there" text="Strzelec, otworzyc ogien!" />  
+
+	<comment key="We surrender!" text="Poddajemy sie!"/>
+	<comment key="We surrender!" text="Nie strzelajcie!" />
+	<comment key="We surrender!" text="Poddajemy sie!" />
+	<comment key="We surrender!" text="Chce do mamy!" />
+
+	<comment key="Medic!" text="Meeeedyk!" />
+	<comment key="Medic!" text="Medyk!" />     
+	<comment key="Medic!" text="K***a! Dostalem! Medyk!" /> 
+	<comment key="Medic!" text="Jestem ranny!" /> 
+  <comment key="Medic!" text="Medyk! Tutaj!" />    
+ 
+
+	<comment key="I feel good!" text="Dzieki stary, uratowales mi d*pe!" />
+	<comment key="I feel good!" text="Dzieki koles!" />
+	<comment key="I feel good!" text="Dzieki doktorku!" /> 
+	<comment key="I feel good!" text="Czuje sie lepiej!" />   
+
+	<comment key="Reloading" text="Zmieniam magazynek!"/>
+	<comment key="Reloading" text="Oslaniajcie mnie, przeladowuje!" />
+	<comment key="Reloading" text="Zmieniam pestki!" />  
+	<comment key="Reloading" text="Magazynek!" />   
+
+	<comment key="cancel radio call" text="Yyyy... nie wazne" />
+	<comment key="cancel radio call" text="O sorry, nie ten guzik!" />
+	<comment key="initiate radio call" text="Alfa Zero, slyszycie mnie?" />
+	<comment key="commander radio response" text="Tu Alfa Zero. Nadawajcie." />
+    <comment key="commander radio full" text="Tu Alfa Zero. Jestesmy zbyt zajeci, sprobuj ponownie za jakis czas"/>    
+	<comment key="no radio equipment" text="Smuteczek, nie mam jeszcze radia..." />
+	<comment key="no radio equipment" text="%rank_names niestety nie jest wyposazony w radio..." />
+	<comment key="no radio equipment" text="Wyglada na to, ze zostawilem radio w innych spodniach" />
+
+	<comment key="squad chat, not in squad" text="Chyba nie jestem w zadnej druzynie..." />
+
+	<comment key="Hey, wait up" text="Hej! Czekaj!"/>
+	<comment key="Hey, wait up" text="Paaanie! Czekaj pan!"/>  
+	<comment key="Hey, wait up" text="Zaczekajcie na mnie!" />
+  <comment key="Hey, wait up" text="Wstrzymaj swe konie, zolnierzu!" />  
+	
+	<comment key="Quickly!" text="Jazda jazda!" />
+	<comment key="Quickly!" text="JAZDA!" />  
+
+	<comment key="Buzz off" text="Odczep sie, leszczu" />
+
+	<comment key="Step out, kid" text="Wylaz, leszczyku..." />
+
+	<comment key="hostile vehicle takeover" text="?" />
+	<comment key="hostile vehicle takeover" text="wtf?" /> 
+	<comment key="hostile vehicle takeover" text="uh?" />    
+	
+	<comment key="Can't respawn - the last base is under attack" text="Nie mozesz sie odrodzic, ostatnia baza jest przejmowana przez wroga!" />
+	<comment key="Can't respawn - spawning is locked" text="Nie mozesz sie odrodzic, ta opcja jest wylaczona w tym momencie!" />
+
+	<comment key="Hmm.. not enough room here" text="Hmmm... chyba za malo miejsca" />
+
+	<comment key="I'm outta here" text="Spadam stad!" />
+	<comment key="I'm outta here" text="Spadajmy stad!" />  
+
+	<comment key="Good job, soldiers" text="Kawal niesamowitej roboty!"/>
+	<comment key="Good job, soldiers" text="Dobra robota, panowie!" />
+	<comment key="Good job, soldiers" text="Kawal swietnej roboty!" />
+	<comment key="Good job, soldiers" text="Swietna robota, panowie!" />
+
+	<comment key="Open fire" text="Widze wroga!"/>
+	<comment key="Open fire" text="Wrog w polu widzenia!" />
+
+	<comment key="Lone leader, open fire" text="Strzelam!" />
+
+	<comment key="fire opened, weapon tag = sniper" text="Snaaaajper!" />
+	<comment key="fire opened, weapon tag = sniper" text="Gdzies tu jest snajper!" />
+
+	<comment key="grenade alert, grenade tag = grenade" text="O ku**a, granat!" />
+	<comment key="grenade alert, grenade tag = grenade" text="Padnij!" />
+	<comment key="grenade alert, grenade tag = grenade" text="Granat!" />
+
+	<comment key="grenade alert, grenade tag = flashbang" text="Uwaga!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="Kryc oczy!" />
+
+	<comment key="grenade alert, grenade tag = rocket" text="Raaakietaaa!" />
+	<comment key="grenade alert, grenade tag = rocket" text="Leeeeci!" />
+	<comment key="grenade alert, grenade tag = rocket" text="Ale walnie!" />
+
+	<comment key="enemy not seen, area alerted" text="Na glebe!" />
+	<comment key="enemy not seen, area alerted" text="Sa tutaj!" />
+
+	<comment key="Lone leader, enemy not seen, area alerted" text="Jazda!" />
+
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Za oslone!" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="Strzelaja!" />
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Wiem, ze gdzies tu jestes!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Ajajaaaj!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Cholera!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Tchorz!" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="Cholera!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Strzelaja!" />
+
+	<comment key="enemy seen" text="Wrog tu jest!" />
+	<comment key="enemy seen" text="ALARM!" />
+	<comment key="enemy seen" text="Widze wroga!" />
+
+	<comment key="enemy seen, vehicle tag = any_tank" text="Przed nami czoooolg!" /> 
+  <comment key="enemy seen, vehicle tag = any_tank" text="Dawac tu pancerniakow!"/>
+  <comment key="enemy seen, vehicle tag = any_tank" text="CZOOOOOLG!"/> 
+  <comment key="enemy seen, vehicle tag = any_tank" text="Widze czolg wroga!"/> 
+	<comment key="enemy seen, vehicle tag = any_tank" text="Zauwazylem czolg wroga!" />  
+	<comment key="enemy seen, vehicle tag = any_tank" text="Zauwazylem czolg wroga!" /> 
+  <comment key="enemy seen, vehicle tag = any_tank" text="Dawac tu RPGi! Czolg!" />    
+  
+ 	<comment key="enemy seen, vehicle tag = apc" text="Rosomak przed nami!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="Wrog ma tu Rosomaka!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="Rosomak wroga!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="Woz opancerzony przeciwnika!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="Rosomak!!!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="Walic w woz opancerzony wroga!" />  
+
+ 	<comment key="enemy seen, vehicle tag = truck" text="Zauwazylem ciezarowke!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Przed nami transport wroga!" />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Ciezarowka transportowa!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Wrog ma ciezarowke!" />                  
+  
+
+	<comment key="enemy not seen, taking suppressed fire" text="?" />
+	<comment key="enemy not seen, taking suppressed fire" text="Co to bylo!?" />
+	<comment key="enemy not seen, taking suppressed fire" text="Alarm!" />
+	<comment key="enemy not seen, taking suppressed fire" text="Sa tutaj!" />
+
+	<comment key="Waiting for reinforcements" text="Poczekam..."/>
+	<comment key="Waiting for reinforcements" text="Dowodztwo pewnie zaraz odpowie" />
+
+	<comment key="Hold on!"  text="Dasz rade!"/>
+	<comment key="Hold on!"  text="Trzymaj sie, biegne!"/>  
+	<comment key="Hold on!" text="Jestem w drodze!" />  
+	<comment key="Hold on!" text="Wytrzymaj, juz biegne!" />  
+
+	<comment key="Move out"  text="Ruszajmy"/>
+	<comment key="Move out" text="Chodzmy" />
+	<comment key="Move out" text="za mna" />
+  <comment key="Move out" text="Ruszajmy" />
+
+	<comment key="All quiet here"  text="* puszcza baka *" />
+	<comment key="All quiet here" text="Zimno..." />
+	<comment key="All quiet here" text="* ziewa *" />
+	<comment key="All quiet here" text="Cisza i spokoj" />
+	<comment key="All quiet here" text="* podspiewuje *" /> 
+	<comment key="All quiet here" text="Cisza przed burza?" />
+  <comment key="All quiet here" text="Nic sie nie dzieje" />  
+  <comment key="All quiet here" text="Jeszcze 3 dni i do domu..." />     
+
+	<comment key="Yes sir" text="Ta jest!" />
+	<comment key="Yes sir" text="Przyjalem" />
+	<comment key="Yes sir" text="Ok" />
+	<comment key="Yes sir" text="Zrozumialem" />
+  <comment key="Yes sir" text="Przyjalem" />
+  <comment key="Yes sir" text="Rozkaz" />
+  <comment key="Yes sir" text="Zrozumialem" />  
+
+	<comment key="Uh, I can't drive this thing"  text="Chyba nie potrafie tym jezdzic" />
+	<comment key="Uh, I can't drive this thing" text="Kto ci dal prawko?" />
+	<comment key="Uh, I can't drive this thing" text="Oops!" />
+	<comment key="Uh, I can't drive this thing" text="Kurcze!" />
+  <comment key="Uh, I can't drive this thing" text="To z pewnoscia chlodnica!" />
+  <comment key="Uh, I can't drive this thing" text="Aha, to to jest sprzeglo" />
+  <comment key="Uh, I can't drive this thing" text="Jestem pewien, ze ta kierownica nie dziala" />
+  <comment key="Uh, I can't drive this thing" text="Ajwaj!" />
+  <comment key="Uh, I can't drive this thing" text="Aucia!" />
+  <comment key="Uh, I can't drive this thing" text="Uwazaj stary!" />
+  <comment key="Uh, I can't drive this thing" text="O nie! Znowu!" />
+  <comment key="Uh, I can't drive this thing" text="Umie ktos jezdzic?" />
+  <comment key="Uh, I can't drive this thing" text="Gdzies posialem okulary..." />
+  <comment key="Uh, I can't drive this thing" text="Chyba musze zmienic kontrolsy w menu!" />
+  <comment key="Uh, I can't drive this thing" text="To samo wyroslo przed pojazdem!" />
+
+  <comment key="Waiting for squad"  text="Wbijamy, leszcze!"/>
+  <comment key="Waiting for squad" text="Wskakiwac, jazda!" />  
+
+	<comment key="Shield up" text="Tarcza gotowa!" />
+	<comment key="Shield up" text="Oslona gotowa!" />
+	<comment key="Shield up" text="Kryc sie za mna!" />
+
+	<comment key="overencumbered" text="Cholerny plecak!" />
+	<comment key="overencumbered" text="Mam na plecach slonia!" />
+	<comment key="overencumbered" text="Troche ciezko, wyrzucic cos z plecaka" />  
+
+	<comment key="Where to, chief?" text="Rozkaz?" />
+	<comment key="Where to, chief?" text="Rozkazy?" />
+  <comment key="Where to, chief?" text="Dowodco?" />
+  <comment key="Where to, chief?" text="Czekam na rozkazy" />
+
+	<comment key="celebrating" text="Wygralismy!" />
+	<comment key="celebrating" text="Haha, leszcze!" />
+	<comment key="celebrating" text="Przezylem?!" />
+	<comment key="celebrating" text="Woo" />
+	<comment key="celebrating" text="GG" />
+	<comment key="celebrating" text="Nareszcie!" />
+	<comment key="celebrating" text="Tak to sie robi!" />
+	<comment key="celebrating" text="Ja zyje!" />
+	<comment key="celebrating" text="O ku**a!" />
+	<comment key="celebrating" text="!" />
+	<comment key="celebrating" text=":D" />
+	<comment key="celebrating" text="Ale dostali po tylkach!" />
+	<comment key="celebrating" text="Nareszcie moge isc sie wysrac!" />
+	<comment key="celebrating" text="Mama bedzie dumna!" />
+	<comment key="celebrating" text="To wszystko moja zasluga!" />
+	<comment key="celebrating" text="Tak to sie robi!" />
+	<comment key="celebrating" text="Slooodko!" />
+	<comment key="celebrating" text="Nioh nioh nioh!" />
+  	<comment key="celebrating" text="TAK!" />
+
+	<comment key="about to drive over a friendly" text="Uwaga!" />
+	<comment key="about to drive over a friendly" text="Patrz gdzie leziesz!" />
+
+  <comment key="this is as close as i can get" text="This is as close as I can get" />
+	<comment key="this is as close as i can get" text="Won't be getting closer than this" />
+
+	<comment key="enemy vehicle spotted, near base" text="%vehicle_name nalezacy do %enemy_name widziany przy %base_name" />
+	<comment key="enemy vehicle spotted, not near base" text="%vehicle_name nalezacy do %enemy_name zostal zauwazony" />
+
+	<comment key="comms have been restored" text="Naprawiono nasz system lacznosci" />
+	<comment key="enemy comms have been restored" text="%enemy_name naprawili swoj system lacznosci" />
+
+	<comment key="comms have been destroyed" text="Nasz system lacznosci zostal wysadzony" />
+	<comment key="enemy comms have been destroyed, by us" text="Wysadzilismy system lacznosci nalezacy do %enemy_name" />
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Spojrz na to miejsce" />
+		<comment text="Jest takie spokojne" />
+		<comment text="Moglbym sie tu zestarzec" />
+	</dialogue>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Chyba tu juz kiedys bylem" />
+	</dialogue>
+  
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Patrz! Zajaczek!" />
+	</dialogue>  
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Czuje sie dzis niewyraznie..." />
+	</dialogue>
+  
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Dolacz do armi, powiedzieli, zabawisz sie, powiedzieli" />
+	</dialogue>  
+  
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Myslalem, ze bede siedziec za biurkiem w armii..." />
+	</dialogue>    
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Jak tam zona?" />
+		<comment text="Ponoc po mojej dwuletniej sluzbie niedawno urodzila synka" />
+	</dialogue>
+  
+  <dialogue key="wander dialogue 2 men">
+      <comment text="Chcesz zobaczyc cos fajnego?" />
+      <comment text="Nie dam sie znow na to nabrac" />
+   </dialogue> 
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Raz bylismy za linia wroga, sierzant i ja" />
+		<comment text="Przekradliscie sie?" />
+		<comment text="Ta, znalezlismy tez woz zaopatrzenia" />
+		<comment text="Wow, niesamowicie" />
+		<comment text="Ha! To byla przygoda, nie to co teraz" />
+		<comment text="Przynajmniej tym sposobem zyjemy dluzej" />
+		<comment text="W sumie cos w tym jest" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Nie mow mamie ze jestem w armii" />
+		<comment text="Czemu?" />
+		<comment text="Wmowilem jej ze jestem pianista" />
+		<comment text="Oh ok" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Ta cala wojna wyglada nierealnie" />
+		<comment text="Hmm?" />
+		<comment text="Jeszcze miesiac temu gralem w Running with Rifles" />
+		<comment text="A teraz jestes czescia gry" />
+		<comment text="Dokladnie..." />
+		<comment text="Wyobraz sobie, ze grasz w Leisure Suit Larry" />
+		<comment text="Haha" />            
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Wiec wyslali cie na patrol?" />
+		<comment text="Ta, spapralem sprawe" />
+		<comment text="Czyli co zrobiles?" />
+		<comment text="Nie mow nikomu, ale wysadzilem woz zaopatrzenia" />
+		<comment text="Ale jak to mozliwe, skoro uciekales z nim z terytorium wroga?" />
+		<comment text="Wysadzilem nasza ciezarowke, a nie wroga..." />
+		<comment text="O, ku**a" />
+		<comment text="No wlasnie" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Masz fajki?" />
+		<comment text="Nie, nie wiedzialem ze palisz" />
+		<comment text="Nie pale, chce je sprzedac za nowa pukawke" />
+		<comment text="A co zlego w tej?" />
+		<comment text="Chyba nasypal sie do niej piasek" />
+		<comment text="No to ja wyczysc" />
+		<comment text="W zbrojowni nie ma srodkow czyszczacych" />
+		<comment text="Niemozliwe" />
+		<comment text="Maja setki broni, ale nikt ich nie czysci" />
+		<comment text="Chyba nie sadza, ze beda nam potrzebne tak dlugo!" />
+		<comment text="Cos w tym jest..." />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Masz moze wodke?" />
+		<comment text="Dzentelmen nie pije przed poludniem!" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Tylek mnie swedzi" />
+		<comment text="To sie podrap granatem" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Myslalem, ze..." />
+		<comment text="Nie mysl, kiepsko ci to wychodzi" />
+		<comment text="Bardzo smieszne" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Ta cala wojna smierdzi" />
+		<comment text="Czemu tak sadzisz?" />
+		<comment text="Dlaczego tu jestesmy?" />
+		<comment text="Prawda, nigdy nam nie powiedzieli" />
+		<comment text="Cos tu nie gra" />
+		<comment text="Podobno wyzwalamy ten biedny kraj w zamian za rope" />
+		<comment text="Dla mnie to wyglada jak wprowadzanie demokracji sila" />
+		<comment text="Lepiej sie zamknij, bo jeszcze nas do admina zglosza!" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Dlaczego ta swinia ma kly?" />
+		<comment text="Bo to jest guziec" />
+		<comment text="Taka swinia z Afryki?"/>      
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Wiesz jaki kocham sport?" />
+		<comment text="Jaki?" />
+		<comment text="Goracy ziemniak" />
+		<comment text="To nie jest sport" />       
+		<comment text="Jest kiedy rzucasz granatem" />         
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Nie wiem czy powinienem spiewac w wojskowym chorze" />
+		<comment text="Czemu?" />
+		<comment text="Ostatni raz spiewalem w kosciele"/>  
+		<comment text="No i?" /> 
+		<comment text="200 osob zmienilo religie" />           
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Dobrze, ze nasralem w tajnym przejsciu" />
+		<comment text="Super, teraz przeciwnik tamtedy nie przejdzie" />
+	</dialogue>   
+  
+  <dialogue key="vehicle dialogue 2 men">
+    <comment text="" />
+    <comment text="" />
+  </dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Ostatnio strzelem sie z deweloperami" />
+		<comment text="Mowisz o Pasik i JackMayol?" />
+    <comment text="Ta, Pasik strzela jak babcia, ale JackMayol jeszcze gorzej!" />
+	</dialogue>     
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="'Osumia Games'... Kto tak nazywa firmy!?" />
+		<comment text="Errrr... o co ci chodzi?" />
+        <comment text="A sam nie wiem!" />
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Czasami mam wrazenie, ze my tu tylko biegamy z karabinami" />
+		<comment text="Siedzimy tu od miesiaca, masz refleks!" />
+	</dialogue>  
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Gazu! Kiler! Spi***aj!" />
+		<comment text="Sam spi***aj bo mi tapicerke tym kebabem uwalisz!" />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Czy ta gra juz wyszla?" />
+		<comment text="Ta, na Steam!" />
+		<comment text="Super!" />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="Koles, zesrales sie?" />
+		<comment text="Mozliwe..." />
+		<comment text="Ku**a! Otworz okno!" />    
+	</dialogue>    
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Wiesz co..." />
+		<comment text="Hmm?" />
+		<comment text="Kocham cie" />   
+		<comment text="Skoncz..." />     
+	</dialogue> 
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Kto ci dal prawko!?" />
+		<comment text="Twoja stara!" />
+	</dialogue> 
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Oh tak! Tak! Mocno!" />
+		<comment text="Zejdz z tej galki skrzyni biegow..." />
+	</dialogue>
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Dziwnie sie tym jezdzi" />
+		<comment text="Czemu?" />      
+		<comment text="Nic nie widze przed soba" />
+		<comment text="Jak to?" />
+		<comment text="Oczy mam gdzies w chmurach i widze nas z gory" />    
+	</dialogue>  
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Masz prawko kolego?" />
+		<comment text="Mam paszport Polsatu" />
+	</dialogue> 
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Sadzisz, ze Damian umie jezdzic?" />
+		<comment text="Masz jakies watpliwosci?" />
+		<comment text="Jednym okiem patrzy na Macka, drugim na Pawla" />    
+	</dialogue> 
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Tylek mnie boli" />
+		<comment text="Ciesz sie... Ty w ogole masz tylek!" />
+	</dialogue> 
+  
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Stary?" />
+		<comment text="Tia?" />
+		<comment text="Skad sie biora dzieci?" />    
+	</dialogue> 
+  
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Znasz Brodatego?" />
+		<comment text="To ten slawny polski jutuber?" />
+		<comment text="Ta! Gra w ta gre!" />    
+	</dialogue>     
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Masz papier klozetowy?" />
+		<comment text="No nie gadaj stary, prosze cie!" />
+	</dialogue>  
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="A moglismy byc w domu" />
+		<comment text="Pic piwko" />
+		<comment text="Grac w RUNNING WITH RIFLES" />
+		<comment text="Aleee nieee... musimy marznac w tym zlomie" />    
+	</dialogue>       
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Musze wrocic do zbrojowni" />
+		<comment text="Dlaczego?" />
+		<comment text="Zapomnialem pieluchy" />    
+	</dialogue> 
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Przydaloby sie wiecej kobiet..." />
+		<comment text="Ta, pomoglyby mi... z hormonami" />
+		<comment text="Nie o to mi chodzi" />
+		<comment text="Czyli?" /> 
+		<comment text="Ktos mi musi wyprac gacie" />               
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Mogliby dodac pare polygonow wiecej" />
+		<comment text="Czemu tak sadzisz?" />
+		<comment text="Te siedzenia sa strasznie kanciaste" />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="No patrzcie co narobiliscie!" />
+		<comment text="Ale to nie ja..." />
+		<comment text="A kto kierowca ku**a jest?!" /> 
+		<comment text="Chorazy!" />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Andrzeju! Nie denerwuj sie!" />
+		<comment text="Zobacz co narobiles!" />
+		<comment text="Zaraz wyklepiemy!" /> 
+   	<comment text="Takiego blotnika juz nie dostane!" />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Suma podstawy rowna sie?" />
+		<comment text="Dwa?" />
+		<comment text="Kwadratowi obu ramion!" />
+		<comment text="Lubie placki!" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Czy wygladam jakbym mial za malo zelaza?" />
+		<comment text="Wrog dowali ci pare kilo, w formie pociskow" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Zaraz bedzie ciemno!" />
+		<comment text="Zamknij sie!" />
+		<comment text="..." />
+  </dialogue>
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Odbierz w koncu ten telefon!" />
+		<comment text="To nie telefon tylko moje Tamagotchi" />
+	</dialogue>
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Mogliby ci ludzie pograc wiecej PVP..." />
+		<comment text="Dlaczego?" />
+		<comment text="Przynajmniej przestaliby nas tak mordowac" />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ale ten samochod upierdolony!" />
+		<comment text="Rurku!" />
+	</dialogue>   
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Mam pomysl..." />
+		<comment text="Zapomnij, nie ma planow idealnych" />
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ogladam Radio Maryja" />
+		<comment text="Wysiadaj..." />
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Koledzy? My sie znamy?" />
+		<comment text="Jakos cie nie kojarze..." />
+		<comment text="Bo mam wrazenie, ze jestescie z przeciwnego teamu" />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Niezle sie ten pojazd trzyma na tej tasmie" />
+		<comment text="Caly wszechswiat trzyma sie na tasmie klejacej!" />
+	</dialogue>   
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Jak wroce to zaloze Klapkart w Tesco" />
+		<comment text="Doskonaly pomysl, sierzancie!" />
+	</dialogue>  
+
+  <dialogue key="vehicle dialogue 2 men">
+      <comment text="Wiec to twoj pierwszy raz na misji?" />
+      <comment text="Ta, boli mnie to bardzo" />
+      <comment text="Jestes ranny!?" />
+      <comment text="Nie, obieralem ziemniaki i sie zacialem" />
+  </dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="... a kto kierowca k**a jest?!" />
+		<comment text="Chorazy!!!" />
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="W armii sa dwie zasady" />
+		<comment text="Jakie, sierzancie?" />
+		<comment text="#1: Dowodca ma racje" />
+		<comment text="#2: Jak nie ma, patrz punkt pierwszy" />        
+	</dialogue>           
+
+	<dialogue key="vehicle dialogue 2 men tag=campfire">
+		<comment text="Stopa mi sie pali" />
+		<comment text="To ja ugas" />
+		<comment text="Nie moge, utknela w komorze silnika!" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="Kocham ten czolg" />
+		<comment text="Tylko nie odbywaj z nim stosunku..." />
+		<comment text="Lufe juz wyczyscilem" />
+	</dialogue>
+
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+      <comment text="Jak nazwiemy nasz czolg?" />
+      <comment text="Rudy 102!" />
+      <comment text="Rozumiem, ze ty jestes psem?!" />
+  </dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="Cos mi siedzi w tylku" />
+		<comment text="Nie dziwie sie, siedzisz na pociskach" />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="A kto kierowca byl?!" />
+		<comment text="Zamknij sie..." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="Czuje sie jakbym jechal konno!" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="Najlepszy czolg!" /> 
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=any_tank">
+		<comment text="Dajesz, chorazy!" /> 
+	</dialogue>  
+  
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+      <comment text="Sierzancie, po co nam kot w czolgu?!" />
+      <comment text="Zepsul sie system noktowizji, czyms trzeba zastapic" />
+  </dialogue> 
+   
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+      <comment text="Pa! Je**nie!" />
+      <comment text="Aaaale urwal!" />
+      <comment text="Ale to bylo dobre!" />
+  </dialogue>    
+              
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="No ten tego..." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Pyr, pyr, pyr..." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Sierzancie, jedziemy na grzyby?" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Ale tu ciasno..." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Czy ten pojazd pali dizlem czy paliwem?" />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Jezu! Twoja twarz!" />
+		<comment text="Co!?" />
+		<comment text="Jest pelna wokseli!" />     
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Hello... it's meeeee..." />
+		<comment text="Kapralu. Podaj pistolet!" />   
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Chcialbym pograc w RWR z pierwszej osoby!" />
+		<comment text="O tak!" /> 
+		<comment text="Co za leniwi dewsi!" />         
+	</dialogue>     
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="5 zlotych za litr..." />
+	</dialogue>  
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Tu jakas kontrolka mi sie swieci..." />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Kurde, musze do kibla!" />
+	</dialogue>  
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Oh... pizza..." />
+		<comment text="Albo lody!" />
+		<comment text="Albo dobry kebab!" />
+		<comment text="Salatka z pasztetem..." />
+		<comment text="Ze co?!" />                
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Czuje sie jak w czinkoczento" />
+		<comment text="Mamy tu nowe dywaniki z Tesco!" />    
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Masz fajki?" />
+		<comment text="Uh... nie..." />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Sierzancie, moze pan zrestartowac gre?" />
+		<comment text="O co chodzi, kapralu?" /> 
+		<comment text="Chyba mi noga utknela w teksturach" />        
+	</dialogue>       
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Zaloz helm zamiast tej czerwonej opaski" />
+		<comment text="Wygladam w niej jak kozak!" />    
+		<comment text="Kozak ci na czole wyrosnie jak dostaniesz kulke" />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Sierzancie, tu sie chyba woksele przepalaja!" /> 
+	</dialogue>    
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Wiesz co najwazniejsze jest w zyciu?" /> 
+		<comment text="Zdrowie?" /> 
+		<comment text="Nie!" />
+		<comment text="To nie wiem" />
+		<comment text="Dobrze sie wysrac!" />                
+	</dialogue> 
+  
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+     <comment text="Pamietasz ten film jak kierowca ciezarowki ratuje swiat?" />
+     <comment text="Nope" />
+     <comment text="No wlasnie ja tez nie. WSZYSCY ZGINIEMY!" />
+  </dialogue>  
+          
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Niedlugo dostane awans" />
+		<comment text="Czemu tak sadzisz?" />
+		<comment text="Podobno sierzant jest od 20 pociskow w tylku" />
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Jajka mi przymarzly" />
+	</dialogue>
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Czuje sie zle..." />
+    <comment text="Dlaczego?" />  
+    <comment text="Zespawnowalem sie dzis z 200 razy" />
+    <comment text="To faktycznie musi meczyc" />           
+	</dialogue>
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Staruszki na weselach mowia do mnie 'ty nastepny'" />
+    <comment text="Zacznij im robic to samo na pogrzebach" />     
+	</dialogue>    
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Te reklamy telefoniczne sa wkurzajace!" />
+    <comment text="Podaj sluchawke swojej 3 letniej corce i powiedz, ze to Mikolaj" />     
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Mialem dzis koszmary!" />
+    <comment text="Jakie?" />   
+    <comment text="Wszedzie byly 1 i 0" />
+    <comment text="To normalne w swiecie botow" />
+    <comment text="I nagle widzialem jedno 2!" />
+    <comment text="Oww, przerazajace!" />          
+	</dialogue>   
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Urodzil mi sie synek" />
+    <comment text="To super! Jak wyglada?" /> 
+    <comment text="No coz, na razie ma 3 woksele" />
+    <comment text="A, to podobny do mamy!" />             
+	</dialogue>      
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Kapralu. Zamknij sie!" />
+    <comment text="Gadulstwo jest u mnie rodzinne" /> 
+    <comment text="Jak to?" />
+    <comment text="Dziadek byl politykiem, a tata nauczycielem" />    
+    <comment text="A co z matka?" /> 
+    <comment text="Po prostu byla kobieta" />              
+	</dialogue>   
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Jak powinienem napisac list do ojca?" />
+    <comment text="Masz mu cos do przekazania?" /> 
+    <comment text="Tragiczna wiadomosc..." />
+    <comment text="Jaka?" />    
+    <comment text="Zesralem sie podczas bitwy i mnie zdegradowano" /> 
+    <comment text="Najgorzej..." />              
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Smutno mi bez smartfona" />
+    <comment text="Ta, brak fejsa, brak twittera, nudno" /> 
+    <comment text="Najbardziej brakuje mi YouPorn" /> 
+    <comment text="Nigdy o tym nie slyszalem" />
+    <comment text="Jaaaaasneee" />
+    <comment text="Hehehehe" />                         
+	</dialogue> 
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Dobrze, ze dewsi nie wprowadzili samolotow..." />
+		<comment text="Jeden problem z glowy, nie?!" /> 
+    <comment text="Ta, nic nam nie spadnie na glowe" />          
+    <comment text="Nie liczac mozdzierzy i artylerii" />
+    <comment text="Hahaha i ptasiego gunwa!" /> 
+    <comment text="Cholera!" />                                    
+	</dialogue>     
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Kiedys bede profesjonalnym snajperem..." />  
+    <comment text="Ta, widzisz lewa i prawa strone, srodkowej juz nie!" />                                      
+	</dialogue> 
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Bylem ostatnio na przepustce..." />  
+    <comment text="Ta? To czemu masz tak pogryziony uniform?" />
+    <comment text="Bo wiesz... Pies mnie nie poznal!" /> 
+    <comment text="Juz myslalem, ze zona cie tak rozszarpala" />                                            
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Chcialbym umiec patrzec tak daleko jak ten gosc" />  
+    <comment text="W sensie gracz?" />
+    <comment text="Ta, ten co siedzi za monitorem i gapi sie na nas" /> 
+    <comment text="Taaa, to jakas forma oszukiwania w grach" /> 
+    <comment text="Nie moge wyrobic z jego durnego wyrazu twarzy" />                                               
+	</dialogue>    
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Jezeli masz konflikt ze swoim przelozonym..." />  
+    <comment text="hm?" />
+    <comment text="On jest przelozonym, a ty konfliktem" />                                       
+	</dialogue>   
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Im glupszy jest nasz dowodca, tym trudniejsze misje sie mu przydziela" />  
+    <comment text="Zawsze znajdzie najprostszy sposob na jej zaliczenie?" />                                     
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Sikac mi sie chce..." />  
+    <comment text="I co? Moze ci jeszcze potrzymac?" />                                     
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Widziales nowa zone sierzanta?" />  
+    <comment text="Ta z wielkim nosem?" /> 
+    <comment text="Ta, z takim nosem moze robic za parasol pod prysznicem!" />                                         
+	</dialogue> 
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="To prawda, ze malpy to praludzie?" />  
+    <comment text="Tak, ale sierzanci chyba nie pochodza od malp" />                                     
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Podobno jakas dziewczyna w przebraniu dolaczyla do meskiej armii" />  
+    <comment text="To znaczy, ze bedzie sie kapac z innymi pod prysznicem?!" /> 
+    <comment text="Oczywiscie" />  
+    <comment text="Przeciez to sie wyda!" /> 
+    <comment text="A sadzisz, ze ktos podkabluje?" />                                             
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Slyszales, ze mamy uzywac bomb o wiekszej mocy?" />  
+    <comment text="Sadze, ze to wbrew prawom wojennym" /> 
+    <comment text="Ci ktorych bombardowalismy do tej pory jakos nie narzekaja" />                                        
+	</dialogue>      
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Czemu od trzech dni sie wycofujemy, sierzancie?!" />  
+    <comment text="Nie wycofujemy sie, nacieramy w przeciwnym kierunku" />  
+    <comment text="Tak jest, sierzancie!" />                                       
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Nie musisz byc prostym czlowiekiem, by dolaczyc do armii" />  
+    <comment text="Dzieki, kolego" />                                     
+    <comment text="Prosto, to ty musisz strzelac!" />
+	</dialogue>     
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Wojna, wojna nigdy sie nie zmienia" />  
+    <comment text="Klasyka..." />                                     
+	</dialogue> 
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Nigdy nie przeszkadzaj przeciwnikowi kiedy popelnia bledy" />  
+    <comment text="Prawda, prawda" />                                     
+	</dialogue>    
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Tyle wartosciowych rzeczy wala sie po polu bitwy" />  
+    <comment text="I nikt tego nie podnosi" /> 
+    <comment text="Sprzedawanie ich w zbrojowni przynosi zysk" />                                         
+	</dialogue> 
+
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Musze byc skoncentrowany dzisiaj!" />  
+    <comment text="Coz dzis takiego specjalnego?" /> 
+    <comment text="Dzis ponoc Brodaty nagrywa RWR!" />
+    <comment text="I chcesz mu przebic opony w samochodzie?" /> 
+    <comment text="Taki mam plan!" />                                                
+	</dialogue>  
+
+  <dialogue key="defense dialogue 2 men">
+      <comment text="Zastanawiam sie" />
+      <comment text="Co?" />
+      <comment text="Skad nadciagaja posilki?" />
+      <comment text="Co pod tym rozumiesz?" />
+      <comment text="Nie widac zadnych ciezarowek ani nic" />
+      <comment text="Sadzisz ze pojawiaja sie znikad?" />
+  </dialogue>
+
+  <dialogue key="defense dialogue 2 men">
+      <comment text="Pusciles baka?" />
+      <comment text="Hehe!" />
+      <comment text="Obrzydzasz mnie" />
+      <comment text="Rozkaz przyjety!" />
+  </dialogue>
+   
+  <dialogue key="defense dialogue 2 men">
+      <comment text="Za malo nam placa za ta robote" />
+      <comment text="Za malo, by codziennie cie znosic" />
+      <comment text="To byl zart?!" />
+      <comment text="Oj, chcialbym!" />
+  </dialogue>   
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Ponoc sierzantowi pies zdechl..." />  
+    <comment text="To zdechl pies czy zmarl sierzant?" />                                     
+	</dialogue> 
+  
+	<dialogue key="defense dialogue 2 men">
+    <comment text="Pojechalbym gdzies" />  
+    <comment text="Moze na Walbrzych?" />                                     
+	</dialogue>    
+
+	<!-- commander comments -->
+	<comment key="player promotion" text="Gratulacje zolnierzu! Od tej pory twoja ranga to - %rank_name !" />
+	<comment key="we captured a base" text="%base_name zostalo przejete przez nasza frakcje!" />
+	<comment key="we captured a base" text="Nasza frakcja zdobyla %base_name" />
+	<comment key="enemy captured a base" text="%faction_name zdobyli %base_name" />
+	<comment key="enemy captured a base" text="%faction_name dali rade zdobyc %base_name" />
+	<comment key="neutral captured a base" text="" />
+
+	<comment key="new attack orders" text="Nowe rozkazy, kierunek %direction - macie atakowac %base_name" />
+
+	<comment key="we have lost our last base" text="Stracilismy wszystkie pozycje! Wycofac sie! Przegralismy!" />
+	<comment key="enemy has lost their last base" text="%faction_name zostali pokonani!" />
+	
+	<comment key="our assault ran out of time" text="Skonczyl sie czas! Wyczerpalismy nasze zasoby! Przegralismy!" />
+	<comment key="enemy assault ran out of time" text="%faction_name zostali pokonani!" />
+
+	<comment key="we won by map conquer" text="Wielka wygrana! Przejelismy wszystkie punkty oporu wroga!" />
+	<comment key="we won by defense timer" text="Nasza frakcja wygrywa starcie!" />
+
+	<comment key="our base is under attack" text="%base_name jest pod ostrzalem!" />
+	<comment key="we are attacking a base" text="Nasze wojska oblegaja %base_name" />
+
+	<comment key="fighting near a base" text="Walki wybuchly nieopodal %base_name" />
+	<comment key="fighting near a base" text="Potrzebne wsparcie nieopodal %base_name" />
+	<comment key="fighting near a base" text="Slychac strzaly nieopodal %base_name" />
+
+	<comment key="defense timer started" text="%faction_name utrzymuje pozycje, do konca walki pozostalo %time_left sekund!" />
+	<comment key="defense timer to go" text="Do konca walki pozostalo %time_left sekund!" />
+
+  <!-- adventure mode -->
+<!--
+  <comment key="map start with 1 base, part 1" text="status report: we've managed to secure one base" />
+  <comment key="map start with 1 base, part 2" text="prepare to continue invasion" />
+-->
+
+  <comment key="map start with 1 base, part 1" text="Uwaga, uwaga, zolnierze" />
+  <comment key="map start with 1 base, part 2" text="Dobrze was widziec w bitwie o %map_name" />
+  <comment key="map start with 1 base, part 3" text="Pluton przed wami przybyl i zabezpieczyl dla was %base_name" />
+
+  <comment key="map start with 1 base, capture" text="Przybyly posilki, waszym zadaniem jest calkowite przejecie %map_name" />
+  <comment key="map start with 1 base, koth" text="Glownym naszym celem jest obronienie %target_base_name" />
+
+  <comment key="side objectives" text="Zadaniem dowodcow druzyn jest sabotaz baz przeciwnika" />
+  <comment key="loot objective" text="Wrogie wozy zaopatrzenia nalezy wypatrzec i dostarczyc do naszej zbrojowni" />
+  <comment key="radio tower or truck objective" text="Miejcie oko na wrogie wieze radiowe i wozy wsparcia" />
+  <comment key="aa objective" text="Wrogie dzialo PLOT utrudniaja dostarczenie wsparcia, znalezc je i zniszczyc" />
+
+  <comment key="map start, ending" text="Powodzenia, zolnierze!" />
+  <comment key="map start, ending" text="Dacie rade, zolnierze!" />
+
+  <comment key="map start with more bases, part 1" text="Dobrze cie widziec zolnierzu, przyda sie nam twoje wsparcie" />
+  <comment key="map start with more bases, part 2" text="Udaje nam sie odpierac inwazje wroga, wciaz mamy %number_of_bases bazy" />
+
+  <comment key="map start with completed map" text="Witaj ponownie, zolnierzu" />
+
+  <comment key="map advance, held by enemy" text="Wywiad donosi ze %map_name zostalo podbite przez %faction_name" />
+  <comment key="map advance, another enemy present" text="Wojska %faction_name zostaly zauwazone w rejonie operacji" />
+  <comment key="map advance, new map" text="Nasze wojska traca pozycje za pozycja, potrzebne wsparcie" />
+  <comment key="map advance, been there before" text="Dajemy rade, wciaz posiadamy %number_of_bases bazy" />
+  <comment key="map advance, friendly map" text="%map_name zostalo podbite przez %faction_name coraz lepiej!" />
+
+  <!-- boss maps -->
+  <!--
+  <comment key="final map advance, held by enemy, part 1" text="The remaining %faction_name forces have barricaded themselves at %map_name" />
+  <comment key="final map advance, held by enemy, part 2" text="Expecting heavy resistance!" />
+
+  <comment key="final map start with 1 base, part 1" text="Attention, incoming commander briefing" />
+  <comment key="final map start with 1 base, part 2" text="This is it, the remaining enemy forces will fall at %map_name" />
+  <comment key="final map start with 1 base, part 3" text="Finish 'em!" />
+  -->
+
+  <comment key="Final mission I advance, held by enemy, part 1" text="Dobra robota! %faction_name zostali odparci!" />
+  <comment key="Final mission I advance, held by enemy, part 2" text="Niedobitki wroga po ostatniej bitwie zostaly rozpoznane niedaleko stad" />
+  <comment key="Final mission I advance, held by enemy, part 3" text="Grupa naszych najlepszych ludzi zostanie wyslana na specjalna misje" />
+  <comment key="Final mission I advance, held by enemy, part 4" text="Dolaczysz do oddzialu Delta I, by ruszyc na misje" />
+  <comment key="Final mission I advance, held by enemy, part 5" text="Oczekujcie na transport smiglowcem" />
+
+  <comment key="Final mission I start with 1 base, part 1" text="Cholera, przestrzen miala byc bezpieczna!" />
+  <comment key="Final mission I start with 1 base, part 2" text="Oddzial Delta I zostal zestrzelony, tylko ty pozostales" />
+  <comment key="Final mission I start with 1 base, part 3" text="Musisz poradzic sobie sam, nie mozemy wyslac wsparcia poki przestrzen nie jest bezpieczna" />
+  <comment key="Final mission I start with 1 base, part 4" text="Artyleria i mozdzierze sa poza zasiegiem, kiepsko, nie?" />
+  <comment key="Final mission I start with 1 base, part 5" text="Rozpoznaj teren i postaraj sie zlikwidowac cel" />
+
+  <comment key="Final mission II advance, held by enemy, part 1" text="Dobra robota! %faction_name zostali odparci!" />
+  <comment key="Final mission II advance, held by enemy, part 2" text="Pozostali zolnierze %faction_name rozbili oboz w Zamarznietym Kanionie" />
+  <comment key="Final mission II advance, held by enemy, part 3" text="Nasz oddzial zwiadowczy zostal rozpoznany, przelicznik jest kiepski - ich 40, naszych 1" />
+  <comment key="Final mission II advance, held by enemy, part 4" text="Wysylamy im wsparcie natychmiast" />
+  <comment key="Final mission II advance, held by enemy, part 5" text="Spodziewajcie sie ciezkiego oporu i kiepskiej pogody" />
+
+  <comment key="Final mission II start with 1 base, part 1" text="W ostatniej chwili! Wsparcie nadeszlo!" />
+  <comment key="Final mission II start with 1 base, part 2" text="Wrog ma zamiar rozpoczac zmasowany atak" />
+  <comment key="Final mission II start with 1 base, part 3" text="Przygotujcie sie do walki!" />
+  <comment key="Final mission II start with 1 base, part 4" text="Utrzymac pozycje!" />
+  <comment key="Final mission II start with 1 base, part 5" text="Za wszelka cene!" />
+
+  <comment key="Final mission II, phase 2, part 1" text="Dobra robota! Zdaje sie ze morale wroga sie zalamuje!" />
+  <comment key="Final mission II, phase 2, part 2" text="Teraz to oni przechodza do obrony" />
+  <comment key="Final mission II, phase 2, part 3" text="To nasza szansa na kontratak" />
+  <comment key="Final mission II, phase 2, part 4" text="Wrogi PLOT blokuje zrzut wsparcia, znalez i zlikwidowac" />
+  <comment key="Final mission II, phase 2, part 5" text="Wrogi system lacznosci znajduje sie w zamku, wysadzic!" />
+
+  <comment key="Final mission II, phase 3, part 1" text="Dobra robota, zdaje sie ze wrog okopal sie... w tej arenie?" />
+  <comment key="Final mission II, phase 3, part 2" text="Wejscie zostalo dokladnie zamkniete" />
+  <comment key="Final mission II, phase 3, part 3" text="Zdaje sie, ze caly kompleks polaczony jest z tym na poludniu" />
+  <comment key="Final mission II, phase 3, part 4" text="Cel - wysadzic wrogie systemy lacznosci" />
+
+  <comment key="Final mission II, phase 4, part 1" text="Kto by sie spodziewal... Cala wroga obrona na nic!" />
+  <comment key="Final mission II, phase 4, part 2" text="Pora to zakonczyc! Ladujcie sie do srodka i wybijcie ich do nogi!" />
+
+  <!-- vehicle delivery objective -->
+  <comment key="vehicle delivered" text="%vehicle_name dostarczony do zbrojowni! Dobra robota!" />
+  <comment key="vehicle objective cancelled, vehicle destroyed" text="Szkoda, wrogi %vehicle_name zostal zniszczony." />
+  <comment key="vehicle objective instruction" text="%vehicle_name nalezacy do %faction_name zauwazony nieopodal %location - znalezc i dostarczyc do zbrojowni" />
+
+  <comment key="resource out of stock" text="%resource_name nie jest juz dostepny!" />
+  <comment key="resource added in stock" text="%resource_name jest dostepny w zbrojowni!" />
+
+  <comment key="overtime, we are winning" text="Jazda jazda, panowie! Wrog traci pozycje za pozycja!" />
+  <comment key="overtime, we are losing" text="Panowie. Ogarnijcie dupska. Przegrywamy!" />
+
+  <!-- item delivery objective; briefcases -->
+  <comment key="item delivered" text="Cel zostal osiagniety" />
+  <comment key="item objective instruction" text="Dostarczyc walizki do bazy" />
+  <comment key="item objective map text" text="Macie dostarczyc obiekty do bazy" />
+  <comment key="item objective thanks" text="Walizki dostarczone" />
+
+  <!-- enemy item delivery objective; weapons -->
+  <comment key="enemy item objective instruction" text="By bron znalazla sie w naszej zbrojowni musicie ja dostarczyc" />
+  <comment key="enemy item objective map text" text="Sprobujcie zdobyc ja od wroga i umiescic w naszej zbrojowni" />
+  <comment key="enemy item objective thanks incomplete" text="Jazda! Potrzebujemy jeszcze %number_of_items_left by zasilic nasza zbrojownie!" />
+  <comment key="enemy item objective thanks" text="Super! Dostarczyliscie dostatecznie duzo broni! Rozpoczynamy jej produkcje! Czekajcie!" />
+
+  <comment key="extraction point available" text="Transport do kolejnego miejsca walki -  %map_name dostepny" />
+  <comment key="several extraction points available" text="Punkty przerzutu do kolejnego miejsca walk dostepne" />
+
+  <comment key="standby for extraction" text="Oczekujcie na transport" />
+
+  <!-- teddy bear hunt session, for fun -->
+  <comment key="flag dropped in container 0" text="%player_name upuscil %item_name" />
+  <comment key="flag dropped in container 1" text="%player_name dostarczyl %item_name do zbrojowni! Punkt dla niego!" />
+  <comment key="flag dropped in container 2" text="%player_name zdobyl %item_name" />
+  <comment key="flag dropped in container 3" text="%player_name ukryl w skrytce %item_name" />
+
+  <comment key="tutorial end 1" text="Dobra robota, leszczu! Jestes gotowy do walki!" />
+  <comment key="tutorial end 2" text="Pakuj swojego pluszaka w plecak i jazda na pole bitwy!" />
+  
+  <comment key="gift box delivered" text="Zobaczmy co ta %delivered_item_name zawiera, %player_name" />
+  <comment key="gift box delivery, reward" text="Trzymaj lupy %player_name: %item_name1 i %item_name2!" />
+  
+<!-- NEW 1.70 ADDITIONS -->
+
+  <comment key="cargo_truck.vehicle spotted, instructions" text="Przejac wrogi woz z zaopatrzeniem i dostarczyc go do zbrojowni. Nie pozwolcie, by zostal zniszczony!"/>
+  <comment key="radar_tower.vehicle spotted, instructions" text="Zniszczyc wieze radarowa wroga!" />
+  <comment key="radar_truck.vehicle spotted, instructions" text="Zniszczyc woz radarowy wroga. Nie pozwolcie mu uciec!" />
+  <comment key="radio_jammer.vehicle spotted, instructions" text="Zniszczyc zaklocacz radiowy!" />
+  <comment key="radio_jammer.vehicle destroyed" text="Dobra robota. Wrogi zaklocacz zniszczony!" />
+  <comment key="radio_jammer2.vehicle spotted, instructions" text="Zniszczyc wrogi woz radiowy!" />
+  <comment key="radio_jammer2.vehicle destroyed" text="Dobra robota. Wrogi woz radiowy zniszczony!" />
+  <!-- radar truck/vehicle destroy also triggers "enemy comms have been destroyed, by us" -->
+  <comment key="prison_bus.vehicle spotted, instructions" text="Zniszczyc autobus wiezienny!" />
+  <comment key="prison_bus.vehicle destroyed" text="Doskonale! Uwolnieni wiezniowie dolacza do naszych sil!" />
+  <comment key="prison_door.vehicle spotted, instructions" text="Zniszczyc bramy wiezienia!" />
+  <comment key="prison_door.vehicle destroyed" text="Dobra robota! Uwolnieni wiezniowie dolacza do naszych sil!" />
+
+  <comment key="aa_emplacement.vehicle spotted, instructions" text="Zniszcz wrogie baterie przeciwlotnicze, by odblokowac wsparcie za pomoca radia!" />
+  <comment key="aa_emplacement.vehicle destroyed" text="Dobra robota! Wrogie baterie przeciwlotnicze zniszczone. Wsparcie lotnicze jest dostepne." />
+
+  <comment key="intel radio reminder" text="Nie zapomnij, ze mozesz wezwac wsparcie lotnicze lub ostrzal, kiedy uznasz to za potrzebne." />
+
+  <comment key="report very weak defense" text="Wywiad donosi, ze %base_name jest niemal pozbawione obrony." />
+  <comment key="respond very weak defense" text="Jazda jazda jazda! Wrogie pozycje nie powinny stawiac oporu!" />
+  <comment key="report weak defense" text="Wywiad donosi, ze w %base_name spotkac mozna tylko %enemy_range zolnierzy wroga." />
+  <comment key="respond weak defense" text="Kontynuuj przejmowanie wrogich pozycji, liczymy na ciebie." />
+  <comment key="report medium defense" text="Wywiad donosi, ze %base_name jest niezle bronione. Przynajmniej %enemy_range zolnierzy wroga w okolicy." />
+  <comment key="respond medium defense" text="Sprobuj przejac wrogie pozycje, nie bedzie latwo, ale trzeba probowac." />
+  <comment key="report heavy defense" text="Wywiad donosi, ze %base_name jest doskonale broniona. Wykryto az %enemy_range zolnierzy wroga w okolicy." />
+  <comment key="respond heavy defense" text="Badz ostrozny, sprobuj przejac wrogie pozycje zachowujac najwyzsze srodki ostroznosci." />
+
+  <comment key="base captured, clear victory, attack break" text="Zabezpieczcie teren wokol bazy. Oczekujcie na kolejne instrukcje." />
+  <comment key="base captured, defend it" text="Zabezpieczcie teren wokol bazy i utrzymajcie go za wszelka cene!" />
+  <comment key="sidebase captured, hold it" text="Zabezpieczcie teren wokol bazy, jednak spodziewajcie sie kontrataku przeciwnika." />
+  <comment key="sidebase captured, reinforcements" text="Jednostki wsparcia sa w drodze, czekajcie." />
+  
+  <comment key="Occupy that vehicle!" text="Zolnierzu, uzyjcie tego %vehicle_name!" />
+  <comment key="Leave the vehicle!" text="Zolnierzu, wysiadajcie z %vehicle_name!" />
+
+  <comment key="intel objectives" text="Wrogie bazy do rozpoznania zostaly oznaczone na mapie; liderzy druzyn powinni wykonac te cele." />  
+
+<!-- 1.71 -->
+
+  <comment key="icecream truck exists" text="Ice cream!" />
+
+  <comment key="gps_laptop, targets ok" text="Marking strategic targets on your map." />
+  <comment key="gps_laptop, targets not ok" text="No strategic targets to mark found." />
+
+  <!-- old
+  <comment key="resource out of stock" text="%resource_name out of stock" />
+  <comment key="resource added in stock" text="%resource_name available in stock now" />
+  -->
+  <comment key="resource out of stock, default" text="%resource_name no longer available in armory" />
+  <comment key="resource out of stock, supply" text="%resource_name no longer available in supply quad" />
+  <comment key="resource added in stock, default" text="%resource_name available in armory now" />
+  <comment key="resource added in stock, supply" text="%resource_name available in supply quad now" />
+
+  <!-- note, happens after "awesome, let's see what what we can come up with this" -->
+  <comment key="no more resources to unlock" text="Thanks, but we aren't going to gain any new items from this" />
+  
+  <comment key="aircraft coming" text="Samolot w drodze, nadlatuje z godziny %direction" />  
+
+<!-- 1.84 -->
+  
+  <comment key="rangefinder binoculars" text="Odleglosc do celu: %range metrow" />  
+
+  <comment key="squad_equipment_kit, equip" text="moge tego uzyc by wyposazyc pobliskich zolnierzy w kamizelki!" /> 
+  <comment key="squad_equipment_kit, done" text="Kamizelki rozdane!" />   
+
+<!-- 1.91 -->
+
+	<comment key="Press SPACE to continue!" text="Wcisnij %control_jump, by sie odrodzic!" />
+	
+<!-- 1.94 --> 
+
+ <comment key="Turn back! Mine fields ahead!" text="Zawroc! Pola minowe przed nami!" />	
+  
+<!-- 1.98 -->
+
+  <comment key="Denied, X RP required" text="Odmowa! Wymagane 50 RP!" />	
+  <comment key="Radio jammed" text="Radio zacielo sie!" />
+  <comment key="MRL on the way" text="MRL w drodze!" />
+  <comment key="No available MRL in range" text="Brak MRL w zasiegu." />
+
+
+<!-- Summer #2 update -->
+
+  <comment key="VIP briefing" text="Escort the VIP to the designated base and capture it!"/>
+  <comment key="VIP failed" text="Mission failed, the VIP has been lost!"/>
+  <comment key="VIP completed" text="Mission completed! Check your inventories for a reward!"/>
+  
+  <comment key="VIP arty warning" text="Warning! The enemy is trying to target the VIP's position with artillery, keep him on the move!"/>
+  <comment key="VIP arty launched" text="Alert! The enemy has pinpointed the VIP's location and launched an artillery strike on his position!"/>
+  
+  <!-- enemy commander event --> 
+  <comment key="Enemy Commander briefing, part 1" text="Attention all! Our spy has confirmed that the enemy commander is stationed in the combat area" />
+  <comment key="Enemy Commander briefing, part 2" text="His position has been marked on your map, go get him ASAP!" />
+  <comment key="Enemy Commander elimiated" text="Good job! Enemy commander is confirmed KIA, check your inventories for a reward!" />
+  <comment key="Evil Commander briefing, part 1" text="Be advised all units! An enemy commander has been spotted in the area, eliminate him!" />
+  <comment key="Evil Commander briefing, part 2" text="We have concrete proof that his body has been augemnted and he possesses some...supernatural abilities!" />
+  <comment key="Evil Commander briefing, part 3" text="His position has been marked on your map, good luck!" />
+  <comment key="Evil Commander elimiated, reward" text="Excellent work! The so called devil commander has been neutralized, check your inventories for a reward!" />
+  <comment key="Evil Commander elimiated, part 1" text="Enemy commander is confirmed KIA!" />
+  <comment key="Evil Commander elimiated, part 2" text="We will get to know more about experiments done on him very soon." />
+
+  <!-- Halloween3 update -->
+	<comment key="enemy hit, Compound X" text="What the hell is this?!" />
+	<comment key="enemy hit, Compound X" text="I feel... strange..." />
+	<comment key="enemy hit, Compound X" text="Grrrrrr..." />
+	<comment key="enemy hit, Compound X" text="My stomach..it hurts!!" />
+	<comment key="enemy hit, Compound X" text="I need to call sick now..." />
+	<comment key="enemy hit, Compound X" text="Ughhh..." />
+
+	<comment key="commander, Compound X immune" text="Not today!" />
+	<comment key="commander, Compound X immune" text="You think this will grant you a ticket?!" />
+	<comment key="commander, Compound X immune" text="I've got vaccinated against this!" />
+	<comment key="commander, Compound X immune" text="Can't believe they've leaked this out, no use though!" />
+	<comment key="evil commander, Compound X immune" text="try harder next time!" />
+	<comment key="evil commander, Compound X immune" text="Not today!" />
+	<comment key="evil commander, Compound X immune" text="This is just breakfast juice for me!" /> 
+	<comment key="evil commander, Compound X immune" text="Good Thinking!" />
+	<comment key="easter bunny, Compound X immune" text="RAHAHAHAHA!!" />
+	<comment key="easter bunny, Compound X immune" text="BRUHHHAHAHA!!" />
+	<comment key="easter bunny, Compound X immune" text="BRUHHEEEHEEE!" />
+
+	<comment key="elite ripper, Compound X hit" text="GRRRRRAH?!" />
+	<comment key="elite ripper, Compound X hit" text="GRAAAH?!" />
+	<comment key="elite ripper, Compound X hit" text="RWRARRR??" />
+	<comment key="banana, Compound X hit" text="Piss!" />
+	<comment key="ss, Compound X hit" text="...!" />
+	<comment key="ss, Compound X hit" text="Scheisse...!" />
+	<comment key="ss, Compound X hit" text="Biogefaehrdung!" />
+	<comment key="ss, Compound X hit" text="Ich...ich..." />
+	<comment key="easter chicken, Compound X hit" text="Bawk! Bawk! Bawk!" />
+
+	<comment key="player decapitated" text="%player_name has been decapitated by pumpkin knight!" />
+	<comment key="player decapitated" text="%player_name's head has been chopped off!" />
+	<comment key="player decapitated" text="%player_name just lost his head!"/>
+	<comment key="player decapitated" text="%player_name's head is rolling on the ground!" />
+	
+</character>

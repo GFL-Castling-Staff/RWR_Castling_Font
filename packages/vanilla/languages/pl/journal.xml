@@ -1,0 +1,297 @@
+<journal>
+	<!-- pre-added journal entries with key="start" -->
+	<!-- end of pre-added journal entries -->
+	
+	<!-- hello_note is a special note and isn't stored in journal -->
+	<entry key="hello_note">
+	    <title value="Powiadomienia z dziennika" />
+		<text value="Witaj! Od czasu do czasu dostaniesz takie powiadomienia, aby moc zapoznac sie z gra. Gdy zobaczysz taki wpis w prawym gornym rogu kliknij na nim, aby go otworzyc!" />
+		<image filename="journal_welcome.png" />
+	</entry>
+	
+	<!-- hello happens after hello_note, is stored in journal -->
+	<entry key="hello" _old_key="xp_achieved/0">
+	    <title value="Zaczynajac" />
+		<text value="Po pierwsze, zajrzyj na mape klawiszem (%control_map), by zobaczyc gdzie sie znajdujesz. Powinienes rozpoznac pozycje umocnione przez twoich ludzi oraz zauwazyc gdzie moze znajdowac sie front.%PS Odnajdz sojusznikow i rozpocznij atak, kiedy dowodca go zapowie. Madrym wyjsciem jest trzymanie sie z innymi, bo aktualnie nie posiadasz podleglych sobie zolnierzy. Staraj sie nie byc pierwszym, ktory zginie.%PS Uzyj klawisza (%control_statistics), by zobaczyc ostatnie wiadomosci wyslane przez dowodztwo." />
+		<image filename="journal_welcome.png" />
+	</entry>
+
+	<entry key="move_against_stabbable_static_object">
+		<title value="Walka wrecz" />
+		<text value="Uzyj klawisza (%control_knife), by zniszczyc skrzynie i znalezc dodatkowe przedmioty. Mozesz tez wbic przeciwnikowi noz w plecy, z ukrycia lub w walce, co dodatkowo wynagrodzi cie bonusowym XP." />
+		<image filename="journal_stab.png" />
+	</entry>
+
+	<entry key="first_death_at_start">
+		<title value="System oslon" />
+		<text value="Niezwykle wazna sprawa jest uzywanie systemu oslon, ktore dadza ci szanse na przezycie. Uzywajac klawisza (%control_crouch) mozesz kucac, zas klawiszem (%control_prone) mozesz sie polozyc. Zblizajac sie kucajac do odpowiedniej przeszkody automatycznie mozesz nad nia strzelac klawiszem (%control_shoot)." />
+		<image filename="journal_cover.png" />
+	</entry>
+	
+	<entry key="a_few_deaths_at_start">
+		<title value="Uzupelnianie ekwipunku po smierci" />
+		<text value="Kiedy padniesz trupem wszystko, co posiadasz wyleci na ziemie i tam pozostanie. Przedmioty zostaja w miejscu smierci jakis czas, rzadkie itemy zostaja dluzej.%PSPo odrodzeniu wiekszosc twojego ekwipunku odnowi sie jezeli posiadasz odpowiednia ilosc RP, z wyjatkiem itemow oznaczonych jako nie odnawialne - np. kamizelki kuloodporne lub rzadkie bronie.%PSUzywajac takich nieodnawialnych przedmiotow musisz przemyslec swoje wyposazenie." />
+		<image filename="journal_non_respawnable_items.png" />
+	</entry>
+
+	<entry key="low_encumbrance_exceeded">
+		<title value="Plecak i obciazenie" />
+		<text value="Plecak sluzy jako tymczasowy dodatek do przenoszenia przedmiotow, np. do skrytki albo do zbrojowni. Wszystkie przedmioty z plecaka zostaja upuszczone na ziemie po smierci.%PSPamietaj, ze kazdy przedmiot ma swoja wage, po przekroczeniu 20% obciazenia poczujesz roznice: predkosc poruszania sie i celnosc zostanie zmniejszona.%PSKiedy obciazenie przekroczy 60% na twojej postaci pojawi sie plecak, a obie te statystyki znaczaco spadna. Rozwaz wyrzucenie przedmiotow przed walka." />
+		<image filename="journal_backpack.png" />
+	</entry>
+
+	<entry key="base_capture/friendly">
+	    <title value="Przejmowanie baz" />
+		<image filename="journal_base.png" />
+		<text value="Bazy przejmowane sa wtedy, kiedy atakujacy posiadaja wiecej (dwukrotnie) zolnierzy niz przeciwnik w jej obszarze.%PSKiedy baza zostaje zdobyta, wrog ma opcje kontrataku, wiec lepiej ja oczyscic przed posuwaniem sie naprzod."/>
+	</entry>
+		
+	<entry key="inspect/armory">
+	    <title value="Zbrojownia" />
+		<image filename="journal_armory.png" />
+		<text value="Zbrojownia dostarcza twojej armii podstawowe bronie oraz przedmioty.%PSKiedy znajdziesz ciekawy loot przynies go do zbrojowni, by uzyskac RP po sprzedazy.%PSDostarcz 5 egzemplarzy broni wroga (nie rzadkich itemow), by odblokowac te bron rowniez dla twojej frakcji. Dostarczenie walizki lub laptopa odblokuje duzo lepsze bronie.%PSJezeli uda ci sie zdobyc wrogi woz zaopatrzenia dostarcz go do Zbrojowni po nagrode." />
+	</entry>
+
+	<entry key="inspect/stash">
+	    <title value="Stash" />
+		<image filename="journal_stash.png" />
+		<text value="Skrytka jest twoim osobistym, permanentnym magazynem. Uzywaj jej do przechowywania przedmiotow ktorych nie chcesz stracic lub ktorych nie mozesz jeszcze uzywac.%PSMadrym jest przechowanie rzadkich broni poza twoim poziomem doswiadczenia w skrytce, by zachowac je do momentu w ktorym bedziesz mogl ich uzywac.%PSPamietaj, ze wszystkie skrytki sa polaczone, mozesz wiec wypelnic je roznymi przedmiotami i miec do nich dostep z dowolnego miejsca na mapie, w tym na terytorium wroga." />
+	</entry>
+	
+	<entry key="inspect/item_unlocker">
+	    <title value="Walizki i laptopy" />
+		<image filename="journal_briefcase.png" />
+		<text value="Walizki i laptopy moga byc dostarczone do zbrojowni, by odblokowac nowe bronie.%PSLaptopy glownie odblokuja ekwipunek zwiazany ze skradaniem." />
+	</entry>
+	
+	<entry key="inspect/vehicle/any">
+	    <title value="Pojazdy" />
+		<text value="Pojazdy glownie sluza do walki i transportu. Czesc jednak moze posiadac funkcje Zbrojowni, byc celem strategicznym lub dzialac jak mobilny punkt odrodzen.%PSRozne siedzenia, jak strzelec lub kierowca moga byc zajete wsiadajac z roznych stron. Podejdz do pojazdu z odpowiedniej strony i wcisnij (%control_jump) by wsiasc. Istnieje tez opcja wyciagniecia z pojazdu przeciwnika. To rowniez dziala na twoich sojusznikow majacych nizsza range - mozesz kazac im wysiadac.%PSPamietaj, ze niektore pojazdy moga byc efektywnie uzywane tylko w kilka osob lub botow - np. czolgi." />
+		<image filename="journal_truck.png" />
+	</entry>
+
+	<entry key="inspect/vehicle/enemy">
+	    <title value="Wrogie pojazdy" />
+		<text value="Do ich uszkodzenia bedziesz potrzebowac srodkow wybuchowych. Wyrzutnie rakiet oraz granaty uderzeniowe zadaja najwieksze obrazenia. %PSPojazdy posiadane przez wroga oznaczone sa na mapie na czerwono. " />
+		<image filename="journal_vehicle.png" />
+	</entry>
+	
+	<entry key="inspect/apc/friendly">
+	    <title value="Wozy opancerzone piechoty" />
+		<text value="Woz opancerzony posiada stanowisko kierowcy, strzelca oraz kilka miejsc dla pasazerow. Bedziesz potrzebowac minimum jednego sojusznika, by w pelni efektywnie operowac pojazdem. Uzyj klawisza (%control_squad_command), by wydac rozkaz strzelcowi lub kierowcy.%PSWozy opancerzone sa swietne na piechote, gorzej radza sobie z innymi pojazdami." />
+		<image filename="journal_apc.png" />
+	</entry>
+
+	<entry key="inspect/tank/friendly">
+	    <title value="Czolgi" />
+		<text value="Czolgi maja dwa siedzenia dla strzelcow oraz jedno dla kierowcy. By operowac nim w dobry sposob potrzeba dwoch ludzi, najlepiej jednak trzech. Uzyj klawisza (%control_squad_command), by wydac rozkaz strzelcom lub kierowcy.%PSCzolgi sa ekstremalnie niebezpieczne dla piechoty i innych pojazdow, radza sobie swietnie w trudnym terenie." />
+		<image filename="journal_tank.png" />
+	</entry>
+
+	<entry key="inspect/armored_truck.vehicle/friendly">
+	    <title value="Ciezarowki Odrodzenia" />
+		<text value="Mobilne Punkty Odrodzenia to pojazdy obslugiwane wylacznie przez graczy. Kiedy sa nieruchome oraz z dala od przeciwnikow dzialaja jako punkt odrodzen. To czyni je niezwykle waznymi pojazdami, najlepiej ukrytymi przed przeciwnikiem od flanki.%PSSwietnie sprawuja sie tez jako checkpointy na tylach wroga.%PSDodatkowo moga zmiescic kilku pasazerow." />
+		<image filename="journal_spawntruck.png" />
+	</entry>
+
+	<entry key="inspect/mobile_armory.vehicle/any">
+	    <title value="Mobilne Zbrojownie" />
+		<text value="Mobilne pojazdy dzialajace jako zbrojownie sa kontrolowane wylacznie przez graczy. Dzialaja tak samo jak typowa Zbrojownia. Sojusznicy beda patrolowali teren wokol nieruchomej zbrojowni, broniac jej.%PSDobrym wyjsciem jest ukryc ja blisko frontu, by zmniejszych odleglosc do klasycznej zbrojowni." />
+		<image filename="journal_mobarmory.png" />
+	</entry>
+	
+	<entry key="xp_achieved/150"> <!-- was 100 -->
+		<title value="Granaty" />
+		<text value="Granaty sa swietne do likwidowania skupisk przeciwnikow i destrukcji niektorych obiektow. Uzyj klawisza %control_grenade i rzuc granat w kierunku celownika. Z pewnoscia przyda ci sie troche praktyki, by dojsc w tym do perfekcji. Pamietaj, by nie rzucac w swoich. Znajdziesz tez rozne rodzaje granatow.%PSDodatkowo za masowe zabojstwa i komba otrzymasz wiecej bonusowych XP." />
+		<image filename="journal_grenade.png" />
+	</entry>
+	
+	<entry key="xp_achieved/50"> <!-- was 200 -->
+		<title value="Karabinki Szturmowe" />
+		<text value="Karabinki Szturmowe to z reguly bron najlepiej zbalansowana pomiedzy obrazeniami, a celnoscia. Strzelaj seriami, by zachowac najlepsza celnosc. Strzelanie kucajac lub lezac sprawia, ze celnosc jest jeszcze lepsza. Miej oko na celownik i to jak sie rozchodzi oraz linie, pokazujaca czy cel moze byc trafiony z twojej pozycji." />
+		<image filename="journal_ar.png" />
+	</entry>
+
+	<entry key="xp_achieved/250">
+		<title value="Obiekty rozkladane" />
+		<text value="Okopy to obiekty rozkladane, ktore pozwola ci oslonic sie przed zwyklymi pociskami, a nawet wytrzymaja kilka granatow. Zmien bron na poboczna klawiszem (%control_swap_weapon), przytrzymaj %control_shoot i wyceluj gdzie postawic okop.%PSNowe przedmioty rozkladane moga byc odblokowane dostarczajac wozy zaopatrzenia lub walizki do Zbrojowni." />
+		<image filename="journal_sandbag.png" />
+	</entry>
+	
+	<entry key="inspect/riot_shield.weapon">
+		<title value="Tarcze Balistyczne" />
+		<text value="Tarcze Balistyczne moga byc wykorzystane do blokowania pociskow, najpierw wcisnij klawisz (%control_swap_weapon), nastepnie skieruj kursor w kierunku, od ktorego chcesz sie oslonic i przytrzymaj  %control_shoot. Inni zolnierze moga uzywac tarczy, by zza niej strzelac.%PSGranaty reczne spowoduja wyladowanie fali na tarczy i moga ogluszyc niosacego, zas granaty uderzeniowe sa praktycznie smiertelne.%PSTarcze moga byc swietne w otwartym terenie." />
+		<image filename="journal_riot_shield.png" />
+	</entry>
+
+	<entry key="xp_achieved/100">    <!-- was inspect -->
+		<title value="Strzelby" />
+		<text value="Strzelby posiadaja duza moc na bardzo bliskim dystancie, sa jednak bardzo slabe nawet na srednim. Co za tym idzie doskonale nadaja sie na okopy lub tereny miejskie. Postawa nie ma wielkiego znaczenia i celnosc jest prawie ta sama nawet w ruchu." />
+		<image filename="journal_shotguns.png" />
+	</entry>
+
+	<entry key="inspect/medikit.weapon">
+		<title value="Apteczki" />
+		<text value="Apteczki sa uzyteczne, kiedy widzisz lezacego na ziemi rannego. Podejdz do niego i uzyj klawisza (%control_swap_weapon), nastepnie trzymaj (%control_shoot) do momentu az kolega bedzie na nogach.%PSTylko zolnierze, ktorzy mieli lub maja kamizelke moga stac sie rannymi, i nie mozesz uzyc jej na samym sobie.%PSApteczki sa swietna sprawa, gdy grasz w kooperacji z innymi graczami!" />
+		<image filename="journal_medikit.png" />
+	</entry>
+	
+	<!--
+	- at first rank up
+	-->
+	<entry key="xp_achieved/500">
+		<title value="Karabiny Maszynowe" />
+		<text value="Lekkie Karabiny Maszynowe zadaja duze obrazenia, maja duzy zasieg, ale rowniez duzy rozrzut i wymagaja uzycia zza przeszkody lub lezac, co czyni je mniej wszechstronnymi. Uzywaj ich do przygwazdzania przeciwnikow lub w obronie przed oblezeniem." />
+		<image filename="journal_mg.png" />
+	</entry>
+
+	<entry key="xp_achieved/500">
+		<title value="Wyrzutnie rakiet" />
+		<text value="To glowna bron przeciwpancerna. Po zdobyciu lub zakupie wcisnij klawisz (%control_swap_weapon), wyceluj ostroznie i dokladnie - obserwujac celownik  - odpal klawiszem  %control_shoot, kiedy uznasz ze cel oberwie.%PSPamietaj, ze wyrzutnie nie maja magazynka, sa jednorazowe." />
+		<image filename="journal_bazooka.png" />
+	</entry>
+
+	
+	<!-- objective vehicles -->
+	<entry key="spawn/aa_emplacement.vehicle/enemy">
+		<title value="Stanowiska przeciwlotnicze" />
+		<image filename="journal_aa.png" />
+		<text value="Czesc map moze posiadac umocnienia przeciwlotnicze, ktore zabraniaja uzycia wsparcia, np. spadochroniarzy.  Znajdz i zniszcz obrone przeciwlotnicza, by aktywowac te wsparcie. Skradanie i ladunki C4 to dobre wyjscie, ale sa tez inne metody.%PSObrona przeciwlotnicza nie odnawia sie po zniszczeniu." />
+	</entry>
+
+	<entry key="spawn/radar_tower.vehicle/enemy">
+		<title value="Wieza radarowa oraz radio" />
+		<image filename="journal_radar_tower.png" />
+		<text value="Wieza radarowa ma wplyw na polaczenie pomiedzy dana frakcja, a jej dowodca, jej zniszczenie powoduje, ze przeciwnik 1) przestaje atakowac, 2) ma zmniejszona ilosc dostepnych odrodzen i odradza sie wolniej  3) nie moze przerzucac wojsk pomiedzy bazami bez respawnu wiezy.%PSZe wzgledu na mocno strategiczna wartosc, wieze sa swietnie bronione. Lepiej sie zakrasc. Nie zapomnij o C4!%PSWieza zakloca rowniez radio przeciwnika w okolicy." />
+	</entry>
+
+		<entry key="inspect/radar_truck.vehicle/enemy">
+		<title value="Wozy radarowe oraz radio" />
+		<image filename="journal_radar_truck.png" />
+		<text value="Woz radarowy ma wplyw na polaczenie pomiedzy dana frakcja, a jej dowodca, jego zniszczenie powoduje, ze przeciwnik 1) przestaje atakowac, 2) ma zmniejszona ilosc dostepnych odrodzen i odradza sie wolniej  3) nie moze przerzucac wojsk pomiedzy bazami bez respawnu wiezy.%PSZe wzgledu na mocno strategiczna wartosc wozy sa swietnie bronione, a kierowca rzuca sie do ucieczki po zauwazeniu ataku. %PSWoz radarowy zakloca rowniez radio przeciwnika w okolicy." />
+	</entry>
+	
+	<entry key="inspect/radio_jammer.vehicle/enemy">
+		<title value="Zaklocacze radia" />
+		<image filename="journal_radio_jammer.png" />
+		<text value="Wrogie zaklocacze radiowe sprawiaja, ze nie mozna wokol nich uzyc wsparcia lotniczego, co czyni je dosc odpornymi na spadochroniarzy lub ostrzal mozdzierzowy. Zaklocacze sa lekko bronione, dobry atak i ladunki C4 zalatwia sprawe." />
+	</entry>
+	
+	<entry key="inspect/cargo_truck.vehicle/enemy">
+		<title value="Wozy Zaopatrzenia" />
+		<image filename="journal_cargo_truck.png" />
+		<text value="Wrogie wozy zaopatrzenia mozna zdobyc roznymi metodami, a ich dostarczenie do Zbrojowni odblokuje dodatkowy ekwipunek.%PSKierowca ma w zwyczaju parkowac na terenie wroga, ale bedzie uciekac po zauwazeniu ataku. Liczy sie predkosc, taktyka i wyrzucenie go z szoferki klawiszem  (%control_jump) oraz pozbycie sie jezeli stawi opor.%PSMozesz tez uzyc srodkow wybuchowych (tylko nie przesadz!). To bedzie wymagac naprawy przed dostarczeniem do Zbrojowni."/>
+		<!-- no space left: Jak tylko przejmiesz wrogi woz zaopatrzenia przeciwnik bedzie chcial go odbic lub zniszczyc!" -->
+	</entry>
+
+	<entry key="inspect/prison/enemy">
+		<title value="Wiezienia" />
+		<image filename="journal_prison.png" />
+		<text value="Wiezienia oraz ich bramy moga byc wysadzone materialami wybuchowymi lub eksplozjami. Uwolnieni wiezniowie tymczasowo zwieksza odrodzenia twojej frakcji." />
+	</entry>
+	
+	<!-- map completion -->
+	<entry key="match_end/friendly">
+		<title value="Zwyciestwo" />
+		<image filename="journal_completed.png" />
+		<text value="Dobra robota!%PSKiedy bitwa sie zakonczy, pojawi sie jeden lub kilka punktow ekstrakcji na kolejne mapy. Zobaczysz je na mapie (%control_map), jako ikonki drzwi.%PSTeraz, kiedy jest juz bezpiecznie dobrym wyjsciem jest przejrzec wieksze bazy w poszukiwaniu lootu, jezeli masz malo punktow RP."/>
+	</entry>
+	<entry key="match_end/friendly">
+		<title value="Widok Kampanii" />
+		<text value="Widok kampanii pokazuje ogolny rzut na sytuacje, to jakie regiony sa podbite przez jakie frakcje. Kiedy twoja frakcja podbije dany teren otrzymasz opcje udania sie na kolejna mape przez odwiedzenie punktu ekstrakcji.%PSMozesz tez powrocic na podbite przez sojusznikow mapy, by sprawdzic czy gdzies nie kryje sie jakis ukryty loot, ktory przeoczyles."/>
+		<image filename="journal_worldview.png" />
+	</entry>
+	<entry key="match_end/enemy">
+		<title value="Przegrana" />
+		<image filename="journal_defeated.png" />
+		<text value="O nie... Przeciwnik wygral to starcie.%PSMoze warto sprobowac ponownie? Mapa zrestartuje sie za chwile." />
+	</entry>
+		
+	<!-- at 1000xp -->	
+	<entry key="xp_achieved/1000">
+		<title value="Uzywanie radia" />
+		<image filename="journal_radio_device.png" />
+		<text value="Od tego poziomu masz opcje uzywania radia! Na poczatek lekkie ostrzaly mozdziezowe, potem wsparcie spadochroniarzy i inne. Wskaz miejsce celownikiem, przytrzymaj %control_radio, by wyswietlic liste dostepnych zrzutow i wybierz klikajac na ten, na ktory cie stac." />
+	</entry>
+	
+	<!-- squad -->
+	<entry key="xp_achieved/1250">
+		<title value="Czlonkowie oddzialu" />
+		<image filename="journal_squad_init.png" />
+		<text value="Krecacy sie w okolicy zolnierze automatycznie dolaczaja do oddzialu zolnierza, ktory ma od nich wyzszy poziom.%PSKlawiszami %control_decrease_squad_size/%control_increase_squad_size decydujesz ilu chcesz miec ze soba, jednak na maksymalna ilosc ma wplyw twoj poziom.%PSIkonka medyka sugeruje, ze ktos ma ze soba apteczke.%PSKlawiszem (%control_squad_command) wydajesz rozkaz udania sie w dane miejsce, podwojne klikniecie pogoni ich biegiem. Uzycie klawisza rozkazu na dzialku, CKMie lub innym obiekcie rozkaze uzycie tego obiektu." />
+	</entry>
+
+	<!-- vests & getting wounded & calling for help -->
+	<entry key="xp_achieved/1250">
+		<title value="Kamizelki" />
+		<text value="Przecietne trafienie jest smiertelne. Kamizelki dadza ci szanse przezycia. Kazde trafienie zmniejsza wytrzymalosc - jedna kula zostanie w kamizelce, druga ogluszy tymczasowo, trzecia spowoduje stan rannego. %PSLezac z ranami mozesz wolac medyka klawiszem %control_shoot, lub dobiæ siê przez przytrzymanie klawisza %control_knife. Jezeli w poblizu jest medyk, podbiegnie cie opatrzyc.%PSKiedy jestes ranny mozesz uzywac radia! Wezwij nalot lub spadochroniarzy z medykiem!" />
+		<image filename="journal_vest.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1500">
+		<title value="Koledzy w pojazdach" />
+		<image filename="journal_squad_vehicle.png" />
+		<text value="Jezeli wsiadziesz do pojazdu, twoja druzyna postara sie zajac wolne miejsca. Klawiszem (%control_squad_command) mozesz wydac rozkaz swojemu strzelcowi lub kierowcy. Mozesz tez otworzyc mape klawiszem  (%control_map), kliknac klawiszem (%control_squad_command), by wydac rozkaz odleglego celu kierowcy." />
+	</entry>
+			
+	<entry key="xp_achieved/1500">
+		<title value="Snajperki" />
+		<text value="Karabiny snajperskie zwiekszaja zasieg widzenia, maja duza celnosc i moc, ale wymagaja przeladowania po kazdym strzale oraz dlugiego skupienia. Kucnij lub poloz sie, by skupienie bylo szybsze." />
+		<image filename="journal_sniper_rifles.png" />
+	</entry>
+	
+	<!-- stealth, suppressed weapons -->
+	<entry key="xp_achieved/1000">
+		<title value="Bronie z tlumikiem" />
+		<image filename="journal_suppressed.png" />
+		<text value="Bronie wyposazone w tlumik sa swietne na niespodziewajacych sie i nie zaalarmowanych przeciwnikow, duzo gorzej radza sobie na tych, ktorzy juz o tobie wiedza.%PSTo sprawia, ze warto zmniejszych swoja druzyne klawiszem (%control_decrease_squad_size) przed udaniem sie na misje szpiegowskie. Wcisnij %control_increase_squad_size, by zwiekszyc druzyne ponownie. " />
+	</entry>
+
+	<entry key="xp_achieved/1100">
+		<title value="Ladunki c4" />
+		<text value="C4 dziala tak samo jak granaty - rzucajac je - przylepiaja sie do wszystkiego, nawet do pojazdow albo budynkow. Raz rzucone moga byc zdalnie wysadzone kierujac celownik na ten ladunek i wciskajac klawisz  %control_shoot. Skryj sie przed wysadzeniem!%PSJeden ladunek C4 wysadzi kazdy pojazd lub obiekt." />
+		<image filename="journal_c4.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1250">
+		<title value="Rozpoznanie" />
+		<image filename="journal_investigate.png" />
+		<text value="Rozpoznanie opiera sie na przedarciu lub przekradaniu sie do centrum wrogiej bazy. Kiedy wrogie terytorium zostanie spenetrowane, dowodca powiadomi ogolnym komunikatem o dalszych krokach.%PSJezeli glowny atak nie idzie najlepiej, dobrym wyjsciem jest zwiad innych baz, w poszukiwaniu slabych punktow." />
+	</entry>
+
+	<entry key="xp_achieved/1400">
+	    <title value="Przejmowanie baz pobocznych" />
+		<image filename="journal_base_tactics.png" />
+		<text value="Da sie przejac bazy samotnie lub ze swoim oddzialem. Jezeli dasz rade przejsc za linie wroga mozesz przejac poboczne (duzo slabiej bronione) regiony. Uwazaj jednak na kontratak. Otworz mape klawiszem (%control_map) - wszystkie bazy oznaczone czerwonym okregiem mozna przejac."/>
+	</entry>
+	
+	<entry key="xp_achieved/1500">
+		<title value="Flara Odrodzenia" />
+		<text value="Flary Odrodzenia moga byc uzyte by stworzyc zrzut spadochronowy uzywany wylacznie przez graczy, w dowolny miejscu, gdzie rzucisz flare. Jednak, jezeli przeciwnik rozpozna miejsce rzucenia flary odrodzenie bedzie niemozliwe do momentu wyeliminowania wrogich jednostek." />
+		<image filename="journal_flare.png" />
+	</entry>	
+	
+	<!-- stealth, visibility, night -->
+	<entry key="xp_achieved/1750">
+		<title value="Podstawy skradania" />
+		<image filename="journal_stealth1.png" />
+		<text value="Udane akcje wywiadowcze, skrytobojcze lub szpiegowskie zaleza od twojej widocznosci dla wroga.%PSMozesz zmniejszyc ja roznymi metodami: chodzac klawiszem (%control_walk), kucajac klawiszem (%control_crouch), czolgajac sie klawiszem (%control_prone) lub nie ruszajac sie. W nocy zauwazenie cie jest jeszcze trudniejsze. Przeciwnicy widza lepiej przed soba, niz na bokach lub za soba.%PSKamuflaz oraz zestaw Black-Ops dziala jeszcze lepiej. Zestaw Black-Ops dziala swietnie w nocy, ale nie daje bonusu za dnia." />
+	</entry>
+	
+	<!-- stealth, execution -->
+	<entry key="xp_achieved/2000">
+		<title value="Skradanie, do glebi" />
+		<image filename="journal_stealth2.png" />
+		<text value="Wez bron z tlumikiem, ekwipunek i zakradnij sie do bazy, by dostac informacje od dowodztwa o stanie wojsk przeciwnika.%PSBroniacy zolnierze beda patrolowac okolice grupami lub pojedynczo, co ulatwi ich eliminacje jezeli jest ich niewielu. Jezeli cie zauwaza lepiej uciec i poczekac az sytuacja przycichnie.%PSUpewnij sie, ze twoja celnosc jest na odpowiednim poziomie przed proba zabicia.%PSNa wypadek smierci mozesz sie zabezpieczyc flara lub mobilnym wozem odrodzenia." />
+	</entry>
+
+	<!-- difficult change -->
+    <entry key="difficulty_change">
+        <title value="Jak ci idzie?" />
+        <image filename="journal_difficulty.png" />
+        <text value="Czy gra jest za trudna, zbyt latwa a moze w sam raz? Ustawienia trudnosci zawsze mozesz zmienic w menu zeby bardziej odpowiadaly twoim umiejetnoscia." />
+    </entry>
+
+</journal>
+
+

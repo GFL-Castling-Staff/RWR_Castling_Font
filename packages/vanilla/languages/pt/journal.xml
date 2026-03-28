@@ -1,0 +1,296 @@
+<journal>
+	<!-- pre-added journal entries with key="start" -->
+	<!-- end of pre-added journal entries -->
+	
+	<!-- hello_note is a special note and isn't stored in journal -->
+	<entry key="hello_note">
+	    <title value="Registro de notificações" />
+		<text value="Olá! Você receberá estas notificações periodicamente para lhe ajudar a se familiarizar com o jogo. Quando você ver uma destas notas no canto superior direito da tela, clique nela para abri-la!" />
+		<image filename="journal_welcome.png" />
+	</entry>
+	
+	<!-- hello happens after hello_note, is stored in journal -->
+	<entry key="hello" _old_key="xp_achieved/0">
+	    <title value="O começo" />
+		<text value="Primeiramente, de uma olhada no mapa (%control_map) para ter uma ideia melhor de onde você está. Preste atenção onde a base aliada mais próxima está e quais áreas os inimigos controlam.%PSAche os aliados, e junte-se ao ataque quando o comandante disser. É sábio ficar próximo dos outros e os ajudar quando estiver começando, já que você não tem um esquadrão próprio. Tente não liderar a batalha.%PSUse o chat log (%control_statistics) para rever o que o comandante disse no rádio." />
+		<image filename="journal_welcome.png" />
+	</entry>
+
+	<entry key="move_against_stabbable_static_object">
+		<title value="Esfaquear" />
+		<text value="Use sua faca (%control_knife) para quebrar caixas e obter alguns suprimentos básicos. Esfaquear pode também ser usado para matar inimigos instantâneamente e silenciosamentem se próximo o suficiente, e te da um bônus significante de EXP." />
+		<image filename="journal_stab.png" />
+	</entry>
+
+	<entry key="first_death_at_start">
+		<title value="Sistema de cobertura" />
+		<text value="A parte mais importante de ficar vivo é usar vários obstáculos para se esconder. Você pode se abaixar (%control_crouch) e deitar (%control_prone) para deixa-lo menor e mais difícil de atingir. Quando agachado atrás de um obstáculo de tamanho suficiente, você irá automaticamente ficar em pé quando atirar (%control_shoot)." />
+		<image filename="journal_cover.png" />
+	</entry>
+	
+	<entry key="a_few_deaths_at_start">
+		<title value="Suprimento de equipamentos ao reviver" />
+		<text value="Quando você morre, todo seu equipamento e itens em sua mochila cairão no chão. Os itens ficarão lá por um tempo limitado até desaparecer, com itens mais raros ficando mais tempo.%PSQuando revivendo depois de uma morte, a maioria do seu equipamento sera readiquirido com o custo em RP automaticamente, com algumas exceções como itens designados não auto suprimidos, como coletes ou armas raras.%PSUsando itens não auto suprimidos irá requirir atenção extra para ficar vivo, prepare-se de acordo." />
+		<image filename="journal_non_respawnable_items.png" />
+	</entry>
+
+	<entry key="low_encumbrance_exceeded">
+		<title value="Mochila e sobrecapacidade" />
+		<text value="Mochilas servem como armazenamento temporário para itens, normalmente para carregar itens de volta para o esconderijo ou arsenal. Quando você morre, todos os itens em sua mochila cairão no chão.%PSCada item tem um peso determinado. Quando você tiver mais de 20% de peso, penalidades de sobrecapacidade começarão a tomar efeito: velocidade de movimento e precisão de tiro sofrerão penalidades graduais.%PSQuando sobrecapacidade chegar a 60%, o visual da mochila grande irá aparecer e suas capacidades de lutar serão seriamente diminuídas. Considere jogar alguns intens no chão antes de entrar em uma batalha." />
+		<image filename="journal_backpack.png" />
+	</entry>
+
+	<entry key="base_capture/friendly">
+	    <title value="Captura de base" />
+		<image filename="journal_base.png" />
+		<text value="Bases são capturadas por uma facção tendo mais tropas (duas vezes mais) no centro da base do que o inimigo.%PSQuando uma base é capturada, o inimigo pode recaptura-la com um contra-ataque, então é uma boa ideia garantir que se tenha algumas tropas defendendo antes de sair."/>
+	</entry>
+		
+	<entry key="inspect/armory">
+	    <title value="Arsenal" />
+		<image filename="journal_armory.png" />
+		<text value="O arsenal fornece or armamentos básicos da sua facção.%PSQuando você achar loot, traga até o arsenal para ganhar RP (pontos de recurso).%PSTrazendo 5 armas comúns inimigas (não raras) irá liberar aquela arma no Arsenal e torna-la disponível para sua facção também. Entregando uma maleta ou laptop para o arsenal libera armas mais fortes.%PSSe você conseguir capturar um caminhão de carga inimigo, traga-o para o arsenal para obter recompensas." />
+	</entry>
+
+	<entry key="inspect/stash">
+	    <title value="Esconderijo" />
+		<image filename="journal_stash.png" />
+		<text value="O esconderijo é o seu local de armazenamento pessoal permanente. Use-o para armazenar itens quais você não quer perder ou não pode usar ainda.%PSÉ sábio trazer armas raras fora do seu nível de experiência ao esconderijo, para guarda-las até você tiver subído de nível o suficiente para usa-las.%PSNote que todos os Esconderijos estão conectados, então você pode enche-los com vários itens e acessa-los em qualquer lugar no mapa, até mesmo em território inimigo." />
+	</entry>
+	
+	<entry key="inspect/item_unlocker">
+	    <title value="Maletas e laptops" />
+		<image filename="journal_briefcase.png" />
+		<text value="Maletas e laptops podem ser entregues ao Arsenal para liberar novos itens.%PSLaptops particularmente liberam itens furtivos." />
+	</entry>
+	
+	<entry key="inspect/vehicle/any">
+	    <title value="Veículos" />
+		<text value="Veículos fornecem jeitos de viajar mais rapidamente. Alguns podem ser armados, enquanto outros podem ter um inventário do Arsenal, ou podem funcionar como pontos de spawn.%PSDiferentes acentos, como o do piloto, artilheiro, e passageiro podem ser acessados por diferentes lados do veículo. Aproxime-se ao acento e aperte pulo (%control_jump) para entrar. Se o botão for pressionado e um inimigo estiver no acento, ele sera tirado. Isso também funciona para tirar soldados aliados de rank inferior ao seu.%PSNote que alguns veículos so podem ser usados efetivamente com um esquadrão, como Tanques." />
+		<image filename="journal_truck.png" />
+	</entry>
+
+	<entry key="inspect/vehicle/enemy">
+	    <title value="Veículos inimigos" />
+		<text value="Você irá precisar de explosivos, lança-foguetes, ou granadas para danificar veículos. Lança-foguetes e granadas de impacto fazem o maior dano. %PSVeículos ocupados por inimigos aparecem como ícones vermelhos no mapa. " />
+		<image filename="journal_vehicle.png" />
+	</entry>
+	
+	<entry key="inspect/apc/friendly">
+	    <title value="APCs" />
+		<text value="O APC tem somente um acento para artilheiro em adição a um acento para o piloto, e vários acentos para passageiros atrás. Você irá precisar de no mínimo um aliado para operar o APC de forma eficaz. Use os comandos de esquadrão (%control_squad_command) para dar ordens ao piloto ou artilheiro.%PSO APC é poderoso contra infantaria, porém não é tão eficaz contra outros veículos" />
+		<image filename="journal_apc.png" />
+	</entry>
+
+	<entry key="inspect/tank/friendly">
+	    <title value="Tanques" />
+		<text value="O Tanque possuí dois acentos para artilheiros em adição ao do piloto. Você precisará de ao menos um aliado para operar o tanque eficazmente. Use o comando de esquadrão (%control_squad_command) para dar oredens ao piloto ou artilheiro.%PSTanques são incrivelmente fortes contra infantaria e veículos, e se movem facilmente por vários terrenos." />
+		<image filename="journal_tank.png" />
+	</entry>
+
+	<entry key="inspect/armored_truck.vehicle/friendly">
+	    <title value="Caminhões de spawn" />
+		<text value="Os Caminhões de spawn podem ser usados somente por players. Quando não em movimento, ou muito próximo ao inimigo, permite você reviver próximo a ele. Isso o torna muito valioso quando flanqueando e quando lutando em áreas que não possuem spawns próximos.%PSO caminhão de spawn também funciona bem como um checkpoint quando viajando atrás das linhas inimigas.%PSVários passageiros também cabem no caminhão." />
+		<image filename="journal_spawntruck.png" />
+	</entry>
+
+	<entry key="inspect/mobile_armory.vehicle/any">
+	    <title value="Caminhão de arsenal" />
+		<text value="O caminhão de arsenal é um arsenal móvel que somente players podem controlar. Funciona exatamente como um Arsenal. Alguns soldados aliados irão se juntar proxímos para defender quando não em movimento.%PSÉ uma boa ideia traze-lo próximo da frente de batalha pra diminuir a distância percorrida até um Arsenal." />
+		<image filename="journal_mobarmory.png" />
+	</entry>
+	
+	<entry key="xp_achieved/150"> <!-- was 100 -->
+		<title value="Granadas" />
+		<text value="Granadas são ótimas para eliminar obstáculos e eliminar grupos de inimigs próximos. Use %control_grenade para jogar a granada em direção ao local de sua mira. Você precisaré experimentar com a granada para ter uma ideia de quão longe você pode a jogar, e a distância varia um pouco dependendo de que tipo de granada é e a diferença de altura entre você e o alvo.%PSGranadas são uma forma fácil de conseguir combos de kills para ganhar EXP extra." />
+		<image filename="journal_grenade.png" />
+	</entry>
+	
+	<entry key="xp_achieved/50"> <!-- was 200 -->
+		<title value="Rifles de assalto" />
+		<text value="Rifles de assalto são geralmente as armas mais balanceadas entre distância e potência. Tente atirar em rajadas curtas para manter a precisão. Atirar agachado ou deitado da uma grande vantagem em precisão comparado a atirar em pé ou em movimento. Preste atenção na mira, que indica precisão e quanto o recuo está impactando a mira." />
+		<image filename="journal_ar.png" />
+	</entry>
+
+	<entry key="xp_achieved/250">
+		<title value="Kits de cobertura" />
+		<text value="Sacos de areia permitem você criar obstáculos estáticos que resistem ao dano de armas de fogo pequenas, e até algumas explosões de granadas. Troque para o slot secundário (%control_swap_weapon), segure %control_shoot e mire pra escolher uma direção.%PSNovos kits de cobertura podem ser liberados completando missões de caminhões de carga ou entregando maletas." />
+		<image filename="journal_sandbag.png" />
+	</entry>
+	
+	<entry key="inspect/riot_shield.weapon">
+		<title value="Escudo anti-disturbios" />
+		<text value="Escudos anti-disturbios podem ser usados para se proteger de balas. Primeiramente, troque para o slot secondário (%control_swap_weapon), depois aponte a mira na direção que você pretende se defender contra e segure %control_shoot. Outros soldados podem usar o escudo como uma parede e atirar sobre ele. %PSExplosões de granadas irão danificar o escudo e atordoar o usuário, e granadas de impacto são ainda mais letais.%PSEscudos são especialmente úteis em áreas que não possuem obstáculos." />
+		<image filename="journal_riot_shield.png" />
+	</entry>
+
+	<entry key="xp_achieved/100">    <!-- was inspect -->
+		<title value="Espingardas" />
+		<text value="Espingardas são fortes em distâncias curtas, mas são inúteis contra inimigos longe. Consequentemente, elas excedem em combate próximo, como áreas urbanas e trincheiras. Sua posição tem pouco efeito em precisão, então podem ser disparadas relativamente bem enquanto em movimento." />
+		<image filename="journal_shotguns.png" />
+	</entry>
+
+	<entry key="inspect/medikit.weapon">
+		<title value="Kit primeiros Socorros" />
+		<text value="O Kit primeiros socorros podem ser usados para socorrer soldados caídos no chão. Se aproxime do soldado ferido, troque para o slot secondário (%control_swap_weapon) e segure (%control_shoot) até que ele se erga novamente.%PSSomente soldados que estejam usando coletes tem uma chance de ser ferido, e você não pode usar kit primeiros socorros em si mesmo.%PSKit premeiro socorros é uma ferramenta particularmente útil no multiplayer!" />
+		<image filename="journal_medikit.png" />
+	</entry>
+	
+	<!--
+	- at first rank up
+	-->
+	<entry key="xp_achieved/500">
+		<title value="Metralhadoras" />
+		<text value="Metralhadoras tem pouca precisão, longo alcance, e bom dano - mas requerem que você atire deitado ou atrás de um obstáculo, fazendo-as menos versáteis do que outras armas. Use-as em cercos ou contra grande grupos inimigos." />
+		<image filename="journal_mg.png" />
+	</entry>
+
+	<entry key="xp_achieved/500">
+		<title value="Lança-Foguetes" />
+		<text value="Lança-Foguetes são a principal forma de defesa do soldade de infantaria. Após comprar uma, troque para o slot secundário (%control_swap_weapon), mire cautelosamente - observando a distância da mira - a atire ao alvo com %control_shoot quando pronto.%PSNote que Lança-Foguetes não podem ser recarregadas, são uso único somente." />
+		<image filename="journal_bazooka.png" />
+	</entry>
+
+	
+	<!-- objective vehicles -->
+	<entry key="spawn/aa_emplacement.vehicle/enemy">
+		<title value="Colocação antiaérea" />
+		<image filename="journal_aa.png" />
+		<text value="Alguns mapas possuem colocações antiaéreas inimigas que previnem a entrega de suprimentos aéreos, e.g. paraquedistas. Encontre a colocação em território inimigo e a destrua para chamar suprimentos aéreos novamente. Furtividade e C4 fazem um bom trabalho, mas existem outras formas.%PSColocações antiaéreas não revivem depois de destruídas." />
+	</entry>
+
+	<entry key="spawn/radar_tower.vehicle/enemy">
+		<title value="Torres de radar e comunicações" />
+		<image filename="journal_radar_tower.png" />
+		<text value="A torre de radar gerencia a comunicação entre o comandante e as tropas de uma facção. Destruir uma torre de radar irá diminuir as comunicações, fazendo com que o inimigo 1) pare de atacar, 2) tenha capacidade e velocidade de spawn reduzidas, e 3) não possam mover tropas entre bases até que a torre reviva.%PSDevido a sua importância a torre é protegida seriamente, então você irá provavelmente ter que usar furtividade para se aproximar. Não esqueça da C4!%PSA torre também interrompe chamadas por rádio em sua proximidade." />
+	</entry>
+
+	<entry key="inspect/radar_truck.vehicle/enemy">
+		<title value="Caminhões de radar e comunicação" />
+		<image filename="journal_radar_truck.png" />
+		<text value="O caminhão de radar gerencia a comunicação entre o comandante e as tropas. Destruir um caminhão de radar irá diminuir as comunicações, fazendo com que o inimigo 1) pare de atacar, 2) tenha capacidade e velocidade de spawn reduzidas, e 3) não possam mover tropas entre bases até que o caminhão reviva.%PSCaminhões de radar possuem mais guardas, e o piloto tentará fugir para outra base quando atacado.%PSO caminhão também interrompe chamadas por rádio em sua proximidade." />
+	</entry>
+	
+	<entry key="inspect/radio_jammer.vehicle/enemy">
+		<title value="Jammers de radar" />
+		<image filename="journal_radio_jammer.png" />
+		<text value="Jammers de rádio inimigos previnem você fazer chamadas por rádio quando próximos, efetivamente oferecendo resistência contra ataque de morteiros e paraquedistas. Jammers costumam ser protegidos por alguns soldados. Use furtividade e use C4 ou algum outro explosivo para destruí-los." />
+	</entry>
+	
+	<entry key="inspect/cargo_truck.vehicle/enemy">
+		<title value="Caminhões de carga" />
+		<image filename="journal_cargo_truck.png" />
+		<text value="Caminhões de carga inimigos podem ser capturados de várias formas, e entregando-os a um Arsenal aliado irá liberar novos recursos.%PSO piloto costuma estacionar o veículo em algum local em território inimigo, e fugirão se encontrados. Você precisará ser rápido e furtivo para chegar na porta do piloto e tira-lo de lá (%control_jump) e combata-o para capturar o veículo.%PSVocê também pode danificar o caminhão com explosivos para desabilita-lo (Se não o danificar muito!). Você precisará repara-lo com chaves para poder dirigi-lo de volta para o Arsenal."/>
+		<!-- no space left: Once you've captured the truck, any enemy will try to stop the vehicle so watch out!" -->
+	</entry>
+
+	<entry key="inspect/prison/enemy">
+		<title value="Prisões" />
+		<image filename="journal_prison.png" />
+		<text value="Ônibus e portas da prisão podem ser destruídos com explosivos para libertar prisioneiros aliados. Os prisioneiros irão temporariamente aumentar a capacidade de tropas de sua facção." />
+	</entry>
+	
+	<!-- map completion -->
+	<entry key="match_end/friendly">
+		<title value="Vitória da batalha" />
+		<image filename="journal_completed.png" />
+		<text value="Bom trabalho!%PSUma vez que a batalha tenha terminado, um ou mais pontos de extração irão aparecer para te transportar a outros mapas. Você pode os ver na visão de mapa (%control_map) como ícones de porta.%PSAgora que tudo está seguro, é geralmente uma boa ideia dar uma olhada nas bases e seus ambientes próximos por caixas de loot e outras coisas interesantes se você estiver com pouco RP."/>
+	</entry>
+	<entry key="match_end/friendly">
+		<title value="Visão de campanha" />
+		<image filename="journal_worldview.png" />
+		<text value="A visão de campanha mostra o status geral da campanha, os mapas diferentes e suas facções ocupantes. Uma vez que sua facção controle o mapa atual, você pode juntar-se ao próximo mapa você irá auxiliar a invasão por viajar ao ponto de extração correspondente.%PSVocê pode também viajar de volta a mapas aliados, que podem ser úteis para encontrar quaisquer caixas de loot escondidas ou veículos de carga que você tenha perdido"/>
+	</entry>
+	<entry key="match_end/enemy">
+		<title value="Derrota da batalha" />
+		<image filename="journal_defeated.png" />
+		<text value="Ó não, o inimigo venceu a batalha!%PSHora de tentar de novo, né? O mapa irá recomeçar em um momento." />
+	</entry>
+		
+	<!-- at 1000xp -->	
+	<entry key="xp_achieved/1000">
+		<title value="Chamadas de rádio" />
+		<image filename="journal_radio_device.png" />
+		<text value="Você agora pode fazer chamadas de rádio! Primeiramente ataques de morteiro, e depois paraquedistas e outras chamadas aéreas. Ponha a mira na posição alvo, segure %control_radio para ver as chamadas e selecione com o botão esquerdo do mouse que chamada você quer naquela posição." />
+	</entry>
+	
+	<!-- squad -->
+	<entry key="xp_achieved/1250">
+		<title value="Companheiro de esquadrão" />
+		<image filename="journal_squad_init.png" />
+		<text value="Companheiros de esquadrão automaticamente se juntam a soldados de ranking maior.%PSVocê pode usar %control_decrease_squad_size/%control_increase_squad_size para controlar o tamanho do esquadrão, mas existe um tamanho máximo baseado em seu rank.%PSO ícone do médico te diz se tem um companheiro de esquadrão carregando um kit primeiros socorros.%PSUse o comando de esquadrão (%control_squad_command) para dar ordens para o esquadrão para se aproximar de, clique duplo para se apressarem. Usar o comando de esquadrão em uma arma estática como uma MG ou TOW comanda um companheiro de esquadrão a ocupar a arma." />
+	</entry>
+
+	<!-- vests & getting wounded & calling for help -->
+	<entry key="xp_achieved/1250">
+		<title value="Coletes" />
+		<text value="Vestir um colete permite você tomar alguns hits que caso contrário seriam letais. Cada hit irá deteriorar as propriedades do colete - o primeiro hit será absorvido pelo colete, o segundo irá atordoar o usuário e o último irá ferir o usuário.%PSQuando ferido, você pode chamar um médico com %control_shoot, ou reviver segurando %control_knife. Se há um médico próximo, ele irá correr para te curar.%PQuando ferido, você ainda pode usar o rádio - e todas as chamadas de reforços por rádio incluem ao menos um médico" />
+		<image filename="journal_vest.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1500">
+		<title value="Compnanheiros de esquadrão em veículos" />
+		<image filename="journal_squad_vehicle.png" />
+		<text value="Quando você entra em um veículo, o seu esquadrão o segue e entrarão nos acentos livres. Você pode usar o comando de esquadrão (%control_squad_command) para dar um alvo ao seu piloto ou artilheiro. Você pode usar o mapa (%control_map) e clicar (%control_squad_command) para indicar um alvo que está longe para o piloto." />
+	</entry>
+			
+	<entry key="xp_achieved/1500">
+		<title value="Rifles sniper" />
+		<text value="Rifles sniper tem alcance de visão extra, com grande precisão e poder, mas requerem recarregar após cada tiro e precisam de um tempo para mirar. Atire quando agachado ou deitado para garantir a melhor precisão possível." />
+		<image filename="journal_sniper_rifles.png" />
+	</entry>
+	
+	<!-- stealth, suppressed weapons -->
+	<entry key="xp_achieved/1000">
+		<title value="Armas silenciadas" />
+		<image filename="journal_suppressed.png" />
+		<text value="Armas silenciadas tem um grande poder contra inimigos não alertados, mas são fracas contro inimigos alertados e ativamente lutando.%PSIsso as fazem especialmente úteis quando enfrentando inimigos sozinho atrás das linha inimigas, então considere deixar seu esquadrão (%control_decrease_squad_size) antes de conduzir uma operação furtiva. Use %control_increase_squad_size para permitir companheiros de esquadrão a se juntarem novamente. " />
+	</entry>
+
+	<entry key="xp_achieved/1100">
+		<title value="C4" />
+		<text value="C4 pode ser jogada como qualquer granada, e irá colar no que ela atingir - estruturas, veículos, paredes, qualquer coisa. Uma vez jogada, ela pode ser detonada remotamente botando a mira sobre ela e apertando %control_shoot. Busque cobertura antes de detonar!%PSUma C4 irá destruir qualquer alvo ou veículo." />
+		<image filename="journal_c4.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1250">
+		<title value="Reconhecimento de bases" />
+		<image filename="journal_investigate.png" />
+		<text value="Reconhecimento de bases é constituído por viajar a uma base controlada pelo inimigo e se aproximar do centro da base. Uma vez que a base é reconhecida, um relatório sobre as forças inimgias será feito para o comandante que irá aconselhar como proceder.%PSSe o ataque principal se encontrar em um impasse, é aconselhado reconhecer outras bases para observar se há outras oportunidades de captura." />
+	</entry>
+
+	<entry key="xp_achieved/1400">
+	    <title value="Captura de bases laterais" />
+		<image filename="journal_base_tactics.png" />
+		<text value="É possível capturar bases sozinho ou com seu esquadrão. Se você conseguir se infiltrar atrás das linhas inimigas e localizar uma base fácil de capturar, você pode captura-la - mas cuidado com os contra-ataques fortes inimigos. Todas as bases marcadas no mapa (%control_map) com círculos vermelhos podem ser capturadas."/>
+	</entry>
+	
+	<entry key="xp_achieved/1500">
+		<title value="Sinalizador de spawn" />
+		<text value="Sinalizadores de spawn podem ser usados para criar um ponto de spawn paraquedista somente para players, em qualquer lugar jogado. No entanto se o inimigo se aproxima dele, o ponto de spawn será temporariamente desativado até a que situação tenho melhorado." />
+		<image filename="journal_flare.png" />
+	</entry>	
+	
+	<!-- stealth, visibility, night -->
+	<entry key="xp_achieved/1750">
+		<title value="Básicos de furtividade" />
+		<image filename="journal_stealth1.png" />
+		<text value="Furtividade é baseada em não ser detectado pelos inimigos; sua visibilidade é uma parte vital.%PSVocê pode reduzir sua visibiliadade através de vários métodos: você ponde andar (%control_walk), agachar (%control_crouch) e deitar (%control_prone), também como ficar parado. Durante a noite sua visibilidade é diminuída ainda mais. Soldados inimigos possuem um cone de visão, e são menos provaveis de te detectar pelos lados ou por trás.%PSCamuflagem e coletes Black-Ops melhoram sua furtividade, com o colete Black-Ops dando um grande bônus a noite, mas nenhum bônus de dia." />
+	</entry>
+	
+	<!-- stealth, execution -->
+	<entry key="xp_achieved/2000">
+		<title value="Furtividade, em profundidade" />
+		<image filename="journal_stealth2.png" />
+		<text value="Pegue uma arma silenciada e olhe ao redor da área alvo para ter uma ideia de quantos inimigos você está lidando com.%PSSoldados defendendo irão normalmente patrulhar, sozinhos ou em pequenos grupos, o que os tornam vulneráveis a ataques silenciosos. Se um inimigo te detectar e alertar os outros, é melhor fugir, esperar, e observar - até que eles relaxem novamente.%PSCertifique-se de que sua precicão está o melhor possível antes de atirar.%PSVocê também pode preparar uma tentativa consecutiva caso você morra, colocando um sinalizador de spawn ou um caminhão de spawn." />
+	</entry>
+
+	<!-- difficult change -->
+    <entry key="difficulty_change">
+        <title value="Como está indo?" />
+        <image filename="journal_difficulty.png" />
+        <text value="O jogo está parecendo muito difícil, muito fácil ou talvez já esteja de uma forma acertada? Você pode alterar a dificuldade no menu para se adequar melhor ao seu nível, se achar necessário." />
+    </entry>
+</journal>
+
+

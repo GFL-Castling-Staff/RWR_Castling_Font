@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+  <text key="Hint" text="Las granadas de impacto tienen un radio pequeño, pero son mucho más efectivas contra vehículos que las granadas de fragmentación" />
+  <text key="Hint" text="Las estructuras de radar inhiben señales de radio 100m a la redonda" />
+  <text key="Hint" text="Las estructuras con un hp muy elevado son más fácilmente destruídas con C4" />
+  <text key="Hint" text="Si tienes suficientes puntos de recurso (RP) piensa en comprarte un chaleco" />
+  <text key="Hint" text="Llevar mucha carga en la mochila hace que tu puntería disminuya considerablemente" />
+  <text key="Hint" text="La cobertura es tu mejor aliado, utilízala tanto como puedas" />
+  <text key="Hint" text="Lanzarte al suelo en dirección opuesta a una granada te puede salvar el pellejo" />
+  <text key="Hint" text="Acuchillar a un enemigo te da bastante más XP que abatirlo a tiros" />
+  <text key="Hint" text="Atacar bases 'por la puerta trasera' puede ser una buena solución para partidas estancadas" />
+  <text key="Hint" text="Atacar una base por varios flancos puede ser una buena solución para partidas estancadas" />
+  <text key="Hint" text="Para capturar una base, entra en el área punteada que se ve en el mapa" />
+  <text key="Hint" text="Al capturar una base necesitas una mayoría de tropas de 2/3 para hacer comenzar la cuenta atrás" />
+  <text key="Hint" text="Para disparar con una ametralladora necesitas estar tumbado o tras cobertura" />
+  <text key="Hint" text="Las granadas aturdidoras tienen un radio de acción amplio pero no matan enemigos" />
+  <text key="Hint" text="En una campaña, solo puedes reaparecer con armas de tu facción, salvo que desbloquees las de otras facciones" />
+  <text key="Hint" text="Para desbloquear armas enemigas para tu facción, lleva algunas al arsenal" />
+  <text key="Hint" text="Los vehículos son objetivos fáciles para grupos grandes de infantería, úsalos con cautela" />
+  <text key="Hint" text="No te deprimas cuando te maten, en RWR las bajas son continuas" />
+  <text key="Hint" text="No hay armas 'mejores', cada una tiene un propósito en su rango de precio" />
+  <text key="Hint" text="Realizar disparos únicos ayuda notablemente a reducir la desviación de bala" />
+  <text key="Hint" text="Localizar vehículos enemigos es una forma rápida de conseguir RP" />
+  <text key="Hint" text="Merece la pena recoger los items valiosos que sueltan los soldados abatidos para luego venderlos en el arsenal" />
+  <text key="Hint" text="Un chaleco Tipo-II absorbe hasta 2 balas, la tercera te deja en estado herido" />
+  <text key="Hint" text="Un traje de camuflaje no te protege pero con él la IA tendrá más difícil detectarte" />
+  <text key="Hint" text="Algunas armas pesadas hacen que te muevas más lento" />
+  <text key="Hint" text="El comandante da órdenes de ataque - aunque tú tienes libertad para hacer lo que quieras" />
+  <text key="Hint" text="Solo los soldados con chalecos pueden ser revividos con un medikit" />
+</intro>

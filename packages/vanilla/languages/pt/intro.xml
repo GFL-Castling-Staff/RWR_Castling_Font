@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <text key="Hint" text="As granadas de impacto têm um raio pequeno, mas são muito mais eficazes contra veículos do que as granadas de fragmentação."/>
+    <text key="Hint" text="As estruturas de radar bloqueiam sinais de rádio num raio de 100m."/>
+    <text key="Hint" text="As estruturas com HP muito elevado são facilmente destruídas com C4."/>
+    <text key="Hint" text="Se você tiver pontos de recursos suficientes (RP), é aconselhável comprar um colete."/>
+    <text key="Hint" text="Muito peso em sua mochila fará com que sua precisão sofra muito."/>
+    <text key="Hint" text="A cobertura é seu melhor amigo, use-a o máximo que puder."/>
+    <text key="Hint" text="Se jogar no chão para longe de uma granada pode salvar sua vida."/>
+    <text key="Hint" text="Esfaquear um inimigo lhe dá muito mais XP do que atirar nele."/>
+    <text key="Hint" text="Atacar pela retaguarda de uma base pode ser uma boa maneira de quebrar um impasse na batalha."/>
+    <text key="Hint" text="Flanquear uma base pode ser uma boa maneira de quebrar um impasse na batalha."/>
+    <text key="Hint" text="Para capturar uma base, entre na área pontilhada que é visível no mapa."/>
+    <text key="Hint" text="A captura de uma base requer uma maioria de 2/3 de tropas aliadas na zona de captura para iniciar o temporizador."/>
+    <text key="Hint" text="As metralhadoras requerem que você fique deitado antes de poder atirar, a menos que esteja atrás de uma cobertura."/>
+    <text key="Hint" text="Granadas de atordoamento têm um grande raio de explosão, mas não matam."/>
+    <text key="Hint" text="Em uma campanha, você só pode reaparecer com as armas de sua facção, a menos que desbloqueie as armas de outra facção."/>
+    <text key="Hint" text="Para desbloquear armas inimigas comuns para sua própria facção, venda algumas delas no arsenal."/>
+    <text key="Hint" text="Os veículos são alvos fáceis para grandes grupos de infantaria, use-os com cuidado."/>
+    <text key="Hint" text="Não deixe suas próprias mortes te derrubarem, em RWR Você vai morrer muito."/>
+    <text key="Hint" text="Não existem armas 'melhores', cada uma cumpre um propósito diferente e tem um preço."/>
+    <text key="Hint" text="Disparos 'bala a bala' ajudam a reduzir o seu desvio"/>
+    <text key="Hint" text="Localizar veículos inimigos é uma maneira fácil de ganhar RP."/>
+    <text key="Hint" text="Vender objetos de valor largados por soldados mortos pode valer a pena."/>
+    <text key="Hint" text="Um colete Tipo II absorve 2 balas, o terceiro o coloca em estado ferido."/>
+    <text key="Hint" text="Uma roupa de camuflagem não protege você, mas torna-o mais difícil de ser detectado pela IA."/>
+    <text key="Hint" text="Algumas armas mais pesadas diminuem sua velocidade de movimento."/>
+    <text key="Hint" text="O comandante dá ordens de ataque - no entanto, você está livre para fazer o que quiser."/>
+    <text key="Hint" text="Somente os soldados que usam coletes que podem ser revividos com o kit de primeiros socorros."/>
+    <text key="Hint" text="Se você estiver ferido e não puder obter ajuda, segure a tecla de ataque corpo a corpo para forçar um ressurgimento."/>              
+</intro>

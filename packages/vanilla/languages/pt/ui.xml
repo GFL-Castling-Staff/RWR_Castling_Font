@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+  <text key="Off" text="Off" />
+  <text key="On" text="On" />
+  <text key="Map" text="Mapa" />
+  <text key="No maps found" text="Não se encontrou nenhum mapa" />
+  <text key="Change!" text="Trocar!" />
+
+  <text key="ContentConfig:Map" text="Mapa" />
+  <text key="Setup mods" text="Configuração de mods" />
+  <text key="Load resources and advance!" text="Carregar recursos e continuar!" />
+  <text key="Help:Load resources and advance!" text="Continuar para o menu de configuração de partida" />
+
+  <text key="Back to options menu" text="Voltar ao menu de opções" />
+
+  <text key="Up" text="Cima" />
+  <text key="Help:Up" text="Movimento para cima, acelerar veículo" />
+  <text key="Down" text="Baixo" />
+  <text key="Help:Down" text="Movimento para baixo, travar veículo" />
+  <text key="Left" text="Esquerda" />
+  <text key="Help:Left" text="Movimento para a esquerda, virar veículo para a esquerda" />
+  <text key="Right" text="Direita" />
+  <text key="Help:Right" text="Movimento para a direita, virar veículo para a direita" />
+  <text key="Shoot" text="Disparar" />
+  <text key="Help:Shoot" text="Manter/Pressionar para disparar ou usar um item, aponta e faz click sobre o C4 para detonar" />
+  <text key="Reload" text="Recarregar" />
+  <text key="Grenade" text="Granada" />
+  <text key="Help:Grenade" text="Lançar granadas ou colocar C4" />
+  <text key="Radio" text="Mostrar chamadas de radio" />
+  <text key="Help:Radio" text="Manter para mostrar chamadas de radio" />
+  <text key="Knife" text="Faca" />
+  <text key="Help:Knife" text="Ataque corpo a corpo" />
+  <text key="Swap_Weapon" text="Equipar arma primária/secundária" />
+  <text key="Help:Swap_Weapon" text="Troca entre arma/item primário e secundário" />
+  <text key="Jump" text="Saltar / Entrar no veículo" />
+  <text key="Crouch" text="Agachar" />
+  <text key="Prone" text="Deitar" />
+  <text key="Walk" text="Caminhar" />
+  <text key="Pick_Up" text="Apanhar" />
+  <text key="Help:Pick_Up" text="Pressiona para apanhar, mantém para interagir com arsenal e esconderijos" />
+  <text key="Squad_Command" text="Comando de patrulha" />
+  <text key="Help:Squad_Command" text="Click para ordenar uma posição, 2x para sprintar, click sobre ti mesmo para reagrupar" />
+  <text key="Global_Chat" text="Chat global" />
+  <text key="Faction_Chat" text="Chat de facção" />
+  <text key="Squad_Chat" text="Chat de patrulha" />
+  <text key="Crouch_Toggle" text="Agachar-alternar" />
+  <text key="Prone_Toggle" text="Deitar-alternar" />
+  <text key="Map" text="Mapa" />
+  <text key="Help:Map" text="Utiliza a roda do rato para fazer zoom sobre o mapa" />
+  <text key="Statistics" text="Estatísticas" />
+  <text key="Help:Statistics" text="Estatísticas e historial de chat" />
+  <text key="Controls_Config_Shortcut" text="Controlos" />
+  <text key="Help:Controls_Config_Shortcut" text="Acesso rápido a esta página" />
+  <text key="Increase_Squad_Size" text="Aumentar tamanho de patrulha" />
+  <text key="Help:Increase_Squad_Size" text="Uma patrulha demasiado pequena? Aumenta a tua patrulha aqui" />
+  <text key="Decrease_Squad_Size" text="Reduzir tamanho de patrulha" />
+  <text key="Help:Decrease_Squad_Size" text="Uma patrulha demasiado grande? Reduz aqui" />
+  <text key="Squad_Command_Modifier" text="Modificar Comando de patrulha" />
+  <text key="Help:Squad_Command_Modifier" text="Divide a patrulha em condutor e patrulhas a pé quando estás dentro de um veículo" />
+  <text key="Next_Squad_Config" text="Configuração de patrulha seguinte" />
+  <text key="Help:Next_Squad_Config" text="Tecla experimental e para mods" />
+  <text key="Previous_Squad_Config" text="Configuração de patrulha anterior" />
+  <text key="Help:Previous_Squad_Config" text="Tecla experimental e para mods" />
+  <text key="Map_Zoom_In" text="Aumentar zoom sobre o mapa" />
+  <text key="Help:Map_Zoom_In" text="Aumenta zoom, também com a roda do rato" />
+  <text key="Map_Zoom_Out" text="Diminuir zoom sobre o mapa" />
+  <text key="Help:Map_Zoom_Out" text="Diminui zoom, também com a roda do rato" />
+  <text key="Pause_Game" text="Pausar jogo" />
+  <text key="Help:Pause_Game" text="Activa pausa do jogo, somente em modo de um jogador" />
+  <text key="Next_Weapon_In_Chain" text="Interruptor de modo de arma" />  
+
+  <text key="Call 1" text="Chamada 1" />
+  <text key="Call 2" text="Chamada 2" />
+  <text key="Call 3" text="Chamada 3" />
+  <text key="Call 4" text="Chamada 4" />
+  <text key="Call 5" text="Chamada 5" />
+  <text key="Call 6" text="Chamada 6" />
+  <text key="Call 7" text="Chamada 7" />
+  <text key="Call 8" text="Chamada 8" />
+  <text key="Call 9" text="Chamada 9" />
+  <text key="Call 10" text="Chamada 10" />
+
+  <text key="Hotkey1" text="Acesso rápido 1" />
+  <text key="Hotkey2" text="Acesso rápido 2" />
+  <text key="Hotkey3" text="Acesso rápido 3" />
+  <text key="Hotkey4" text="Acesso rápido 4" />
+  <text key="Hotkey5" text="Acesso rápido 5" />
+  <text key="Hotkey6" text="Acesso rápido 6" />
+  <text key="Hotkey7" text="Acesso rápido 7" />
+  <text key="Hotkey8" text="Acesso rápido 8" />
+  <text key="Hotkey9" text="Acesso rápido 9" />
+  <text key="Hotkey10" text="Acesso rápido 10" />
+
+  <text key="Press/Click it!" text="Pressionar/Fazer click" />
+  <text key="Unassigned" text="Não designado" />
+
+  <text key="Port forwarding" text="NOTA: %EOL %EOLA porta UDP que escolheres para o teu servidor deve estar redireccionado -'forwarded' em inglês- no teu router se este tiver NAT activado, coisa comum com a maioría dos jogadores. %EOL %EOLPor favor informa-te no manual do teu router para realizar o redireccionamento de portas, ou pesquisa na Internet. %EOL %EOLSó o servidor necessita que a porta esteja redireccionada, o cliente que entra no servidor não." />
+  <text key="Host:Port" text="Porta UDP" />
+  <text key="Help:Host:Port" text="A porta do servidor deve estar correctamente redireccionada para que os jogadores se possam juntar" />
+  <text key="Server name" text="Nome do servidor" />
+
+  <text key="Add to public server list" text="Adicionar à lista de servidores públicos" />
+  <text key="Help:Add to public server list" text="O servidor aparecerá na lista de servidores públicos" />
+  <text key="No" text="Não" />
+  <text key="Yes" text="Sim" />
+  <text key="Start!" text="Iniciar!" />
+  <text key="Join!" text="Entrar!" />
+  <text key="Still joining..." text="Conectando..." />
+  <text key="Login / create account" text="Login / Criar nome de usuário e password" />
+  <text key="Back to game menu" text="Voltar ao menu do jogo" />
+
+  <text key="Port" text="Porta" />
+  <text key="Address" text="Direcção" />
+  <text key="Help:Address" text="Endereço IP ou nome do domínio" />
+  <text key="Username" text="Nome de usuário" />
+  <text key="Your password" text="A tua password" />
+  <text key="Help:Your password" text="Escreve a tua própia password aqui; esta não é uma password de servidor" />
+  <text key="Remember password" text="Recordar password" />
+  <text key="Back to join online menu" text="Voltar ao menu de partida online" />
+  <text key="Back to server list" text="Voltar à lista de servidores" />
+  <text key="Visit %url!" text="Visitar %url!" />
+
+  <text key="Invalid port" text="Porta inválida" />
+  <text key="Invalid address" text="Endereço IP inválido" />
+  <text key="Invalid username" text="Nome de usuário inválido" />
+  <text key="Couldn't connect to server" text="Não foi possível ligar ao servidor; Revê por favor o endereço IP e a porta" />
+  <text key="Connection timed out" text="Tempo de espera de ligação esgotado" />
+  <text key="Version mismatch" text="Versão de jogo incorrecta" />
+  <text key="Kicked from server" text="Kickado do servidor" />
+  <text key="Banned from server" text="Banido do servidor" />
+  <text key="Incorrect username or password" text="Nome de usuário ou password incorrecta" />
+  <text key="Profile already in game" text="Já existe um jogador com o mesmo perfil em jogo" />
+  <text key="Incompatible profile" text="Perfil incompatível" />
+  <text key="Profile server unreachable" text="Impossível ligar ao servidor de perfís; Tenta mais tarde" />
+  <text key="Unaccepted username" text="Nome de usuário não aceite; tenta utilizar só maiúsculas " />
+
+  <text key="Public server list" text="Lista de servidores públicos" />
+  <text key="Manual IP" text="IP manual" />
+  <text key="Official Invasion server list" text="Lista de servidores Invasion (Co-op) oficiais" />
+  <text key="Official Dominance server list" text="Lista de servidores Dominance (PvP) oficiais" />
+
+  <text key="Back to main menu" text="Voltar ao menu principal" />
+
+  <text key="Existing games" text="Jogos existentes" />
+  <text key="No save games found" text="Não foram encontrados jogos guardados" />
+  <text key="Delete!" text="Eliminar!" />
+  <text key="Confirm delete" text="Sim, quero eliminar o jogo salvo!" />
+  <text key="Manage in file browser!" text="Gerir no gestor de ficheiros" />
+  <text key="Continue!" text="Continuar!" />
+
+  <text key="Enter playground" text="Entrar na área de tutorial" />
+  <text key="Enter playground radio message" text="Segue em frente, olha em redor e explora" />
+  <text key="Start new campaign" text="Começar uma nova campanha" />
+  <text key="Continue recent game" text="Continuar partida recente" />
+  <text key="Help:Continue recent game" text="Continua uma campanha ou partida recentes" />
+  <text key="Start new quick match" text="Começar uma partida rápida" />
+  <text key="Help:Start new quick match" text="Começa uma partida rápida de um só mapa" />
+  <text key="Join online game" text="Entrar em partida online" />
+  <text key="Activate server" text="Activar servidor" />
+  <text key="Change map &amp; resources" text="Mudar mapa &amp; recursos" />
+  <text key="Options" text="Opções" />
+  <text key="Visit RWR Online Wiki!" text="Visitar a Wiki online de RWR" />
+  <text key="Quit" text="Sair" />
+  <text key="Quit to main menu" text="Sair para o menu principal" />
+  <text key="Campaign stats" text="Estatísticas da campanha" />
+  <text key="Press ESC for the playground!" text="Pressiona ESC para a área de tutorial" />
+
+  <text key="Start new game" text="Começar nova partida" />
+  <text key="Online settings and profile" text="Preferências e perfil online" />
+  <text key="Save &amp; quit to main menu" text="Guardar &amp; sair para menu principal" />
+
+  <text key="Setup mods (%count)" text="Configuração de mods (%count)" />
+  <text key="Setup custom campaign (%name)" text="Configurar campanha personalizada (%name)" />
+  <text key="No custom campaign selected" text="Nenhuma campanha personalizada seleccionada" />
+
+  <text key="Starting XP level" text="XP inicial" />
+  <text key="Faction" text="Facção" />
+
+  <text key="AI accuracy" text="Precisão da IA" />
+  <text key="Capacity" text="Capacidade" />
+
+  <text key="XP rate" text="Recompensa de XP" />
+  <text key="RP multiplier" text="Recompensa de RP" />
+  <text key="Help:XP rate" text="XP desbloqueia items e aumenta o tamanho da patrulha" />
+  <text key="Help:RP multiplier" text="RP pode ser usado no arsenal e para fazer pedidos pelo rádio" />
+
+  <text key="Match settings filename" text="Ficheiro dos parâmetros de partida" />
+  <text key="Open match settings folder" text="Abrir pasta dos parâmetros de partida" />
+
+  <text key="Save as" text="Guardar como" />
+  <text key="Presets" text="Predeterminado" />
+  <text key="Let's play" text="Let's play" />
+  <text key="Help:Let's play" text="Casual + algum XP e RP para começar. Ideal para streamers" />
+  <text key="Easy" text="Casual" />
+  <text key="Help:Easy" text="Aumenta as chances de sobrevivência do Player e dá uma vantagem aos aliados" />
+  <text key="Hard" text="Difícil" />
+  <text key="Help:Hard" text="Nível de dificuldade predeterminado" />
+  <text key="Veteran" text="Veterano" /> 
+  <text key="Help:Veteran" text="O mesmo que difícil mas com campo de visão activo!" />  
+  <text key="Unfair" text="Injusto" />
+  <text key="Help:Unfair" text="Dá vantagem aos inimigos. Para masoquistas" />
+  <text key="Presets:Custom" text="Personalizado" />
+  <text key="Presets:Advanced" text="Avançado" />
+
+  <text key="Fellow capacity" text="Capacidade dos aliados" />
+  <text key="Enemy capacity" text="Capacidade dos inimigos" />
+  <text key="Fellow accuracy" text="Precisão dos aliados" />
+  <text key="Enemy accuracy" text="Precisão dos inimigos" />
+
+  <text key="Max soldiers" text="Número máximo de soldados" />
+  <text key="AI accuracy" text="Precisão da IA" />
+  <text key="Starting XP" text="XP de começo" />
+  <text key="Starting RP" text="RP de começo" />
+  <text key="Bases to capture" text="Bases a capturar" />
+  <text key="Default" text="Predeterminado" />
+
+  <text key="Sound volume" text="Volume de efeitos de som" />
+  <text key="Background sound volume" text="Volume de som ambiente" />
+  <text key="Soundtrack volume" text="Volume da música de menu" />
+  <text key="Controls config" text="Configuração de Controlos" />
+  <text key="Visual options" text="Preferências e indicadores" />
+  <text key="Visual quality options" text="Gráficos e performance" />
+  <text key="Visual tweaking" text="Ajustes e ajudas visuais" />
+
+  <text key="Back to map setup" text="Voltar à configuração de mapa" />
+  <text key="Back to campaign setup" text="Voltar à configuração de campanha" />
+
+  <text key="Disconnect!" text="Desconectar" />
+  <text key="Server info" text="Informação do servidor" />
+  <text key="Waiting..." text="Em espera..." />
+  <text key="Squad tag" text="Tag de Patrulha" />
+
+  <text key="Deactivate server!" text="Desactivar servidor" />
+  <text key="Server" text="Servidor" />
+  <text key="Comment" text="Comentário" />
+
+  <text key="ServerList:Name" text="Nome" />
+  <text key="ServerList:Players" text="Jogadores" />
+  <text key="ServerList:Country" text="País" />
+  <text key="ServerList:Map" text="Mapa" />
+  <text key="ServerList:Mode" text="Modo" />
+
+  <text key="Refresh" text="Actualizar" />
+
+  <text key="Back to join online game menu" text="Voltar ao menu multijogador online" />
+  <text key="dedicated server" text="Servidor dedicado" />
+
+  <text key="Score notification" text="Notificação de pontuações" />
+  <text key="Help:Score notification" text="Notificação de alterações de RP e XP" />
+  <text key="Line of sight" text="Linha de mira" />
+  <text key="Help:Line of sight" text="Assistentes visuais para apontar" />
+  <text key="Helper" text="Assistente" />
+  <text key="Helper &amp; line" text="Assistente &amp; linha" />
+  <text key="Player markers" text="Marcadores de jogador" />
+  <text key="Help:Player markers" text="Desactivar se fores um purista" />
+  <text key="Commander notifications" text="Notificações do Comandante" />
+  <text key="Help:Commander notifications" text="Cansado das mensagens do Comandante? Reduz a sua frequência de notificações aqui" />
+  <text key="Gore level" text="Nível de violência visual" />
+  <text key="Help:Gore level" text="Demasiado vermelho? Desactivar aqui" />
+  <text key="Clear bodies threshold" text="Nível de limpeza de corpos" />
+  <text key="Isoline occurrence" text="Ocorrência de isolinhas" />
+  <text key="Help:Isoline occurrence" text="Ajudas experimentais para reconhecer melhor a nivelação do terreno" />
+  <text key="Isoline intensity" text="Intensidade de isolinhas" />
+  <text key="Help:Isoline intensity" text="Ajudas experimentais para reconhecer melhor a nivelação do terreno" />
+  <text key="Back line intensity" text="Intensidade de linhas de fundo" />
+  <text key="Help:Back line intensity" text="Ajudas visuais para reconhecer perfís atrás de edifícios" />
+  <text key="Back to options menu" text="Voltar ao menu de opções" />
+  <text key="Control help" text="Ajuda de controlos" />
+  <text key="Help:Control help" text="Activar para modo principiante" />
+  <text key="Transparent bubbles" text="Ver através de bolhas de chat" />
+  <text key="Help:Transparent bubbles" text="Faz com que as bolhas de chat sejam transparentes quando passa a mira por cima" />
+  <text key="Global chat" text="Chat global" />
+  <text key="Faction chat" text="Chat de facção" />
+  <text key="Squad chat" text="Chat de patrulha" />
+  <text key="Commander" text="Comandante/Jogo" />
+  <text key="Radio notifications" text="Notificações de rádio" />
+  <text key="Field inspector info" text="Inspector de campo" />
+  <text key="Normal" />
+  <text key="Reduced" text="Reduzido" />
+
+  <text key="Reset settings" text="Reiniciar Parâmetros" />
+
+  <text key="Shadows" text="Sombras" />
+  <text key="Post processing" text="Pós-processamento" />
+  <text key="Help:Post processing" text="Pós-processamento de contornos geométricos" />
+  <text key="Bullet trails" text="Rastos de bala" />
+  <text key="Grass" text="Erva" />
+  <text key="Water detail" text="Detalhe de água" />
+  <text key="Low" text="Baixo" />
+	<text key="Medium" text="Médio"/>  
+  <text key="High" text="Alto" />
+  <text key="Weather effect" text="Efeitos de clima" />
+  <text key="Surface effect" text="Efeitos de superfície" />
+  <text key="Help:Surface effect" text="Efeitos dinâmicos sobre a superfície, sangue, marcas de travagem, etc." />
+  <text key="Voxel preset" text="Parâmetros de voxel" />
+  <text key="Help:Voxel preset" text="Qualidade de rendering de items e personagens" />
+  <text key="Voxel density" text="Densidade de voxel" />
+  <text key="Voxel size" text="Tamanho de voxel" />
+  <text key="Voxel shading" text="Sombras de voxel" />
+  <text key="Shadow depth bias" text="Bias de profundidade de sombras" />
+  <text key="Help:Shadow depth bias" text="Experimental; valores muito baixos causam artefactos, valores muito altos não renderizam bem todas as sombras" />
+
+  <text key="Paused" text="Em pausa" />
+  <text key="Paused - Online disconnected" text="Em pausa - Online desligado" />
+
+  <text key="All-time stats" text="Estatísticas globais" />
+  <text key="Game stats" text="Estatísticas da partida" />
+
+  <text key="soldiers killed" text="Soldados eliminados" />
+  <text key="times died" text="Vezes abatido" />
+  <text key="players killed" text="Jogadores assassinados" />
+  <text key="friendlies killed" text="Aliados assassinados" />
+  <text key="kill streak" text="Série de eliminações" />
+  <text key="vehicles destroyed" text="Veículos destruídos" />
+  <text key="targets destroyed" text="Objetivos destruídos" />
+  <text key="soldiers healed" text="Soldados curados" />
+  <text key="hours played" text="Horas jogadas" />
+  <text key="kill combo" text="Combinação de eliminações" />
+  <text key="death streak" text="Série de mortes" />
+
+  <text key="Match stats" text="Estatísticas da partida" />
+  <text key="Total stats" text="Estatísticas totais" />
+
+  <text key="#" />
+  <text key="Name" text="Nome" />
+  <text key="Score" text="Pontuação" />
+  <text key="Kills" text="Mortes" />
+  <text key="Deaths" text="Baixas" />
+  <text key="Streak" text="Série" />
+  <text key="K/D" text="Rácio" />
+  <text key="Time" text="Tempo" />
+  <text key="Squad" text="Patrulha" />
+
+ <text key="total time played" text="tempo total jogado"/>
+ <text key="campaign days" text="dias de campanha"/>
+ <text key="experience points" text="pontos de experiência"/>
+ <text key="rank" text="rank"/>
+ <text key="shots fired" text="disparos realizados"/>
+ <text key="stuff thrown around" text="coisas atiradas por aí"/>
+ <text key="distance covered" text="distância coberta"/>  
+ 
+ <text key="CampaignConfig:Campaign" text="Seleccionar campanha" />
+ <text key="Back to campaign selection" text="Voltar a selecção de campanha" />
+ 
+  <text key="Available factions for clients" text="Facções disponíveis para clientes"/>
+  <text key="Max players" text="Máximo de jogadores"/>
+
+  <text key="Download Steam Workshop items!" text="Download de itens da Steam Workshop!" />
+  <text key="Resource mismatch" text="Recurso não encontrado" />
+  <text key="Click to cancel, x items ready" text="Clica para cancelar. %ready / %total pronto" />    
+
+  <text key="Continue campaign as new" text="Continuar uma campanha nova" />
+  
+  <text key="Players" text="Jogadores" />
+  <text key="Kick selected player!" text="Expulsar jogador selecionado!" />
+  
+   <text key="Automatic port" text="Auto" />
+
+   <text key="client connecting to nat server" text="Connecting to master server #%nat_server_index at %nat_server_address" />
+   <text key="client connected to nat server, request access to rwr server" text="Master server #%nat_server_index %nat_server_address connected" />
+   <text key="client connecting to rwr server" text="Connecting to server %rwr_server_address" />
+   <text key="client connected to rwr server" text="Connected to server %rwr_server_address" />
+
+   <text key="client failed to connect to nat server" text="Failed to connect to any master server" />
+   <text key="client failed to connect to rwr server" text="Failed to connect to server" />
+
+   <text key="server connecting to nat server" text="Connecting to master server #%nat_server_index at %nat_server_address" />
+   <text key="server connected to nat server, register" text="Master server #%nat_server_index %nat_server_address connected" />
+   <text key="server failed to connect to nat server" text="Failed to connect to any master server" />
+
+   <text key="Activation failed" text="Activação falhou" />
+   <text key="Server full" text="Servidor cheio" />    
+
+   <text key="Official Pacific server list" text="Lista de servidores WW2 (Co-op) oficiais" />
+
+   <text key="FOV Visualization" text="campo de visão (FOV)" />
+   <text key="On, FOV match only" text="ativado, FOV só partida" />
+	 <text key="Help:On, FOV match only" text="Aplicável apenas com o modo de jogo definido para ocultar os inimigos e objetos fora do raio de visão do teu soldado. Requer pós- processamento activo. Não recomendado para computadores mais lentos" />   
+   <text key="On, always" text="Activo, sempre" />
+	 <text key="Help:On, always" text="Requer pós-processamento activo. Não recomendado para computadores mais lentos" />  
+   
+   <text key="Lobby main menu ad 1" text="Descobre o DLC Pacific!" />
+   <text key="Lobby main menu ad 2" text="Descobre todos os nossos DLC!" />   
+   <text key="Lobby main menu ad 3" text="Descobre o novo DLC Eastern Front!" />
+   <text key="Lobby main menu ad 4" text="Adicionar à lista de desejos!" />
+   
+   <text key="Username already registered" text="Nome de usuario já registrado" />   
+   <text key="Username already registered, please enter password or choose another username" text="Nome de usuario já registrado, insira a senha ou escolha outro nome de usuário" /> 
+   
+<!-- NEW 1.70 ADDITIONS -->
+
+   <text key="Journal" text="Registro" />    
+   <text key="Installed mods" text="Mods instalados" />
+   <text key="Journal notifications" text="Notificações do registro" />   
+	
+	<text key="Primary_Weapon" text="Equipar 1° arma" />  
+	<text key="Help:Primary_Weapon" text="Equipar arma principal" />
+	<text key="Secondary_Weapon" text="Equipar 2° arma" />
+	<text key="Help:Secondary_Weapon" text="Equipar arma/itens secundários" />
+
+  <text key="Player damage modifier" text="Sobrevivência do Player" />
+  <text key="Help:Player damage modifier" text="Afeta as chances de sobreviver um tiro" /> 
+  
+	<text key="Restart map" text="reiniciar o mapa!" />   
+
+    <text key="Difficulty:Normal" text="Normal" />
+    <text key="Help:Hard_WW2" text="Um desafio melhor para aqueles que já estão acostumados com o mundo de RWR" />
+    <text key="Help:Presets:Custom" text="Ajuste as configurações para as suas necessidades. Note que isso pode afetar o balanceamento drasticamente" />
+  
+	<text key="Steam friends server list" text="Amigos da Steam jogando online" />   
+	
+	<text key="Dedicated mod server list" text="lista de servidores dedicados modificados" />	
+
+    <text key="Change campaign settings" text="Mudar as configurações de dificuldade da campanha" />   
+    <text key="Apply!" text="Aplicar!" /> 
+	
+<!-- 1.91 -->      
+    <text key="Max frame rate" text="Taxa máxima de quadros"/>   
+	<text key="Mouse sensitivity" text="Sensibilidade cruzada" />
+	<text key="Aim assist" text="Assistência à pontaria do gamepad" />
+	<text key="Gamepad controls config" text="Configuração dos controles do gamepad" />		
+	
+<!-- 1.92 -->  
+	<text key="Mouse wheel sensitivity" text="Sensibilidade da roda do mouse" />
+	
+<!-- 1.93 -->
+
+	<text key="Warning: Steam Cloud unavailable" text="Advertência: Cloud Steam indisponível" />
+	<text key="Warning: Steam unavailable" text="Advertência: Steam indisponível" />	
+</ui>	

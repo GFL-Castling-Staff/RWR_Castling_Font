@@ -1,0 +1,300 @@
+<journal>
+	<!-- pre-added journal entries with key="start" -->
+	<!-- end of pre-added journal entries -->
+	
+	<!-- hello_note is a special note and isn't stored in journal -->
+	<entry key="hello_note">
+	    <title value="Notifiche di diario" />
+		<text value="Ciao! Riceverai queste notifiche di tanto in tanto per aiutarti a familiarizzare con il gioco. Quando vedi una di queste voci nell'angolo in alto a destra, cliccaci sopra per aprirla!" />
+		<image filename="journal_welcome.png" />
+	</entry>
+	
+	<!-- hello happens after hello_note, is stored in journal -->
+	<entry key="hello" _old_key="xp_achieved/0">
+	    <title value="Per iniziare"/>
+		<text value="Innanzitutto, guarda la mappa (%control_map) per avere un'idea della tua posizione attuale. Dovresti osservare la tua base alleata più vicina così come le zone controllate dai nemici.%PSTrova alleati e unisciti a loro per attaccare quando il Comandante lo ordina. Sarebbe saggio rimanere vicino agli altri per supportarli poiché quando inizi non hai ancora una squadra da controllare. Non lanciarti alla cieca in combattimento.%PSControlla il log della chat (%control_statistics) per ricontrollare quanto trasmesso via radio dal Comandante." />
+		<image filename="journal_welcome.png" />
+	</entry>
+ 
+
+	<entry key="move_against_stabbable_static_object">
+		<title value="Accoltellare" />
+		<text value="Usa il coltello (%control_knife) per rompere casse e ottenere rifornimenti basici. Il coltello può anche essere usato per uccidere i nemici in maniera istantanea e silenziosa quando sei abbastanza vicino, nonché per ricevere XP bonus." />
+		<image filename="journal_stab.png" />
+	</entry>
+
+	<entry key="first_death_at_start">
+		<title value="Sistema di copertura" />
+		<text value="Il metodo migliore per rimanere in vita è stare in copertura. Puoi inginocchiarti (%control_crouch) oppure sdraiarti (%control_prone) per renderti un bersaglio più piccolo e quindi più difficile da colpire. Quando sei inginocchiato dietro un'ostacolo delle giuste misure, ti rimetterai in piedi automaticamente per sparare (%control_shoot)." />
+		<image filename="journal_cover.png" />
+	</entry>
+	
+	<entry key="a_few_deaths_at_start">
+		<title value="Equipaggiamento al respawn" />
+		<text value="Al momento della tua morte, tutti le armi e gli oggetti che possiedi verrano rilasciati sul terreno. Questi rimaranno per un periodo di tempo limitato prima di scomparire, mentre gli oggetti più rari rimangono più tempo sul terreno.%PSQuando respawni, la maggior parte del tuo equipaggiamento verrà rimpiazzato con un costo di risorse RP automaticamente, con l'eccezione di alcuni oggetti quali armature e armi rare.%PSUsare oggetti che non vengono riforniti automaticamente richiederà maggior attenzione nel rimanere in vita, quindi preparati di conseguenza." />
+		<image filename="journal_non_respawnable_items.png" />
+	</entry>
+
+	<entry key="low_encumbrance_exceeded">
+		<title value="Zaino e ingombro" />
+		<text value="Lo zaino funziona come un magazzino temporaneo di oggetti, solitamente da riportare indietro al Nascondiglio o all'Armeria. Quando muori, tutti gli oggetti contenuti nello Zaino cadranno a terra.%PSOgni oggetto ha un certo valore di ingombro. Quando avrai raggiunto il 20% di ingombro totale, avrai diverse penalità: velocità di movimento e precisione di tiro soffrono penalità graduali.%PSQuando l'imgombro raggiunge il 60%, verrà visualizzato uno Zaino ancora più grande e le tue capacità combattive saranno seriamente compromesse. Prendi in considerazione di lasciare a terra degli oggetti prima di ingaggiare dei combattimenti." />
+		<image filename="journal_backpack.png" />
+	</entry>
+
+	<entry key="base_capture/friendly">
+	    <title value="Cattura delle basi" />
+		<image filename="journal_base.png" />
+		<text value="Le basi possono essere catturate quando una frazione ha più truppe (almeno il doppio) del nemico al centro dell'area.%PSQuando una base è catturata, i nemici possono riprendersela con un contrattacco, quindi è una buona strategia lasciare delle truppe a difendere il territorio prima di spostarsi."/>
+	</entry>
+		
+	<entry key="inspect/armory">
+	    <title value="Armeria" />
+		<image filename="journal_armory.png" />
+		<text value="L'Armeria fornisce alla fazione armi e oggetti basiche.%PSQuando trovi degli oggetti, portali all'armeria per guadagnare RP (punti risorsa).%PSPortare all'armeria 5 armi nemiche (non rare) permetterà di sbloccarle per tutta la tua fazione. Portare una Valigetta o un Laptop sbloccherà nuove armi di livello superiore.%PSSe ti capita di trovare un camion merci portalo all'armeria per ricevere una ricompensa."/> 
+	</entry>
+
+	<entry key="inspect/stash">
+	    <title value="Nascondiglio" />
+		<image filename="journal_stash.png" />
+		<text value="Il Nascondiglio è il tuo magazzino personale e permamente. Usalo per tenere da parte oggetti che non vuoi perdere oppure non puoi ancora usare.%PSÈ saggio portare armi rare di cui non disponi di abbastanza XP per usarla, in modo tale da usarle quando sarai abbastanza di grado.%PSNota che tutti i Nascondigli sono colleggati, quindi puoi riempirli di diverse armi e oggetti e accedervi da qualsiasi punto della mappa, incluso nei territori nemici."/>
+	</entry>
+	
+	<entry key="inspect/item_unlocker">
+	    <title value="Valigette e laptops" />
+		<image filename="journal_briefcase.png" />
+		<text value="Valigette e laptops possono essere portate all'Armeria per sbloccare nuove armi.%PSI Laptop in particolare sbloccano oggetti orientati a un approccio stealth." />
+	</entry>
+	
+	<entry key="inspect/vehicle/any">
+	    <title value="Veicoli" />
+		<text value="I veicoli permettono di muoversi velocemente. Alcuni di essi sono armati, altri hanno un'armeria, e altri ancora funzionano come veicoli di spawn mobili.%PSAlle diverse posizioni, quali guidatore, artigliere e passeggero si può accadere dai diversi lati del veicolo. Avvicinati ad una posizione e premi spazio (%control_jump) per entrare. Se il comando è disponibile e un nemico occupa quella postazione, verrà sbattuto fuori. Questo funziona anche per il comando di veicoli usati da alleati con un grado inferiore al vostro.%PSAlcuni veicoli possono essere usati efficacemente da una squadra, come i carri armati." />      
+		<image filename="journal_truck.png" />
+	</entry>
+
+	<entry key="inspect/vehicle/enemy">
+	    <title value="Veicoli nemici" />
+		<text value="Avrai bisogni di esplosivi, razzi o granate per danneggiare veicoli. I lanciarazzi e le granate ad impatto fanno il maggior danno.%PSI veicoli occupati dai nemici appariranno in rosso sulla mappa." />
+		<image filename="journal_vehicle.png" />
+	</entry>
+	
+	<entry key="inspect/apc/friendly">
+	    <title value="APC" />
+		<text value="L'APC ha una sola postazione di mitragliere in aggiunta al guidatore, oltre a diverse postazioni per passegeri nel retro. Avrai bisogno di almeno un compagno di squadra per manovrare l'APC efficacemente. Usa i comandi di squadra (%control_squad_command) per impartire ordini al guidatore o al mitragliere.%PSL'APC è efficace sulla fanteria, ma non troppo contro altri veicoli." />"
+		<image filename="journal_apc.png" />
+	</entry>
+
+	<entry key="inspect/tank/friendly">
+	    <title value="Carri armati" />
+		<text value="Il carro armato ha due postazioni di sparo in aggiunta al guidata. Avrai bisogno di almeno un compagno di squadra per manovrarlo efficacemente, preferibilmente due. Usa i comandi di squadra (%control_squad_command) per impartire ordini ai mitraglieri o al guidatore.%PSI carri sono efficaci sia su fanteria che sui veicoli, e si muovono facilmente su diverse tipologie di terreni." />
+		<image filename="journal_tank.png" />
+	</entry>
+
+	<entry key="inspect/armored_truck.vehicle/friendly">
+	    <title value="Camion per respawn" />
+		<text value="Il camion per respawn è un veicolo che può essere usato solo dai giocatori. Quando non è in movimento, e non ci sono nemici vicini, ti permette di respawnare vicino ad esso. Questo lo rende molto efficace per realizzare attacchi laterali e per attaccare aree sprovviste di punti di spawn nelle vicinanze.%PSIl camion per respawn funziona anche dietro le linee nemiche.%PSMolti passeggeri possono entrare nel camion." />
+		<image filename="journal_spawntruck.png" />
+	</entry>
+
+	<entry key="inspect/mobile_armory.vehicle/any">
+	    <title value="Camion armeria" />
+		<text value="Il camion armeria è una Armeria mobile che può essere manovrata solo dai giocatori. Funziona in maniera identica all'Armeria standard. Alcuni soldati saranno nei paraggi per difenderla quando non è in movimento.%PSÈ una buona idea tenerla vicino al fronte per ridurre la distanza di movimento dall'Armeria alla battaglia." />
+		<image filename="journal_mobarmory.png" />
+	</entry>
+	
+	<entry key="xp_achieved/150"> <!-- was 100 -->
+		<title value="Granate" />
+		<text value="Le granate sono ottime per ripulire le coperture ed eliminare gruppi di nemici. Usa %control_grenade per lanciare una granata verso la posizione del mirino. Dovrai fare esperienza su quanto lontano devi lanciare, anche perché c'è differenza tra i vari tipi di granate. Considera inoltre la differenza di altezza tra te e il tuo bersaglio.%PSle granate sono un facile modo per fare uccisioni combo e ottenere XP extra." />
+		<image filename="journal_grenade.png" />
+	</entry>
+	
+	<entry key="xp_achieved/50"> <!-- was 200 -->
+		<title value="Fucili d'assalto" />
+		<text value="I fucili d'assalto sono generalmente le armi più bilanciate in termini di gittata e potenza. Prova a sparare brevi raffiche per contenere la dispersione. Sparare da accovacciato o inginocchiata aumenta di molto la precisione rispetto a sparare in piedi oppure in movimento. Tieni gli occhi sul mirino, perché indica la dispersione e quanto è influenzata dal rinculo dell'arma." />
+		<image filename="journal_ar.png" />
+	</entry>
+
+	<entry key="xp_achieved/250">
+		<title value="Oggetti schierabili" />
+		<text value="I sacchi di sabbia ti permettono di creare delle protezioni static che possono resistere al fuoco di piccole armi e pure alle esplosioni di alcune granate. Passa allo slot delle armi secondarie (%control_swap_weapon), tieni premuto %control_shoot e mira nella direzione scelta.%PSNuovi oggetti schierabili possono essere sbloccati riportando un camion merci oppure le valigette." />  
+		<image filename="journal_sandbag.png" />
+	</entry>
+	
+	<entry key="inspect/riot_shield.weapon">
+		<title value="Scudi antisommossa" />
+		<text value="Gli scudi antisommossa possono essere usati per bloccare i proiettili. Passa allo slot delle armi secondarie (%control_swap_weapon), poi punta nella direzione in cui vuoi difenderti e tieni premuto %control_shoot. Altri soldati possono usare lo scudo come un muro per sparare al di sopra di esso.%PSIl raggio esplosivo delle granate danneggia lo scudo e stordisce l'utente: le granate ad impatto sono ancora più letali.%PSGli scudi sono utili specialmente in aree in cui mancano coperture." />
+		<image filename="journal_riot_shield.png" />
+	</entry>
+
+	<entry key="xp_achieved/100">    <!-- was inspect -->
+		<title value="Fucili a pompa" />
+		<text value="I fucili a pompa sono molto efficaci a corta distanza, mentre sono inutili contro nemici distanti. Di conseguenza, eccellono nel combattimenti ravvicinati, come le aree urbane e le trincee. Rimanere fermi ha poco impatto sulla precisione, quindi possono essere usate decentemente anche mentre ci si muove." />
+		<image filename="journal_shotguns.png" />
+	</entry>
+
+	<entry key="inspect/medikit.weapon">
+		<title value="Kit medico" />
+		<text value="Il kit medico può essere usata per curare i soldati feriti che si trovano a terra. Avvicinati al soldato ferito, usa l'oggetto secondario (%control_swap_weapon) e tieni premuto (%control_shoot) fino a che non tornano in piedi.%PSSolo i soldati che indossano un giubutto possono essere feriti, e non puoi usare un kit medico su te stesso.%PSI kit medici sono particolarmente utili in multigiocatore!" />
+		<image filename="journal_medikit.png" />
+	</entry>
+	
+	<!--
+	- at first rank up
+	-->
+	<entry key="xp_achieved/500">
+		<title value="Mitragliatrici" />
+		<text value="Le mitragliatrici hanno una buona dispersione, un lungo raggio e una buona potenza di fuoco - ma per sparare richiedono di essere usate o da sdraiati oppure appoggiati a un muro, rendendole meno versatili di altre armi. Usale negli assedi oppure quando combatti contro grandi gruppi di nemici." />
+		<image filename="journal_mg.png" />
+	</entry>
+
+	<entry key="xp_achieved/500">
+		<title value="Lanciarazzi" />
+		<text value="I lanciarazzi sono la primaria difesa contro i veicoli disponibile alla fanteria. Dopo averne acquistato una, passa allo slot delle armi secondarie (%control_swap_weapon), mira con attenzione - occhio al mirino e alla dispersione - e spara al bersaglio %control_shoot quando pronto.%PSI lanciarazzi non possono essere ricaricati, sono monouso." />
+		<image filename="journal_bazooka.png" />
+	</entry>
+
+	
+	<!-- objective vehicles -->
+	<entry key="spawn/aa_emplacement.vehicle/enemy">
+		<title value="Postazioni anti aeree" />
+		<image filename="journal_aa.png" />
+		<text value="Alcune mappe prevedono delle postazioni anti aeree che impediscono le chiamate radio, quali ed esempio i rinforzi parà. Trova queste postazioni sul territorio nemico e distruggile per sbloccare la possibilità di chiamare nuovamente. Un approccio stealth e del C4 fanno un buon lavoro, ma esistono anche altri metodi.%PSLe postazioni anti aeree non respawneranno una volta distrutte." />
+	</entry>
+
+	<entry key="spawn/radar_tower.vehicle/enemy">
+		<title value="Torre radar e camion per le comunicazioni" />
+		<image filename="journal_radar_tower.png" />
+		<text value="La torre radar di una fazione permette le comunicazione tra il comandante e le truppe. Distruggere una torre radio nemica abbassa l'efficacia dell'azione avversaria, ovvero il nemico 1) smette di attaccare 2) ha un rate di respawn minore e 3) non può muovere truppe tra le diversi basi fino a che non respawna la torre.%PSPer la sua importanza la torre radar è pesantemente sorvegliata, quindi dovrai probabilmente avere un approccio stealth per distruggerla. Non dimenticare il C4!%PSLa torre radar impedisce anche le chiamate radio della tua fazione nell'area circostante." />
+	</entry>
+
+	<entry key="inspect/radar_truck.vehicle/enemy">
+		<title value="Torre radar e camion per le comunicazioni" />
+		<image filename="journal_radar_truck.png" />
+		<text value="Il camion per le comunicazioni di una fazione permette le comunicazione tra il comandante e le truppe. Distruggere il camion per le comunicazioni abbassa l'efficacia dell'azione avversaria, ovvero il nemico 1) smette di attaccare, 2) ha un rate di respawn minore e 3) non può muovere truppe tra le diversi basi fino a che non respawna la torre.%PSI camion per le comunicazioni sono scortati, e il guidatore cercherà di fuggire in un'altra base se sotto attacco.%PSAnche i camion per le comunicazioni bloccano le chiamate radio della tua fazione nell'area circostante." />
+	</entry>
+	
+	<entry key="inspect/radio_jammer.vehicle/enemy">
+		<title value="Jammer radio" />
+		<image filename="journal_radio_jammer.png" />
+		<text value="I jammer radio nemici impediscono le chiamate radio nelle immediate vicinanze, e di fatto sono dunque immuni alle chiamate di colpi d'artigliera e all'arrivo dei parà. I jammer tendono ad essere protetti da un gruppo di pochi soldati. Infiltrati e usa il C4 o altri esplosivi per distruggerli." />
+	</entry>
+	
+	<entry key="inspect/cargo_truck.vehicle/enemy">
+		<title value="Camion merci" />
+		<image filename="journal_cargo_truck.png" />
+		<text value="I camion merci possono essere catturati in diversi modi; trasportarli poi ad un'armeria alleata permetterà lo sblocco di nuove risorse.%PSIl guidatore cercherà di parcheggiare il veicolo da qualche parte nel territorio nemico, e cercherà di scappare se contattato dal nemico. Devi essere veloce e furtivo per avvicinarti alla porta del guidatore e sbatterlo giù (%control_jump) per prendere il veicolo.%PSPuoi anche danneggiare il veicolo con dell'esplosivo per fermarlo (senza farlo esplodere però). Dovrai ripararlo poi con l'attrezzo riparatore e guidarlo indietro fino all'armeria." /> 
+		<!-- no space left: Once you've captured the truck, any enemy will try to stop the vehicle so watch out!" -->
+	</entry>
+
+	<entry key="inspect/prison/enemy">
+		<title value="Prigione" />
+		<image filename="journal_prison.png" />
+		<text value="I bus dei prigionieri e le porte della prigione possono essere distrutte con dell'esplosivo per liberare i detenuti. Questi forniranno alla fazione un incremento temporaneo della capacità di soldati." />
+	</entry>
+	
+	<!-- map completion -->
+	<entry key="match_end/friendly">
+		<title value="Vittoria della battaglia" />
+		<image filename="journal_completed.png" />
+		<text value="Ben fatto!%PSUna volta che la battaglia è finita, uno o più punti di estrazione appariranno per portarti su altre mappe. Puoi vederli sulla mappa (%control_map) come icone di una porta.%PSOra che sei al sicuro, è una buona idea cercare in giro del bottino o altri oggetti interessanti se hai pochi RP." />
+	</entry>
+  
+	<entry key="match_end/friendly">
+		<title value="Sommario della campagna" />
+		<image filename="journal_worldview.png" />
+		<text value="Il sommario della campagna mostra lo stato complessivo della campagna, le diverse mappe e le occupazioni che le occupano. Una volta che la tua fazione detiene il controllo della mappa, puoi selezionare la successiva mappa per aiutare l'invasione di quella zona.%PSPuoi anche tornare indietro nelle zone amiche, il che può tornare utile per trovare del bottino nascosto o Camion merci che non avevi visto." />
+	</entry>
+  
+	<entry key="match_end/enemy">
+		<title value="Sconfitta in battaglia" />
+		<image filename="journal_defeated.png" />
+		<text value="Oh no, il nemico ha vinto la battaglia!%PSTempo di provarci di nuovo, eh? La mappa ricomincerà tra poco." />
+	</entry>
+		
+	<!-- at 1000xp -->	
+	<entry key="xp_achieved/1000">
+		<title value="Chiamate radio" />
+		<image filename="journal_radio_device.png" />
+		<text value="Ora hai l'abilità di fare chiamate radio! Prima colpi di mortaio, successivamente parà e altri rinforzi aerei. Punta il mirino nella posizione desiderata, tieni premuto %control_radio per vedere le opzioni di chiamata e seleziona con il tasto sinistro del mouse la chiamata che vuoi fare in quel punto." />
+	</entry>
+	
+	<!-- squad -->
+	<entry key="xp_achieved/1250">
+		<title value="Membri della squadra" />
+		<image filename="journal_squad_init.png" />
+		<text value="Nuovi membri si aggiungono automaticamente alla squadra di soldati di grado superiore.%PSPuoi usare i tasti %control_decrease_squad_size/%control_increase_squad_size per gestire la grandezza della tua squadra, ma esiste un limite massimo stabilito dal tuo grado.%PSL'icona medica ti suggerisce la presenza di un membro della squadra che possiede un kit medico.%PSUsa il comando di squadra (%control_squad_command) per dare un ordine alla squadra, doppio click per ordinare di farlo più rapidamente. Usa i comandi di squadra su armi fisse quali MG o TOW per ordinare a un membro di occupare quella postazione." /> 
+	</entry>
+
+	<!-- vests & getting wounded & calling for help -->
+	<entry key="xp_achieved/1250">
+		<title value="Giubotto" />
+		<text value="Indossare un giubotto ti permette di incassare qualche colpo che altrimenti sarebbe letale. Ogni colpo deteriorerà le proprietà del giubotto - il primo colpo sarà assorbito dal giubotto, il secondo colpo ti stordirà e l'ultimo colpo ti lascerà ferito.%PSMentre sei ferito, puoi chiamare un medico tramite %control_shoot, oppure forza il respawn tenendo premuto %control_knife. Se c'è un medico nelle vicinanza correrà a curarti.%PSMentre sei ferito a terra puoi comunque usare la radio - e tutti i rinforzi chiamati includeranno almeno un medico." />
+		<image filename="journal_vest.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1500">
+		<title value="Membri di squadra nei veicoli" />
+		<image filename="journal_squad_vehicle.png" />
+		<text value="Quando entri in un veicolo i tuoi membri di squadra entreranno occupando i posti liberi. Puoi usare i comandi di squadra (%control_squad_command) per assegnare un obiettivo al guidatore o al mitragliere. Puoi anche usare la mappa (%control_map) e cliccare (%control_squad_command) puoi anche impostare una destinazione ancora più lontana per il guidatore." />
+	</entry>
+			
+	<entry key="xp_achieved/1500">
+		<title value="Fucile da cecchino" />
+		<text value="I fucili da cecchino hanno una elevata gittata, precisione e potenza, ma richiedono più tempo tra uno sparo e il successo nonché più tempo per prendere la mira. Inginocchiati o sdraiati per assicurare la maggior precisione possibile." /> 
+		<image filename="journal_sniper_rifles.png" />
+	</entry>
+	
+	<!-- stealth, suppressed weapons -->
+	<entry key="xp_achieved/1000">
+		<title value="Armi silenziate" />
+		<image filename="journal_suppressed.png" />
+		<text value="Le armi silenziate sono molto efficaci su nemici ignari e non in allerta, ma sono poco efficaci su nemici già impegnati nel combattimento.%PSQuesto le rende utili specialmente quando stai penetrando dietro le linee nemiche, quindi considera di ridurre la dimensione della tua squadra (%control_decrease_squad_size) prima di iniziare una missione stealth. Usa %control_increase_squad_size per permettere nuovamente ai tuoi alleati di aggiungersi alla tua squadra nuovamente." />
+	</entry>
+
+	<entry key="xp_achieved/1100">
+		<title value="C4" />
+		<text value="Il C4 può essere lanciato come una granata, e si attaccherà a qualsiasi superficie - strutture, veicoli, muri, qualsiasi cosa. Una volta lanciata, può essere fatto detonare a distanza muovendosi con il mirino sopra di esso e premendo %control_shoot. Mettiti al riparo prima della detonazione!%PSUn C4 distruggerà ogni obiettivo o veicolo." />
+		<image filename="journal_c4.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1250">
+		<title value="Ricognizione delle basi" />
+		<image filename="journal_investigate.png" />
+		<text value="La ricognizione delle basi consiste nel viaggiare in una base occupata dai nemici e avvicinarsi al centro di tale posizione. Una volta che la base è stata segnalata, verrà inviato un report sulla forza del nemico e il comandante consiglierà come procedere.%PSSe l'attacco principale raggiunge un lungo periodo di stallo, è spesso utile andare a fare ricognizione delle altre basi per valutare altre opportunità di cattura." />
+	</entry>
+
+	<entry key="xp_achieved/1400">
+	    <title value="Cattura di basi secondarie" />
+		<image filename="journal_base_tactics.png" />
+		<text value="È possibile catturare delle basi da solo o solamente con la tua squadra. Se riesci a infiltrarti dietro le linee nemiche e trovi un bersaglio facile da attaccare puoi catturare quella base - ma stai attento ai contrattacchi. Tutte le basi segnate sulla mappa (%control_map) con un cerchio rosso possono essere catturate." />
+	</entry>
+	
+	<entry key="xp_achieved/1500">
+		<title value="Bengala di spawn" />
+		<text value="I bengala di spawn possono essere usati per creare dei punti di spawn per i soli giocatore, e possono essere posizionati ovunque. Tuttavia se i nemici si avvicinano troppo il punto di spawn si disattiva fino a che la situazione non migliora." />
+		<image filename="journal_flare.png" />
+	</entry>	
+	
+	<!-- stealth, visibility, night -->
+	<entry key="xp_achieved/1750">
+		<title value="Basi dello stealth" />
+		<image filename="journal_stealth1.png" />
+		<text value="Un approccio stealth è basato sul rimanere inosservato ai nemici; la tua visibilità gioca una ruole chiave.%PSPuoi diminuire la tua visibilità in molti modi: puoi camminare (%control_walk), inginocchiarti (%control_crouch) e sdraiarti (%control_prone), così come rimanere fermo. Durante la notte la tua visibilità si abbassa ulteriormente. I nemici hanno un angolo di visuale, e sono meno inclini ad individuarti se arrivi da dietro.%PSLa tuta mimetica e la tuta black ops potenziano il tuo approccio stealth, con la tuta black ops che fornisce un grande bonus di notte, mentre nessun bonus durante il giorno." />
+	</entry>
+	
+	<!-- stealth, execution -->
+	<entry key="xp_achieved/2000">
+		<title value="Lo stealth in dettaglio" />
+		<image filename="journal_stealth2.png" />
+		<text value="Prendi un'arma silenziata e fai una ricognizione dell'area per avere un'idea di quanti nemici dovrai occuparti.%PSI nemici che difendono una postazione seguono una ronda, da soli oppure in piccoli gruppi, il che li rende vulnerabili ad attacchi silenziosi. Se vieni avvistato da un nemico e questo allerta gli altri, è una buona idea fuggire, aspettare e osservare - fino a quando non torneranno in stato normale.%PSAssicurati che la tua precisione sia la migliore possibile prima di sparare verso un nemico.%PSPuoi anche preparare un bengala di spawn oppure un camion per il respawn nel caso tu muoia per sferrare un secondo attacco." />
+	</entry>
+
+	<!-- difficult change -->
+    <entry key="difficulty_change">
+        <title value="Come sta andando?" />
+        <image filename="journal_difficulty.png" />
+        <text value="Ti sembra che il gioco sia troppo difficile, troppo facile, o forse va bene così? Se necessario puoi modificare la difficoltà dal menù per adattarla al tuo livello." />
+    </entry>
+
+</journal>
+
+

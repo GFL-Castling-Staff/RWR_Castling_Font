@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<text key="Private" text="Soldat" />
+	<text key="Private 1st Class" text="Soldat 1ère classe" />
+	<text key="Corporal" text="Caporal" />
+	<text key="Sergeant" text="Sergent" />
+	<text key="Staff Sergeant" text="Sergent-Chef" />
+	<text key="Staff Sergeant 1st Class" text="Adjudant" />
+	<text key="2nd Lieutenant" text="Sous-Lieutenant" />
+	<text key="Lieutenant" text="Lieutenant" />
+	<text key="Captain" text="Capitaine" />
+	<text key="Major" text="Commandant" />
+	<text key="Lieutenant Colonel" text="Lieutenant-Colonel" />
+	<text key="Colonel" text="Colonel" />
+	<text key="Brigadier General" text="Général de Brigade" />
+	<text key="Major General" text="Général de Division" />
+	<text key="Lieutenant General" text="Général de corps d'armée" />
+	<text key="General" text="Général d'armée" />
+	<text key="General of the Army" text="Maréchal d'armée" />
+	<text key="APC HMG" text="HMG APC" />
+	<text key="M24-A2" />
+	<text key="default" text="défaut" />
+	<text key="riot shield" text="bouclier anti-émeute" />
+	<text key="riot shield 100%" text="bouclier anti-émeute, 100%" />
+	<text key="riot shield 50%" text="bouclier anti-émeute, 50%" />
+	<text key="M72 LAW" />
+	<text key="rocket" text="roquette"/>
+	<text key="M240" />
+	<text key="Mossberg 500" />
+	<text key="MP5SD" />
+	<text key="M16A4" />
+	<text key="F2000" />
+	<text key="Benelli M4" />
+	<text key="Benelli M4 suppressed" text="Benelli M4 silencieux" />  
+	<text key="pepperdust" />
+	<text key="Tank cannon" text="Canon de char" />
+	<text key="Tank MG" text="MG de char" />
+	<text key="AKS-74U" />
+	<text key="P90" />
+	<text key="Medikit" text="Trousse de soins" />
+	<text key="TOW" />
+	<text key="VSS Vintorez" />
+	<text key="Neostead 2000" />
+	<text key="Cover deploy" text="Kit de fortification" />
+	<text key="Humvee MG" text="MG Humvee" />
+	<text key="Stoner LMG" />
+	<text key="m79 grenade launcher" text="M79 lance grenade" />
+	<text key="M79" />
+	<text key="MG deploy" text="Kit de MG" />
+	<text key="MG" />
+	<text key="D40mm-Flak" />
+	<text key="PS Mortar" />
+	<text key="PB" />
+	<text key="Glock 17" />
+	<text key="Beretta M9" />
+	<text key="Desert Eagle" />
+	<text key="Desert Eagle GOLD" />
+	<text key="AA-12" />
+	<text key="MGL Flasher" />
+	<text key="grenade" />
+	<text key="Barrett M107" />
+	<text key="XM8" />
+	<text key="hand grenade" text="Grenade à fragmentation" />
+	<text key="mortar shell" text="Obus de mortier" />
+	<text key="impact grenade" text="Grenade à impact" />
+	<text key="C4" />
+	<text key="artillery shell" text="Obus d'artillerie"/>
+	<text key="Claymore" />
+	<text key="Naval mine" text="Mine navale"/>
+	<text key="stun grenade" text="Grenade incapacitante"/>
+	<text key="grenade" />
+	<text key="whiskey bottle" text="Bouteille de whisky"/>
+	<text key="cigarettes" />
+	<text key="100 dollars" />
+	<text key="GameGirl" />
+	<text key="gem" text="Gemme"/>
+	<text key="Lona Misa" />
+	<text key="Horny magazine" />
+	<text key="comic book" text="Bande dessinée"/>
+	<text key="RWR handbook" text="Manuel de RWR"/>
+	<text key="Oscar statue" />
+	<text key="Vest, type II" text="Gilet, Type II"/>
+	<text key="Vest, type II, 50%" text="Gilet, Type II, 50%"/>
+	<text key="Vest, type II, 25%" text="Gilet, Type II, 25%"/>
+	<text key="cigars" text="cigares"/>
+	<text key="beer can" text="cannette de bière"/>
+	<text key="lighter" text="briquet"/>
+	<text key="steroids" text="steroïdes"/>
+	<text key="Teddy Bear" text="Nounours" />
+	<text key="Vest, type III" text="Gilet, Type III"/>
+	<text key="Vest, type III, 80%" text="Gilet, Type III, 80%"/>
+	<text key="Vest, type III, 60%" text="Gilet, Type III, 60%"/>
+	<text key="Vest, type III, 40%" text="Gilet, Type III, 40%"/>
+	<text key="Vest, type III, 20%" text="Gilet, Type III, 20%"/>
+	<text key="Holy Bible" text="Bible"/>
+	<text key="Holy Koran" text="Coran"/>
+	<text key="chewing-gum" />
+	<text key="bizarre rubber bullet...?" text="Objet caoutchouc bizarre...?"/>
+	<text key="chocolate" text="Chocolat"/>
+	<text key="300 dollars" />
+	<text key="energy drink" text="Boisson énergisante"/>
+	<text key="fancy Sunglasses" text="Lunettes de soleil fantaisie"/>
+	<text key="ghetto blaster" />
+	<text key="razor" text="Rasoir"/>
+	<text key="willy boy" />
+	<text key="King-size willy boy" />
+	<text key="sunglasses" text="Lunettes de soleil"/>
+	<text key="iPoo blue edition" text="iPoo édition bleue"/>
+	<text key="iPoo red edition" text="iPoo édition rouge"/>
+	<text key="iPoo white edition" text="iPoo édition blanche"/>
+	<text key="iPoo silver edition" text="iPoo édition argent"/>
+	<text key="iPoo yellow edition" text="iPoo édition jaune"/>
+	<text key="iPoo green edition" text="iPoo édition verte"/>
+	<text key="iPoo pink limited edition" text="iPoo édition rose limitée"/>
+	<text key="poker cards" text="Cartes de poker"/>
+	<text key="Jeep" />
+	<text key="SIK-AP APC" />
+	<text key="Spawn truck" text="Camion de spawn"/>
+	<text key="Comms truck" text="Camion de communication"/>
+	<text key="Rubber boat" text="Canot pneumatique"/>
+	<text key="RWR1a1 Tank" text="Char RWR1a1" />
+	<text key="Humvee" />
+	<text key="Buggy" />   
+	<text key="Transport truck" text="Camion de transport"/>
+	<text key="Radar Tower" text="Tour radio"/>
+	<text key="Patrol ship" text="Bateau de patrouille" />
+	<text key="MG" />
+	<text key="Minigun" />
+	<text key="Armory truck" text="Armurerie mobile"/>
+	<text key="Fuel tank" text="Réservoir de carburant"/>
+	<text key="Radio jammer" text="Brouilleur radio"/>
+	<text key="Water Tower" text="Château d'eau"/>
+	<text key="Mortar" text="Mortier"/>
+	<text key="?" />
+	<text key="Target" text="Cible"/>
+	<text key="throw some grenades at me!" text="jetez-moi quelques grenades!"/>
+	<text key="shoot me with the M72!%EOLtry %control_swap_weapon to swap weapon" text="Tirez-moi dessus avec le M72!%EOLessayez %control_swap_weapon pour changer d'arme"/>
+	<text key="crates obstructing the armory? try %control_knife" text="Des caisses obstruent l'armurerie? Essaye %control_knife"/>
+	<text key="for radio calls, hold %control_radio" text="pour les appels radio, maintenez %control_radio enfoncé"/>
+	<text key="the map always has some useful info%EOLtry %control_map" text="la carte a toujours quelques infos utiles%EOLessayez %control_map"/>
+	<text key="crouch (%control_crouch) steadies your aim%EOLgoing prone (%control_prone) even more" text="s'accroupir (%control_crouch) stabilise votre visée%EOLse coucher (%control_prone) encore plus"/>
+	<text key="try firing your weapon while crouched behind cover" text="essayez de tirer quand vous êtes accroupis derrière une couverture"/>
+	<text key="single shots can be more effective%EOLtry it on the targets at the firing range" text="les tirs au coup par coup peuvent être plus efficaces%EOLessayez ça sur les cibles au champ de tir"/>
+	<text key="you can check or rebind every key%EOLin the options>control config menu, try %control_controls_config_shortcut" text="vous pouvez vérifier et modifier toutes les touches%EOLdans le menu: options>configuration des touches, essayez %control_controls_config_shortcut"/>
+	<text key="cover drop" text="Largage de couverture"/>
+	<text key="I need sandbags" text="J'ai besoin de sacs de sable"/>
+	<text key="Confirmed" text="Confirmé"/>
+	<text key="Sandbags on the way" text="Sacs de sable en route"/>
+	<text key="mortar strike (1x8)" text="Frappe de mortier (1x8)"/>
+	<text key="Fire mission" text="Mission de tir"/>
+	<text key="fire one round." text="Tirez une fois"/>
+	<text key="Roger, wait one." text="Reçu, attendez"/>
+	<text key="Round on the way." text="Tirs en route"/>
+	<text key="4 paratroopers" text="4 parachutistes"/>
+	<text key="Reinforcements" text="Renforts"/>
+	<text key="requesting 4" text="Besoin de 4"/>
+	<text key="Roger" text="Reçu"/>
+	<text key="4 airborne" text="4 aéroportages"/>
+	<text key="Greenbelts" text="Greenbelts"/>
+	<text key="Graycollars" text="Graycollars"/>
+	<text key="Brownpants" text="Brownpants"/>
+
+	<text key="ground" text="Sol"/>
+	<text key="equipment" text="Equipement"/>
+	<text key="armory" text="Armurerie"/>
+	<text key="stash" text="Réserve personnelle"/>
+	<text key="backpack" text="Sac à dos"/>
+
+	<text key="World view updated" text="Carte du monde mise à jour"/>
+	<text key="Game saved" text="Partie sauvegardée"/>
+
+	<text key="Battle of" text="Bataille de " />
+	<text key="Total casualties" text="Nombre de victimes: " />
+	<text key="Dismiss" text="Cacher"/>
+	<text key="Soldiers killed" text="Soldats tués"/>
+	<text key="Casualties" text="victimes"/>
+	<text key="Vehicles destroyed" text="Véhicules détruits"/>
+	<text key="Targets destroyed" text="Cibles détruites"/>
+	<text key="Completed" text="Terminé"/>
+	<text key="Defeated" text="Vaincu"/>
+	<text key="In operation" text="En opération"/>
+
+	<text key="east" text="est"/>
+	<text key="northeast" text="nord-est"/>
+	<text key="north" text="nord"/>
+	<text key="northwest" text="nord-ouest"/>
+	<text key="west" text="ouest"/>
+	<text key="southwest" text="sud-ouest"/>
+	<text key="south" text="sud"/>
+	<text key="southeast" text="sud-est"/>
+
+	<text key="hold %control" text="maintenez %control"/>
+
+	<text key="Game started" text="Le jeu a commencé"/>
+
+	<text key="AK47" />
+	<text key="G36"/>
+	<text key="PKM"/>
+	<text key="FAMAS G1"/>
+	<text key="Dragunov SVD"/>
+	<text key="SPAS-12"/>
+	<text key="QCW-05"/>
+	<text key="PSG-90"/>
+	<text key="RPG-7"/>
+	<text key="M2 Carl Gustav"/>
+	<text key="L85A2"/>
+	<text key="SG 552"/>
+	<text key="IMI Negev"/>
+	<text key="QBS-09"/>
+	<text key="Scorpion Evo III"/>
+	<text key="MiniGun deploy" text="Kit MiniGun"/>
+	<text key="Mortar deploy" text="Kit Mortier"/>
+	<text key="XM-25"/>
+	<text key="TOW deploy" text="Kit TOW"/>
+	<text key="D40mm-Flak-proto"/>
+	<text key="Missile launcher" text="Lance missile"/>
+	<text key="briefcase" text="Mallette"/>
+	<text key="Cargo truck" text="Camion de cargaison"/>
+	<text key="Prisoner transport" text="Transport de prisonniers"/>
+	<text key="Prison door" text="Porte de prison"/>
+	<text key="Anti-Air" text="Placement Anti-aérien"/>
+	<text key="Mortar Ammunition" text="Munition de mortier"/>
+	<text key="Cargo vehicle" text="Véhicule de chargement"/>
+	<text key="Tractor" text="Tracteur"/>
+	<text key="Pigeon P5"/>
+	<text key="Urbal UAS"/>
+	<text key="GT-C APC"/>
+	<text key="BTX APC"/>
+	<text key="Leopold II Tank" text="Char Leopold II" />
+	<text key="TroX-80 Tank" text="Char TroX-80" />
+	<text key="DarkCat Tank" text="Char DarkCat"/>
+	<text key="Vulcan Tank" text="Char Vulcan"/>  
+	<text key="mortar strike (3x8)" text="Frappe de mortier (3x8)"/>
+	<text key="fire three rounds." text="Demande trois frappes."/>
+	<text key="Roger, wait three." text="Reçu, trois frappes transmisent."/>
+	<text key="Rounds on the way." text="Frappes en approche."/>
+	<text key="8 paratroopers" text="8 parachutistes"/>
+	<text key="requesting 8" text="Demande 8"/>
+	<text key="8 airborne" text="8 unités aéroportées"/>
+	<text key="artillery strike (2x16)" text="Frappe d'artillerie lourde (2x16)"/>
+	<text key="fire two rounds, artillery advised." text="demande deux frappes lourdes, artillerie en place."/>
+	<text key="Roger, wait two." text="Reçu, deux frappes en attente."/>
+	<text key="Rounds on the way." text="Frappes en approche."/>
+	<text key="artillery strike (10x16)" text="Frappe d'artillerie lourde (10x16)"/>
+	<text key="fire eight rounds, artillery advised." text="demande cinq frappes lourdes, artillerie en place."/>
+	<text key="Roger, wait eight." text="Reçu, cinq frappes en attente."/>
+	<text key="Rounds on the way." text="Frappes en approche."/>
+	<text key="Rubber boat drop" text="Largage de canot pneumatique"/>
+	<text key="I need water transport!" text="Besoin d'un transport maritime"/>
+	<text key="Confirmed, rubber boat is in the air." text="Bien reçu, canot en approche."/>
+	<text key="Airdropping rubber boat now." text="Largage du canot pneumatique."/>
+	<text key="spawn Humvee" text="Largage d'un Humvee"/>
+	<text key="spawn Buggy" text="Largage d'un Buggy"/>  
+	<text key="I need combat transportation" text="Besoin d'un transport de combat terrestre"/>
+	<text key="Confirmed, Humvee's in the air." text="Bien reçu, humvee en approche."/>
+	<text key="Airdropping Humvee now." text="Largage d'un Humvee."/>
+	<text key="spawn VFS" text="Largage d'un VFS"/>
+	<text key="I need light armoured anti-tank vehicle" text="Besoin d'un véhicule blindé léger anti-char"/>
+	<text key="Confirmed, VFS's in the air." text="Bien reçu, VFS en approche."/>
+	<text key="Airdropping VFS now." text="Largage d'un VFS."/>	
+	<text key="spawn tank" text="Largage d'un char"/>
+	<text key="I need armoured support!" text="Besoin d'un soutien blindé lourd!"/>
+	<text key="Confirmed, tank is in the air." text="Bien reçu, char en approche."/>
+	<text key="Airdropping tank now." text="Largage du char"/>
+	<text key="not much of a destroyer" text="Apprenti destructeur"/>
+	<text key="* destroy %target_count vehicles" text="* détruisez %target_count véhicules"/>
+	<text key="Rookie destroyer" text="Recrue destructeur"/>
+	<text key="Master destroyer" text="Maître destructeur"/>
+	<text key="Elite destroyer" text="Destructeur d'élite"/>
+	<text key="barely a saboteur" text="À peine un saboteur"/>
+	<text key="* destroy %target_count structures or deployed weapons" text="* détruisez %target_count structures ou armes déployées"/>
+	<text key="* destroy %target_count radio towers" text="* détruisez %target_count tours radios"/>
+	<text key="Rookie saboteur" text="Recrue saboteur"/>
+	<text key="Master saboteur" text="Maître saboteur"/>
+	<text key="Elite saboteur" text="Saboteur d'élite"/>
+	<text key="wannabe tracker" text="Aspirant traqueur"/>
+	<text key="* locate %target_count secret crates" text="* localisez %target_count caisses secrètes"/>
+	<text key="* deliver %target_count hidden vehicles" text="* livrez %target_count véhicules cachés"/>
+	<text key="Rookie tracker" text="Recrue traqueur"/>
+	<text key="Master tracker" text="Maître traqueur"/>
+	<text key="Elite tracker" text="Traqueur d'élite"/>
+	<text key="combat student" text="Élève combattant"/>
+	<text key="* kill %target_count enemy soldiers" text="* tuez %target_count soldats ennemis"/>
+	<text key="Rookie killer" text="Recrue tueur"/>
+	<text key="Master combatant" text="Maître combattant"/>
+	<text key="Elite marksman" text="Assassin d'élite"/>
+	<text key="learning stealth" text="Apprend la furtivité"/>
+	<text key="* stab %target_count enemy soldiers, silently" text="* poignardez %target_count soldats ennemis silencieusement"/>
+	<text key="* shoot %target_count enemy soldiers, silently" text="* tirez sur %target_count soldats ennemis silencieusement"/>
+	<text key="* locate %target_count important enemy targets" text="* localisez %target_count importantes cibles ennemies"/>
+	<text key="Special Forces Trainee" text="Recrue des forces spéciales"/>
+	<text key="Spec Ops Expert" text="Expert des forces spéciales"/>
+	<text key="Elite Commando" text="Commando d'élite"/>
+	
+	<text key="Binoculars" text="Jumelles"/>
+	<text key="mini UZI"/>   
+	<text key="Steyr TMP"/>
+	<text key="AEK-919k"/> 
+	<text key="WB-II Microgun"/>
+	<text key="Vest, type I" text="Gilet, type I"/>
+	<text key="Vest, type I, 50%" text="Gilet, type I, 50%"/>
+  
+	<text key="Camouflage suit" text="Vêtement de camouflage"/>  
+  
+	<text key="Stolen" text="volé"/>        
+	<text key="Locked" text="bloqué"/>        
+
+	<text key="Rank challenge completed" text="Défi de rang achevé: %rank_title" /> 
+  
+  <text key="Click to respawn" text="Cliquez pour respawn" /> 
+  
+	<text key="AT mine" text="Mine anti-char"/>  
+	<text key="tank trap deploy" text="Obstacle anti-char"/> 
+  
+	<text key="worn underpants" text="culotte sale" />  
+	<text key="kamasutra" /> 
+	<text key="unreleased Justin Beerbar CD" text="CD inédit de Justin Beerbar"/>    
+  
+  <text key="I need fast combat transportation" text="Besoin d'un transport terrestre rapide." />
+  <text key="Confirmed, Buggy's in the air." text="Bien reçu, buggy en approche."/>
+  <text key="Airdropping Buggy now." text="Largage d'un buggy."/>       
+
+	<text key="Javelin" /> 
+	<text key="EOD armor" text="Veste EOD" /> 
+        
+  <text key="stab kill notification" text="%name1 a poignardé %name2" />
+  <text key="blast kill notification" text="%name1 a tué %name2 avec %weapon" />
+  <text key="shot kill notification, no weapon name" text="%name1 a tué %name2" />
+  <text key="shot kill notification" text="%name1 a abattu %name2 avec %weapon" />
+  <text key="drive kill notification" text="%name1 a écrasé %name2 avec %vehicle" />   
+  
+	<text key="wrench" text="clé à molette" />
+	<text key="large wrench" text="grande clé à molette" />
+	<text key="small wrench" text="petite clé à molette" /> 
+    
+	<text key="gold bar" text="lingot d'or" />
+  
+  <text key="quad" text="quad" /> 
+	<text key="supply quad" text="quad de ravitaillement" /> 
+  <text key="mortar tank" text="char mortier" />   
+
+	<text key="MK23 SOCOM" /> 
+	<text key="AAC Honey Badger" /> 
+  
+  <text key="blue box" text="Coffret bleu" />
+  <text key="purple box" text="Coffret violet" />
+  <text key="titan box" text="Coffret titane" />
+        
+  <text key="black ops vest" text="Tenue black ops" /> 
+
+  <text key="spawn supplies" text="Largage de ravitaillement" />
+  <text key="I need supplies!" text="J'ai besoin de ravitaillement!" />
+  <text key="Confirmed, supply is in the air." text="Bien reçu, ravitaillement en approche." />
+  <text key="Airdropping supply quad now." text="Largage d'un quad de ravitaillement." />  
+  
+  <text key="Disabled" text="Spawn désactivé" />
+  
+ <text key="kicking player" text="%player_name est expulsé!" />
+ <text key="flamethrower" text="Lance-flamme" />
+ <text key="tracer" text="Traceur" />
+ <text key="tracer dart" text="Fléchette Traceur" />
+ <text key="tracer missile" text="Missile Traceur" />
+ <text key="taser" text="Taser" />
+ <text key="community box" text="Coffret communauté 1" />
+ <text key="community box 2" text="Coffret communauté 2" /> 
+ <text key="mustela" text="mustela" /> 
+ 
+ <text key="bandage" text="bandage" />
+ <text key="President" text="président" /> 
+ 
+ <text key="Click RMB: move to backpack" text="Clic droit: transfert vers sac-à-dos" />
+ <text key="Click LMB: equip" text="Clic gauche: équiper" />
+ <text key="Click RMB: move to armory" text="Clic droit: transferer vers armurerie" />
+ <text key="Click RMB: move to stash" text="Clic droit: transferer vers réserve personnelle" />
+ <text key="Click RMB: drop on ground" text="Clic droit: mettre par terre" />
+ <text key="Hold CTRL: operate on single item" text="maintenir CTRL enfoncé: opérer avec objet unique" /> 
+ 
+	<text key="1 new item accessible in container" text="%item_name (%container_name): expérience acquise !" />   
+	<text key="2 new items accessible in container" text="%item_name1, %item_name2 (%container_name): expérience acquise !" />   
+	<text key="new items accessible in container" text="%item_amount nouveaux objets (%container_name): expérience acquise !" />
+
+	<text key="flare" text="Bengale de spawn" />
+
+	<text key="New entry:" text="Nouvelle note:" />
+
+	<text key="Spawn point" text="Point de spawn" />
+	<text key="Recon target" text="Objectif de reconnaissance" />
+	<text key="Capturable target" text="Objectif capturable" />
+	<text key="Main attack target" text="Objectif primaire" />
+	<text key="Main attack route" text="Direction d'attaque" />
+	<text key="Base under attack" text="Base attaquée" />
+	<text key="Defense target" text="Objectif de défense" />
+	<text key="Extraction point" text="Point d'extraction" /> 
+  
+	<text key="Medical Dart Gun" text="Arme fléchettes médicale" />
+	<text key="FN FAL" />
+	<text key="FN FAL - bayonet" text="FN FAL - baïonnette" />
+	<text key="M16A4 - shield and scope" text="M16A4 - Tactical" />
+	<text key="Golden Knife" text="Poignard doré" />
+	<text key="L30P-GUNFU" />
+	<text key="Javelin, anti-personnel" />
+	<text key="TTI-Combat Shield" text="TTI-bouclier de combat" />
+	<text key="Banana peel" text="peau de banane" />
+	<text key="Doom's Hammer" />
+	<text key="AAV-G17/A1 Drop" text="largage de AAV-G17/A1" />
+	<text key="AAV-G17/A1" />
+	<text key="Bananza" />
+	<text key="Banana Car Drop" text="Largage de Bananza" />
+	<text key="Camouflaged Vest" text="Gilet de camouflage" />
+	<text key="costume, banana" text="costume, Banane" />
+	<text key="godmode" />  
+
+	<text key="your penalty has started" text="vous avez été pénalisé !" />
+	<text key="your penalty has expired" text="votre pénalité a expiré" />
+	<text key="Disconnected from server - kicked from server" text="déconnecté du serveur - kick !" />
+	<text key="Disconnected from server" text="déconnecté du serveur" />
+    <text key="Online terminated" text="fin de session en ligne" />
+    <text key="Server created" text="serveur créé" />
+    <text key="Server restarted" text="serveur redémarré" /> 
+    
+    <text key="community box 3" text="Coffret communauté 3" />    
+	<text key="GL Deploy" text="Kit lance-grenades" />
+	<text key="Grenade Launcher" text="lance-grenades" />
+    <text key="tracer Missile" text="Missile traceur"/>  
+    <text key="Mustela Drop" text="Largage de Mustela"/>
+    <text key="gun truck drop" text="Largage de camion MG" />  
+    <text key="FST ACAV Drop" text="Largage de FST ACAV" />
+    <text key="30mm"/>              
+    <text key="Dragon fire" />
+    <text key="EMP grenade" text="Grenade EMP" /> 
+    <text key="shuriken" text="Shuriken" />          
+    <text key="Kamasutra"/> 
+    <text key="EOD armor, 80%" text="Veste EOD, 80%" />
+    <text key="EOD armor, 60%" text="Veste EOD, 60%" />
+    <text key="EOD armor, 40%" text="Veste EOD, 40%" />
+    <text key="EOD armor, 20%" text="Veste EOD, 20%" />
+    <text key="EOD armor, destroyed" text="Veste EOD, détruite"/>
+    <text key="Pickashoe"/>
+    <text key="costume, werewolf" text="Costume de loup-garou" />
+    <text key="costume, clown" text="Costume de clown"/>
+    <text key="costume, santa" text="Costume père Noel"/>
+    <text key="black ops vest, damaged" text="Tenue black ops, détruite" />
+    <text key="Laptop"/>
+    <text key="Mutagen, Lizard" text="Mutagène, lézard" />
+    <text key="Camouflaged Vest, 80%" text="Gilet de camouflage, 80%" />
+    <text key="Camouflaged Vest, 50%" text="Gilet de camouflage, 50%" />
+    <text key="Camouflaged Vest, 20%" text="Gilet de camouflage, 20%" />
+    <text key="Camouflaged Vest, destroyed" text="Gilet de camouflage, détruit" />     
+    <text key="Psycho Butcher" text="Boucher Psycho" />  
+    <text key="Chain Saw" text="tronçonneuse" />
+	<text key="Chain SAW" text="KAC ChainSAW"/>              
+    <text key="GL" text="Lance-grenades" />            
+    <text key="KRISS Vector"/>   
+    <text key="Buckshot Bess Musket" text="Mousquet" /> 
+    <text key="Vulcan HMG" text="HMG Vulcan" />  
+    <text key="Buggy MG" text="MG Buggy" />    
+    <text key="44 Magnum"/>    
+    <text key="M712 Schnellfeuer"/>   
+    <text key="MG-42"/>             
+    <text key="Lahti L-39"/>       
+    <text key="Sawn-Off Shotgun" text="Shotgun scié" />   
+    <text key="Milkor MGL"/>         
+    <text key="M202 flash"/>     
+    <text key="Beretta 93R"/>     
+    <text key="APR"/>        
+    <text key="Steyr AUG"/>      
+    <text key="SCAR SSR"/>    
+    <text key="MP7"/>           
+    <text key="Pecheneg Bullpup"/>  
+    <text key=".50 cal"/>            
+    <text key="M60"/>               
+    <text key="Jackhammer"/>        
+    <text key="UTS-15"/>           
+    <text key="SMAW"/>             
+    <text key="ARES Shrike"/>       
+    <text key="PAW-20"/>            
+    <text key="20mm"/>              
+    <text key="Stoner 62"/>          
+    <text key="MG-3"/>                                     
+    <text key="AA-12 Frag"/>          
+    <text key="Frag-12"/>             
+    <text key="AAV7 GL" text="lance-grenades AAV7"/>               
+    <text key="AAV7 MG" text="MG AAV7" />              
+    <text key="medical dart" text="Fléchette médicale" />           
+    <text key="Radar Tank HMG" text="HMG Char radar" />        
+    <text key="UMP40"/>                  
+    <text key="MX4 Storm"/>               
+    <text key="PP-19 Bizon"/>            
+    <text key="trauma kit"/>     
+    <text key="Dragons breath" />    
+    <text key="M711-LA Enforcer"/>   
+    <text key="GPS laptop" />         
+    <text key="Hornet"/>             
+    <text key="Hornet deploy" text="Kit Hornet" />
+    <text key="Repair crane"  text="Grue de réparation" />
+    <text key="Repair crane deploy"  text="Kit grue de réparation" />
+    <text key="Squall"/>
+    <text key="Vest Repair Kit" text="Kit de réparation gilets" />        
+    <text key="ACAV minigun" />                      
+    <text key="Radar Tank"  text="Char radar" />                 
+    <text key="Prison hatch" text="trappe de prison" />             
+    <text key="Pink Panda"/>                
+    <text key="Cover drop"  text="Largage de fortifications" />                
+    <text key="FST ACAV" />                  
+    <text key="Ice cream van" text="fourgonnette de crème glacée" />
+    <text key="Ice cream" text="Glace" />   
+    <text key="Lottery ticket" text="Lotterie-Ticket" />                   
+    <text key="Tracer dart missile" text="Missile fléchette traceur" />  
+    <text key="Gun truck" text="Camion MG" />          
+    <text key="Satellite spotting" text="Observation satellite" />             
+    <text key="Observation mission" text="Mission d'observation" />           
+    <text key="Scanning area for strategic targets." text="Scan de proximité pour détection de points stratégiques." />     
+    <text key="Scanning area, open your maps, soldiers!" text="Scan en cours, ouvrez vos cartes, soldats !" />                      
+    <text key="Elite Reinforcements" text="Renforts Élites" />
+    
+    <text key="community box 4" text="coffret communauté 4"/>
+    <text key="Blowgun" text="sarbacane"/>
+    <text key="Buggy MG"/>
+    <text key="Steyr AUG"/> 
+    <text key="MG-3"/>
+    <text key="Frag-12"/>
+    <text key="G11"/>
+    <text key="TKB-059"/>     
+    <text key="Compound Bow" text="arc à poulies"/>     
+    <text key="PF-98"/> 
+    <text key="RWM Mortar" text="Mortier RWM"/>
+    <text key="M6 Lynx"/>
+    <text key="GL06"/>
+    <text key="RGM-40"/>
+    <text key="Golden AK47" text="AK47 dorée"/>
+    <text key="Mustela Mk20"/>
+
+    <text key="community box 5" text="coffret communauté 5"/>  
+    
+	<text key="Kicked from server" text="Expulsé du serveur !" />
+	<text key="Kicked - Temp banned" text="Tu es temporairement banni du serveur, temps restant: %ban_time min" />
+	<text key="Kicked - Steam ID not found; try playing in Steam" text="Ton ID Steam ne peut être trouvée.%PSJoues-tu sous Steam ?" />
+	<text key="Kicked - Steam ID banned" text="Ton ID Steam est bannie." />
+	<text key="Kicked - Username banned" text="Ton nom d'utilisateur est banni."/>
+	<text key="Kicked - IP banned" text="Ton addresse IP est bannie." />
+
+	<text key="Teamkill penalty" text="Temps restant: %penalty_time min.%PSTu as récemment fais trop de teamkills. Durant ta pénalité, tu ne peux pas utiliser de véhicules, faire des appels radios, lancer des grenades ou utiliser des armes explosives." />
+	
+<text key="rules" text="Règles en ligne" />
+
+<text key="rules text" text="#1 - Pas de langage ou de comportement abusif.%PS
+#2 - Pas de noms d'utilisateurs injurieux. Ces comptes peuvent être supprimés sans avertissement.%PS
+#3 - Pas de team kill intentionnel sous quelque forme que ce soit! (TK classique, TK de vengeance ou TK de saignée pour éviter la perte d'équipement des joueurs à leur mort).%PS
+#4 - Pas de spamming abusif dans les tchats.%PS
+#5 - Pas de racisme sous toutes ses formes.%PS
+#6 - Pas de blasphème, de harcèlement verbal ou de langage offensif à l'égard d'un autre joueur. En cas de dispute, les deux joueurs seront punis de la même manière.%PS
+#7 - Un joueur qui laisse tomber son équipement après avoir été tué le fait appartenir à la première personne qui le ramasse. Ce n'est officiellement PLUS son équipement.%PS
+#8 - Le farming est toléré. Exceptions : pas de blocage des échelles ou des voies de navigation de l'IA, pas d'entrave intentionnelle à la progression de l'équipe. Il est également interdit de farmer pendant que votre équipe peine à gagner du terrain.%PS
+#9 - Suicide intentionnel de biens importants, conduite répétée de camions de spawn et d'armurerie mobile dans les lignes de front, destruction de tours radio ou d'autres emplacements importants de sa propre équipe.%PS
+#10 - Bloquer un joueur en lui infligeant un étourdissement constant est également contraire aux règles.%PS
+#11 - La découverte et l'exploitation de bugs (par ex la duplication d'éléments) sont strictement interdits et doivent être signalés aux développeurs. En cas de non-respect, le compte peut être banni/supprimé.%PS
+#12 - Création d'un nombre excessif de comptes. Il est possible d'avoir plusieurs comptes (4 ne doivent pas être dépassés). La création excessive de comptes peut entraîner un avertissement suivi d'un ban si ignoré.%PS
+#13 - L'utilisation excessive/le spamming des appels radio afin de créer intentionnellement des arriérés/griefs peut entraîner un kick ou un ban.%PS
+#14 - Tout échange avec d'autres joueurs est à vos risques et périls ! Toute perte ou vol au cours du transfert ne sera pas pris en charge par les modérateurs." />            
+
+    <text key="Requesting close air support" text="Demande de soutien aérien rapproché" />
+    <text key="Cluster bombing" text="Bombardement à fragmentation" />
+    <text key="Requesting air strike" text="Demande de frappe aérienne" />
+    <text key="A-10 gun run" text="Attaque d'A-10 à bas vol" />
+    <text key="Requesting Gunship air support" text="Demande d'appui aérien rapproché" />
+    <text key="Gunship run" text="Attaque Gunship rapproché" />
+    <text key="Roger." text="entendu." />    
+    <text key="gunship HMG" text="HMG Gunship" />
+    <text key="gunship cannon" text="Canon Gunship" />
+    <text key="Aircraft approaching designated area." text="Avion en approche de la zone désignée." />   
+    <text key="ZJX-19/XE"/>
+    <text key="ZJX-19/XE Drop" text="Largage ZJX-19/XE" />
+    <text key="ZJX-19/XE MG"/>
+    <text key="FT-CROC"/>
+    <text key="FT-CROC Drop" text="Largage FT-CROC" />
+    <text key="FT-CROC MG" text="MG FT-CROC" />
+    <text key="Legion" />
+    <text key="165mm HESH"/>  
+    <text key="Legion MG" text="MG Legion" />
+    <text key="M528"/>
+    <text key="M528 Drop" text="Largage M528" />
+    <text key="M528 HMG" text="HMG M528" />
+    <text key="M528 AP" text="AP M528" />
+    <text key="NOXE Ghost"/>
+    <text key="NOXE Ghost Drop" text="Largage NOXE Ghost" />
+    <text key="NOXE rocket" text="roquette NOXE" />
+    <text key="SEV-90"/>
+    <text key="SEV-90 Drop" text="Largage SEV-90" />
+    <text key="SEV-90 40mm"/>
+    <text key="Acid Explosion" text="explosion d'acide" />
+    <text key="Body Explosion" text="explosion de corps" /> 
+    <text key="ballistic knife" text="couteau balistique" />
+    <text key="Helium balloon" text="Ballon d'hélium" />
+    <text key="Stim pack" text="Pack stim" />
+    <text key="Stim pack, active" text="Pack stim, activé"/>
+    <text key="Squad Equipment Kit" text="Kit d'équipement d'escouade" />
+    <text key="cluster bomb" text="Bombes à fragmentation" />
+    <text key="Exo carrier" text="exosquelette" />
+    <text key="Exo carrier, 50%" text="exosquelette, 50%"/>
+    <text key="Exo carrier, destroyed" text="exosquelette, détruit"/>
+    <text key="L30P-DUALIST"/>
+    <text key="RWM mortar" text="mortier RWM" />
+    <text key="KP-31 Suomi"/>
+    <text key="Chicken carrier" text="cage à poule" />
+    <text key="Ninjato"/>
+    <text key="M320"/>
+    <text key="P416"/>
+    <text key="rocket artillery" text="artillerie de roquettes" />
+	<text key="Repair required" text="Réparation nécessaire" />    
+
+<!-- 1.84 additions -->
+
+	<text key="50 cal"/>
+	<text key="chickens"/>
+	<text key="community box 6" text="coffret communauté 6"/>	
+	<text key="44 Magnum, rapid fire" text="44 Magnum, tir rapide"/>	
+	<text key="Cavalry saber" text="sabre de cavalerie"/>	
+	<text key="KSxS-6 Hunter"/>	  <!-- double barrel hunter rifle -->
+	<text key="KSxS-6 Hunter, double shot" text="KSxS-6 Hunter, tirs simultanés"/>  <!-- double barrel hunter rifle, shooting both barrels at the same time -->	
+	<text key="Ninjato, firecrackers" text="Ninjato, pétards"/>	 <!-- Ninjato alt, with firecrackers instead of ninja stars -->
+	<text key="firecracker" text="pétards"/>
+	<text key="Compound Bow, explosive" text="arc à poulies, explosif"/>	<!-- alt with explosive arrow instead of normal arrow -->
+	<text key="Ultimax 100"/>	
+	<text key="Ultimax 100, magazine" text="Ultimax 100, mobile"/>	<!-- 100 ammo magazine instead of 30 for the alt version  -->
+	<text key="ASh-12.7"/>	
+	<text key="MAC-10"/>	
+	<text key="MAC-10 SD"/>	
+	<text key="ARES Shrike, semi-auto"/>	
+	<text key="RPD"/>
+	<text key="RPD - bipod" text="RPD - bipied"/>	<!-- alt of the RPD with a bipod for prone only but more precise use -->
+	<text key="Kulakov"/>	
+	<text key="flame grenade" text="grenade incendiaire"/>   <!-- incendiary grenades of the kulakov grenade launcher -->	
+	<text key="Zweihander" text="Grande épée"/>	<!-- medieval sword -->
+	<text key="Golden MP5SD" text="MP5SD dorée"/>	
+	<text key="AK47 w/ GP25 GL" text="AK47 avec GP25 GL"/>	<!-- AK47 with underbarrel grenade launcher -->
+	<text key="G36 w/ AG36 GL" text="G36 avec AG36 GL"/>	
+	<text key="M16A4 w/ M203 GL" text="M16A4 avec M203 GL"/>    
+
+    <text key="Kicked - Idling" text="Expulsé du serveur - temps d'inactivité maximum dépassé" />
+	<text key="General of the Army (II)" text="Maréchal d'armée (II)" />
+	<text key="General of the Army (III)" text="Maréchal d'armée (III)" />
+	<text key="General of the Army (IV)" text="Maréchal d'armée (IV)" />
+	<text key="General of the Army (V)" text="Maréchal d'armée (V)" />
+	<text key="Field Marshal" text="Maréchal"/>
+    <text key="Vice President" text="Vice-président"/>  
+	
+	<!-- 1.88 update (Halloween) -->
+
+    <text key="ripper elite" />
+    <text key="combat dog"/>
+
+	<text key="Defibrillator" text="défibrillateur" />
+	<text key="G3A3 - scoped" text="G3A3 à lunette" />
+	<text key="G3A3"/>
+	<text key="dp28"/>
+	<text key="dp28 - shield"/>
+	<text key="m14k"/>
+	<text key="m14k (stim)"/>
+	<text key="qbz-95"/>
+	<text key="qbz-95 - underbarrel shotgun"/>
+	<text key="Welding torch" text="torche de soudage" />
+	<text key="FD-338"/>
+	<text key="FD-338SD"/>
+	<text key="Banner" text="bannière" />
+	<text key="propane"/>
+	<text key="costume, werewolf, destroyed"/>
+	<text key="costume, werewolf, frenzy!"/>
+	<text key="costume, clown, destroyed"/>
+	<text key="costume, santa, destroyed"/>
+	<text key="Mutagen, Lizard, damaged"/>
+	<text key="costume, banana, destroyed"/>
+	<text key="pumpkin box" text="coffret citrouille 1" />
+	<text key="wings, vampire"/>
+	<text key="wings, vampire, blood thirsty"/>
+	<text key="costume, chicken"/>
+	<text key="costume, chicken, destroyed"/>
+    <text key="Golden Dragunov SVD"/>
+    <text key="Reaper's Scythe" />
+    <text key="bats" />
+    <text key="howling"/>
+    <text key="costume, reaper"/>
+    <text key="costume, reaper (damaged)"/>
+    <text key="costume, reaper (unchained)"/>	
+	<text key="Lijia's Pumpkin" text="citrouille de Lijia"/>
+	<text key="Evil Pumpkin" text="citrouille maléfique"/>
+	<text key="Lijia's Pumpkin Spawn" text="citrouille de Lijia"/>	
+	
+<!-- 1.90 update (Xmas) -->
+
+    <text key="Golden bell" text="Cloche dorée"/>
+	<text key="Christmas biscuit" text="Biscuit de Noel"/>
+	<text key="Candy cane" text="Canne en sucre"/>
+	<text key="Santa's stocking" text="Chaussette du Père Noel"/>
+	<text key="Xmas box" text="Cadeau de Noel"/>
+	<text key="Xmas Jeep Drop" text="Jeep de Noel"/>
+	<text key="Xmas Jeep" text="Jeep de Noel" />
+	<text key="Xmas tree" text="Sapin de Noel"/>
+	<text key="grinch" text="Bad Santa"/>	
+	<text key="Dog Comfort" />
+	
+<!-- 1.91 -->
+
+ <text key="Beretta M9 suppressed" text="Beretta M9 silencieux" />
+ <text key="Glock 17 suppressed" text="Glock 17 silencieux" />
+ 
+ <text key="move to backpack" text="transfert vers sac-à-dos" />
+ <text key="equip" text="équiper" />
+ <text key="move to armory" text="transferer vers armurerie" />
+ <text key="move to stash" text="transferer vers réserve personnelle" />
+ <text key="drop on ground" text="mettre par terre" />
+ <text key="single/multi item mode" text="mode sélection unique/multiple" />	
+
+<!-- 1.92 -->
+
+	<text key="VFS" /> 
+	<text key="VFS MG" />
+	<text key="VFS AT" />	 
+	
+<!-- 1.95 leftovers -->
+	
+	<text key="stim" />
+	<text key="Oh you, farmer, you!" />
+	<text key="explosive arrow" />
+	<text key="Patrol Ship MG" />
+	<text key="Patriot" />
+	<text key="Patriot MG" />
+	<text key="Long Claws" />
+	<text key="Elastic Tendons" />
+	<text key="self stun" />
+	<text key="dog" />
+	<text key="dog, healthy" />
+	<text key="dog_3" />
+	<text key="dog, injured" />
+	<text key="Psycho Butcher, wounded" />
+	<text key="EOD armor, 50%" />
+	<text key="EOD armor, 55%" />
+	
+<!-- 1.96 -->	
+
+	<text key="community box 7" text="Coffret communauté 7"/>
+	<text key="costume, panda" text="Costume, Panda"/>
+	<text key="costume, panda, destroyed" text="Costume, Panda, détruit"/>
+	<text key="rotten banana" text="Babane pourrie"/>
+	<text key="Dog Crate" text="Caisse de chien"/>
+	<text key="F1"/>
+	<text key="F1 Drop" text="Largage de F1"/>
+	<text key="LAI-109"/>
+	<text key="LAI-109 Drop" text="Largage de LAI-109"/>
+	<text key="LAI-109 Missile" text="Missile LAI-109"/>
+	<text key="LAILV-002"/>
+	<text key="LAILV-002 Drop" text="Largage de LAILV-002"/>
+	<text key="LAILV-002 HMG"/>
+	<text key="MMLS-528"/>
+	<text key="MMLS-528 Drop" text="Largage de MMLS-528"/>
+	<text key="M528 AT"/>
+	<text key="M528 AP"/>
+	<text key="Gilboa DBR"/>
+	<text key="MGV-176"/>
+	<text key="SKS"/>
+	<text key="SKS - Incendiary" text="SKS - incendiaire"/>
+	<text key="MPX"/>
+	<text key="MPX - Hollow Point" text="MPX - balles creuses"/>
+	<text key="SBL"/>  <!-- sawblade launcher -->
+	<text key="AN-94"/>
+	<text key="AN-94 - burst" text="AN-94 - rafale"/>
+	<text key="Ordnance Shovel" text="Pelle" />
+	<text key="Dog Bone" text="Os pour chien"/>	
+	
+	<text key="claymore shield" text="bouclier claymore"/>
+	
+	<!-- 1.98 update (Summer) -->	
+
+	<text key="G11 - burst" text="G11 - rafale"/>
+	<text key="AR15 - thermal" text="AR15 - thermal"/>
+	<text key="AR15"/>
+	<text key="QJZ89 HMG"/>
+	<text key="QLZ87 GL"/>
+	<text key="RPK16"/>
+	<text key="RPK16 - long barrel" text="RPK16 - canon long"/>
+	<text key="MP443 Grach"/>
+	<text key="Chinalake - HEDP"/>
+	<text key="OTS-14/ GP25 GL" text="OTS-14 avec GP25 GL"/>
+	<text key="M14ebr - assault" text="M14ebr - assaut" />
+	<text key="M14ebr - support"/>
+	<text key="M14ebr - marksman" text="M14ebr - élite"/>
+	<text key="KS-23"/>
+	<text key="KSG - slug" text="KSG - slug" />
+	<text key="KSG - buckshot" text="KSG - chevrotine"/>
+	<text key="VKS"/>
+	<text key="SV-98"/>
+	<text key="M249"/>
+	<text key="M249 suppressed" text="M249 Silencieux"/>
+	<text key="Mk47 Mutant"/>
+	<text key="Supershorty"/>
+	<text key="FHJ01 - FAE"/>
+	<text key="Yellow parasol" text="Parasol jaune"/>
+	<text key="Green parasol" text="Parasol vert"/>
+	<text key="Red parasol" text="Parasol rouge"/>
+	<text key="Blue parasol" text="Parasol bleu"/>
+	<text key="Lounger" text="Chaise longue"/>
+	<text key="VOG-25PM"/>
+	<text key="FHJ01 - FAE"/>
+	<text key="Terran's Cap"/>
+	<text key="Squad Equipment Kit - Navy" test="Kit d'équipement d'escouade - Marine"/>
+	<text key="Vest, Navy" text="Veste, Marine" />
+	<text key="Vest, Navy, 60%" text="Veste, Marine, 60%" />
+	<text key="Vest, Navy, 30%" text="Veste, Marine, 30%" />
+	<text key="Vest, Navy, 10%" text="Veste, Marine, 10%" />
+	<text key="popsicle" text="Glace à l'eau" />
+	<text key="Pacific travel guide" text="Guide voyage Pacifique"/>
+	<text key="orange juice" text="Jus d'orange"/>
+	<text key="iced coffee" text="café liégeois"/>
+	<text key="cooler box 1" text="Glacière 1" />
+	<text key="cooler box 2" text="Glacière 2"/>
+	<text key="coconut" text="Coco"/>
+	<text key="grapes" text="Raisin"/>
+	<text key="mango" text="Mangue"/>
+	<text key="melon" text="Melon"/>
+	<text key="Hovercraft" text="Aéroglisseur" />
+	<text key="Hovercraft Drop" text="Largage d'aéroglisseur"/>	
+	<text key="Scorpio AXN"/>
+	<text key="Scorpio AXN Drop" text="Largage de Scorpio AXN"/>
+	<text key="Scorpio 76mm HESH"/>
+	<text key="Scorpio MG"/>	
+	<text key="M551 Sheriff"/>
+	<text key="M551 Sheriff Drop" text="Largage de M551 Sheriff"/>	
+	<text key="MGM-51"/>
+	<text key="Shamshir AXN"/>
+	<text key="Shamshir MG"/>
+	<text key="Shamshir 30mm"/>
+	<text key="MRL"/>
+	<text key="MRL laser-guidance kit" text="MRL - kit de guidance laser" />
+	<text key="MRL deploy" text="MRL - Kit" />	
+	
+<!-- Halloween #2 update -->
+
+	<text key="CheyTac M200"/>
+	<text key="Lewis Gun"/>
+	<text key="Tommy Gun"/>
+	<text key="M1 Garand Modern"/>
+	<text key="RG6 - Airburst"/>
+	<text key="RG6 - Shrapnel"/>
+	<text key="GM94 - Thermobaric"/>
+	<text key="Crossbow - Hunting Arrow"/>
+	<text key="Crossbow - Anesthetic arrow"/>
+	<text key="Galil ARM"/>
+	<text key="Galil ARM - bipod"/>
+	<text key="ChiappaRhino"/>
+	<text key="Demon Scythe"/>
+	<text key="Thermobaric grenade"/>
+	<text key="VGM93.100"/>
+	<text key="Compound X"/>
+	<text key="skeleton elite"/>
+	<text key="skeleton musketeer"/>
+	<text key="amethyst"/>
+	<text key="pumpkin box 2" text="coffret citrouille 2"/>
+	<text key="Cursed Coin"/>
+	<text key="costume, cowboy"/>
+	<text key="costume, cowboy, destroyed"/>
+	<text key="rabbit suit"/>
+	<text key="rabbit suit, damaged"/>
+	<text key="sunglasses, broken"/>
+	<text key="Ocean talisman"/>
+	<text key="Ocean talisman, broken"/>
+	<text key="Demon vest"/>
+	<text key="Demon vest, 80%"/>
+	<text key="Demon vest, 40%"/>
+	<text key="Demon vest, destroyed"/>
+	
+	<!-- Easter #1 update -->
+
+	<text key="MRL on the way"/>
+	<text key="Demon heart, calm"/>
+	<text key="Demon heart, anxious"/>
+	<text key="Demon heart, beating fast"/>
+	<text key="AKS / Tishina GL"/>
+	<text key="Easter Bunny"/>
+	<text key="Bunny Fast Leap"/>
+	<text key="bunny maker"/>
+	<text key="Egg Launcher"/>
+	<text key="Egg bomb"/>
+	<text key="Dresser egg"/>
+	<text key="Golden egg"/>
+	<text key="eggsplosive"/>
+	<text key="Egg mine"/>
+	<text key="Spawner egg"/>
+	<text key="camouflaged shield"/>
+	<text key="corn"/>
+	<text key="Popcorn Launcher"/>
+	<text key="Corncob Launcher"/>
+	<text key="DPM"/>
+	<text key="DPM - shield"/>
+	<text key="DP-64 GL"/>
+	<text key="egg"/>
+	<text key="community egg"/>
+	<text key="M4 / M26 Frag"/>
+	<text key="MP7 AP / ISL200 GL"/>
+	<text key="MPT76 / AK40 GL"/>
+	<text key="AK40 GL - HEDP"/>
+	<text key="SCAR L / MK13 GL"/>
+	<text key="Tac50 AP Warhead"/>
+	<text key="Tac50 Explosive Warhead"/>
+	<text key="Truvelo Amris"/>
+	<text key="XM1060"/>
+	<text key="bizarre carrot"/>
+	<text key="easter basket"/>
+	<text key="easter egg"/>
+	<text key="easter bunny"/>
+	<text key="bunny cub"/>
+	<text key="easter chicken"/>
+	<text key="QTS-11"/>
+	<text key="QTS-11 air burst GL"/>
+	
+	
+<!-- Summer #2 update -->
+	<text key="ASM VAL"/>
+	<text key="water gun" text="Pistolet à eau"/>
+	<text key="water balloon" text="Ballon d'eau"/>
+	<text key="Beach Ball" text="ballon de plage"/>
+	<text key="cooler box 3" text="Glacière 3"/>
+	<text key="dragon fruit"/>
+	<text key="bananas" text="Bananes"/>
+	<text key="whoopee cushion" />
+	<text key="Ruger AC556"/>
+	<text key="Ruger AC556 - bayonet"/>
+	<text key="HCAR"/>
+	<text key="Benelli M3 - speed loader"/>
+	<text key="MAG-7 Dragon breath"/>
+	<text key="War Correspondent"/>
+	<text key="pyrite"/>
+	<text key="Community ticket" text="Ticket communauté"/>
+	<text key="Easter ticket" text="Ticket Paques"/>
+	<text key="Halloween ticket" text="Ticket Halloween"/>
+	<text key="Summer ticket" text="Ticket été"/>
+
+	<text key="vip time"/>
+	<text key="requesting vip"/>
+	<text key="Attention soldiers! War correspondent inbound!"/>
+	<text key="War correspondent has arrived!"/>
+	
+<!-- Halloween #3 update -->
+	<text key="APR308S"/>
+	<text key="Glock G18c suppressed"/>
+	<text key=".50 Beowulf"/>
+	<text key="Can Cannon"/>
+	<text key="Doom's Battery"/>
+	<text key="FMG9"/>
+	<text key="FMG9 BOX"/>
+	<text key="Five-seveN"/>
+	<text key="Five-seveN suppressed"/>
+	<text key="Origin-12"/>
+	<text key="Origin-12 suppressed"/>
+	<text key="SA81-Krasa-HE"/>
+	<text key="SA81-Krasa-Overload!"/>
+	<text key="Enemy Commander"/>
+	<text key="Evil Commander"/>
+	<text key="Pumpkin Knight"/>
+	<text key="Headtaker"/>
+	<text key="hand axe"/>
+	<text key="pumpkin box 3" text="coffret citrouille 3" />
+</translation>
+
+
+

@@ -1,0 +1,298 @@
+<journal>
+	<!-- pre-added journal entries with key="start" -->
+	<!-- end of pre-added journal entries -->
+	
+	<!-- hello_note is a special note and isn't stored in journal -->
+	<entry key="hello_note">
+	    <title value="Journal Mitteilung" />
+		<text value="Hallo! Sie werden diese Benachrichtigungen von Zeit zu Zeit erhalten, um sich mit dem Spiel vertraut zu machen. Wenn Sie einen dieser Einträge in der oberen rechten Ecke sehen, klicken Sie ihn an, um ihn zu öffnen!" />
+		<image filename="journal_welcome.png" />
+	</entry>
+	
+	<!-- hello happens after hello_note, is stored in journal -->
+	<entry key="hello" _old_key="xp_achieved/0">
+	    <title value="Erste Schritte" />
+		<text value="Schau dir zunächst die Karte (%control_map) an, um eine Vorstellung davon zu bekommen, wo du dich gerade befindest. Du solltest beobachten, wo sich die nächste befreundete Basis befindet und welche Gebiete die Feinde besitzen.%PSSuche nach Alliierten und schliesse dich dem Angriff an, sobald der Kommandant dazu aufruft. Es ist klug, bei anderen zu bleiben und sie in den Anfangsphasen zu unterstützen, da du noch keinen eigenen Squad hast. Versuche, den Kampf nicht zu führen.%PSSchau dir das Chat-Log an (%control_statistics), um erneut zu überprüfen, was der Kommandant per Funk befohlen hat." />
+		<image filename="journal_welcome.png" />
+	</entry>
+
+	<entry key="move_against_stabbable_static_object">
+		<title value="Messern" />
+		<text value="Benutze dein Messer (%control_knife), um Kisten zu zerbrechen und ein paar grundausrüstungsobjekte zu erhalten. Das Messer kann auch verwendet werden, um Feinde sofort und still im Nahkampf auszuschalten, und dir ganz nebenbei einen beträchtlichen XP-Bonus sichern." />
+		<image filename="journal_stab.png" />
+	</entry>
+
+	<entry key="first_death_at_start">
+		<title value="Deckungssystem" />
+		<text value="Das Wichtigste, um am Leben zu bleiben, ist die Verwendung verschiedener Hindernisse als Deckung. Du kannst dich ducken (%control_crouch) oder liegen (%control_prone), um die Trefferfläche zu verkleinern und somit schwerer zu treffen zu sein. Wenn du dich hinter einem Hindernis geeigneter Grösse duckst, stehst du automatisch auf, wenn du deine Waffe in darüber abfeuerst (%control_shoot)." />
+		<image filename="journal_cover.png" />
+	</entry>
+	
+	<entry key="a_few_deaths_at_start">
+		<title value="Ausrüstungsversorgung beim Respawnen" />
+		<text value="Wenn du stirbst, werden all deine Ausrüstung und Gegenstände in deinem Rucksack auf den Boden fallen gelassen. Die Gegenstände bleiben dort für eine begrenzte Zeit, bis sie verschwinden, wobei seltenere Gegenstände länger halten.%PSWenn du nach dem Tod spawnst, wird das meiste deiner Ausrüstung automatisch mit den RP-Kosten wiederbeschafft, mit Ausnahme für nicht-automatisch-bereitgestellter Objekte, wie z.B. Westen oder seltene Waffen.%PSNicht-automatisch-bereitgestellte Objekte zu verwenden erfordert ganz besonders viel Achtsamkeit um am Leben zu bleiben, also bereite dich entsprechend vor." />
+		<image filename="journal_non_respawnable_items.png" />
+	</entry>
+
+	<entry key="low_encumbrance_exceeded">
+		<title value="Rucksack und Überbelastung" />
+		<text value="Der Rucksack dient als vorübergehender Aufbewahrungsort für Gegenstände, meistens für den Transport von Gegenständen zu einem persönlichen Lagerraum oder einer Waffenkammer. Wenn du stirbst, wird der Inhalt des Rucksacks am Boden abgelegt.%PSJeder Gegenstand hat einen Belastungswert. Wenn du über 20% Belastung hast, beginnen die Nachteile von Überbelastung zu wirken: Bewegungsgeschwindigkeit und Schussgenauigkeit erleiden schrittweise Abstriche.%PSWenn die Belastung 60% erreicht, erscheint visuell ein grosser Rucksack auf deinem Charakter und deine Kampffähigkeit wird ernsthaft behindert. Ziehe in Betracht, einige Gegenstände fallen zu lassen, bevor du in den Kampf ziehst." />
+		<image filename="journal_backpack.png" />
+	</entry>
+
+	<entry key="base_capture/friendly">
+	    <title value="Basis Eroberung" />
+		<image filename="journal_base.png" />
+		<text value="Basen werden eingenommen indem eine Fraktion mehr Einheiten (doppelt so viel) im Einnahmebereich der Basis als der Gegner hat.%PSSobald eine Basis eingenommen wird, kann der Gegner einen Konterangriff starten um sie zurückzuerobern. Deswegen ist es eine gute Idee, die Basis mit Truppen abzusichern, bevor man weiterzieht."/>
+	</entry>
+		
+	<entry key="inspect/armory">
+	    <title value="Waffenkammer" />
+		<image filename="journal_armory.png" />
+    <text value="Die Waffenkammer stellt die Grundausrüstung deiner Fraktion zur Verfügung.%PSWenn du Beute findest, bringe sie zur Waffenkammer, um RP (Ressourcenpunkte) zu erhalten.%PSBringst du 5 gegnerischen Standardwaffen (keine seltene Waffen) zur Waffenkammer, wird diese für deine Fraktion freigeschaltet. Liefere einen Aktenkoffer oder einen Laptop zu einer Waffenkammer, um neue, höherstufige Waffen freizuschalten.%PSWenn es dir gelingt, einen feindlichen Fracht-Truck zu erbeuten, bringe ihn zu einer Waffenkammer, um Belohnungen zu erhalten. " />
+	</entry>
+
+	<entry key="inspect/stash">
+	    <title value="Persönlicher Lagerraum" />
+		<image filename="journal_stash.png" />
+    <text value="Der persönliche Lagerraum ist deine permanente Speichertruhe. Verwende ihn, um Gegenstände zu speichern, die du nicht verlieren oder noch nicht benutzen kannst.%PSEs ist schlau, seltene Waffen über deinem Erfahrungslevel darin zu verstauen bis deine Erfahrung hoch genug ist, um sie zu benutzen.%PSBeachte, dass alle persönliche Lagerräume miteinander verbunden sind, so kannst du sie mit verschiedenen Extras füllen und auf diese Gegenstände überall auf der Karte zugreifen, auch im gegnerischen Gebiet." />
+	</entry>
+	
+	<entry key="inspect/item_unlocker">
+	    <title value="Aktenkoffer und Laptop" />
+		<image filename="journal_briefcase.png" />
+		<text value="Aktenkoffer und Laptops können bei einer Waffenkammer abgeliefert und untersucht werden. Sie schalten neue Ausrüstungsobjekte frei.%PSLaptops schalten Tarn-orientierte Ausrüstungsobjekte frei." />
+	</entry>
+	
+	<entry key="inspect/vehicle/any">
+	    <title value="Fahrzeuge" />
+    <text value="Fahrzeuge bieten Möglichkeiten für eine schnelleres Vorankommen. Einige von ihnen sind bewaffnet, während andere eine Waffenkammer haben, oder sie dienen als mobile Spawnpunkte.%PSVerschiedene Sitze, wie die des Fahrers, Bordschützen und Beifahrers können von verschiedenen Seiten des Fahrzeugs betreten werden. Näher dich einem Sitzplatz und drücke Springen (%control_jump), um einzusteigen. Ist der Sitz verfügbar und von einem Feind besetzt, wird dieser herausgezogen. Dies funktioniert auch, um allierte Soldaten mit niedrigerem Rang rauszuziehen.%PSBeachte, dass einige Fahrzeuge, wie z.B. der Panzer, nur effektiv zusammen mit einem Squad eingesetzt werden können. " />
+		<image filename="journal_truck.png" />
+	</entry>
+
+	<entry key="inspect/vehicle/enemy">
+	    <title value="Feindliche Fahrzeuge" />
+    <text value="Du benötigst Sprengstoff, Raketenwerfer oder Granaten, um Fahrzeuge zu beschädigen. Raketenwerfer und Aufschlaggranaten verursachen den meisten Schaden.%PSFahrzeuge, die von Feinden besetzt sind, werden in der Kartenansicht als rote Symbole angezeigt." />
+		<image filename="journal_vehicle.png" />
+	</entry>
+	
+	<entry key="inspect/apc/friendly">
+	    <title value="APC" />
+    <text value="Der APC hat, neben einem Fahrersitz, einen einzelnen Bordschützesitz und hinten mehrere Passagiersitze. Du benötigst mindestens einen Squad-Kameraden, um den APC effektiv zu bedienen. Verwende den Squad-Befehl (%control_squad_command) um Befehle an den Fahrer oder den Bordschützen zu geben.%PSDer APC ist sehr effektiv gegen Infanterie, aber nicht so sehr gegen gepanzerte Fahrzeuge." />
+		<image filename="journal_apc.png" />
+	</entry>
+
+	<entry key="inspect/tank/friendly">
+	    <title value="Panzer" />
+    <text value="Der Panzer hat zusätzlich zu einem Fahrersitz zwei Kanoniersitze. Du benötigst mindestens einen Squad-Kameraden, um effektiv einen Panzer zu betreiben, vorzugsweise zwei. Benutze den Squad-Befehl (%control_squad_command), um dem Fahrer oder Kanonieren Befehle zu erteilen.%PSPanzer sind äusserst effektiv sowohl gegen Infanterie als auch Fahrzeuge und bewegen sich mit Leichtigkeit auf verschiedenem Terrain." />
+		<image filename="journal_tank.png" />
+	</entry>
+
+	<entry key="inspect/armored_truck.vehicle/friendly">
+	    <title value="Spawntruck" />
+    <text value="Der Spawntruck ist ein Fahrzeug, das nur von Spielern benutzt werden kann. Wenn er nicht in Bewegung oder zu nahe am Gegner ist, kannst du neben ihm respawnen. Dies macht ihn sehr wertvoll, um Flankenangriffe und Kämpfe in Gebieten ohne Spawnpunkte einzuleiten.%PSDer Spawntruck ist auch als Checkpoint bei Missionen hinter feindlichen Linien gut einsetzbar.%PSEs passen sehr viele Passagiere in das Fahrzeug." />
+		<image filename="journal_spawntruck.png" />
+	</entry>
+
+	<entry key="inspect/mobile_armory.vehicle/any">
+	    <title value="Mobile Waffenkammer" />
+    <text value="Die mobile Waffenkammer wird nur von Spielern kontrolliert und funktioniert genauso wie eine normale Waffenkammer. Einige alliierte Soldaten werden sich in der Nähe aufhalten, um sie zu verteidigen.%PSEs ist oft eine gute Idee, sie nahe an die Frontlinie zu fahren, um die Laufdistanz zur nächsten Waffenkammer zu verkürzen." />
+		<image filename="journal_mobarmory.png" />
+	</entry>
+	
+	<entry key="xp_achieved/150"> <!-- was 100 -->
+		<title value="Granaten" />
+    <text value="Granaten sind ideal, um Deckungen zu beseitigen und enge feindliche Gruppen mit einer Explosion auszuschalten. Verwende %control_grenade um die Granate zur Fadenkreuzposition zu werfen. Du musst experimentieren, um ein Gefühl dafür zu bekommen, wie weit du werfen kannst. Dies ist je nach Granatetyp leicht unterschiedlich.%PSGranaten machen es einfacher, zusätzliche XP-Boni für Combo-Kills zu erhalten." />
+		<image filename="journal_grenade.png" />
+	</entry>
+	
+	<entry key="xp_achieved/50"> <!-- was 200 -->
+		<title value="Sturmgewehre" />
+    <text value="Sturmgewehre sind in der Regel die am besten ausbalancierten Waffen in Punkto Reichweite und Durschlagskraft. Versuche in kurzen Feuerstössen zu schiessen, um die Streuung eng zu halten. Schiesse aus der Hocke oder liegend gibt einen grossen Genauigkeitsschub im Vergleich zum im Stehen oder aus der Bewegung schiessen. Achte auf das Fadenkreuz, der die Streuung andeutet, und wie es vom Rückstoss der Waffe beeinflusst wird." />
+		<image filename="journal_ar.png" />
+	</entry>
+
+	<entry key="xp_achieved/250">
+		<title value="Aufstell-Kits" />      
+    <text value = "Mit Feldbefestigungen kannst du eine statische Deckung erstellen, die jede Menge Kleinwaffenfeuer und sogar ein paar Explosionen von Granaten standhält. Wechsel zum Sekundärwaffen-Slot (%control_swap_weapon), halte %control_shoot gedrückt und ziele in die Richtung in der du es aufstellen möchtest.%PSNeue Aufstell-Kits können durch erfolgreiches Ausführen von Fracht-Truck Missionen und Ausliefern von Aktenkoffern freigeschaltet werden." />
+		<image filename="journal_sandbag.png" />
+	</entry>
+	
+	<entry key="inspect/riot_shield.weapon">
+		<title value="Ballistischer Schutzschild" />
+    <text value="Ein ballistischer Schutzschild kann zum Blockieren von Kugeln verwendet werden. Wechsel zuerst zum sekundären Slot (%control_swap_weapon) und richte das Fadenkreuz in die Richtung aus, in der du dich abschirmen möchte und halte %control_shoot gedrückt. Andere Soldaten können den Schild als Schutz verwenden und darüber schiessen, wenn der Schildträger geduckt ist.%PSHandgranatexplosionen beschädigen den Schild und betäuben den Benutzer, Aufschlaggranaten können sogar tödlicher sein.%PSSchutzschilder können besonders auf offenem Feld ohne Deckung nützlich sein." />
+		<image filename="journal_riot_shield.png" />
+	</entry>
+
+	<entry key="xp_achieved/100">    <!-- was inspect -->
+		<title value="Schrotflinten" />
+    <text value="Schrotflinten haben eine grosse Durchschlagskraft auf kurze Distanz, werden aber gegen weiter entfernte Gegner nutzlos. Demnach eignen sie sich hervorragend für Nahkämpfe wie in Stadtgebieten und Schützengräben. Die Körperhaltung hat wenig Einfluss auf die Treffgenauigkeit und daher können sie auch gut aus der Bewegung heraus abgefeuert werden." />
+		<image filename="journal_shotguns.png" />
+	</entry>
+
+	<entry key="inspect/medikit.weapon">
+		<title value="Verbandtasche" />
+    <text value="Die Verbandtasche kann benutzt werden, um einen verwundeten Soldaten zu heilen. Nähere dich dem verwundeten Soldaten an, wechsl zur Sekundärwaffe (%control_swap_weapon) und halte (%control_shoot) bis er wieder aufsteht.%PSAusschliesslich Soldaten, die eine Weste tragen, können verwundet werden, und du kannst die Verbandtasche an dir selbst benutzen.%PSDie Verbandtasche ist ein ganz besonders nützliches Werkzeug im Multiplayer!" />
+		<image filename="journal_medikit.png" />
+	</entry>
+	
+	<!--
+	- at first rank up
+	-->
+	<entry key="xp_achieved/500">
+		<title value="Maschinengewehre" />
+    <text value="Maschinengewehre haben eine grosse Streuung, grosse Reichweite und verrichten guten Schaden, erfordern es jedoch, sie im liegen oder über eine Mauer abgefeuert zu werden, wodurch sie weniger vielseitig eingesetzt werden können als andere Waffen. Verwende sie bei Belagerungen oder gegen grössere Gruppen von Feinden." />
+		<image filename="journal_mg.png" />
+	</entry>
+
+	<entry key="xp_achieved/500">
+		<title value="Raketenwerfer" />
+    <text value="Raketenwerfer sind die Hauptwaffe der Fusssoldaten gegen Fahrzeuge. Wechsel zum Sekundärwaffen-Slot (%control_swap_weapon), ziele sorgfältig - beobachte dabei wie das Fadenkreuz schmaller wird und sich schliesslich einstellt - und schiesse das Ziel mit %control_shoot wenn du bereit bist.%PSBeachte, dass die Raketenwerfer nicht neu geladen werden können, sie sind nur zur einmaligen Verwendung." />
+		<image filename="journal_bazooka.png" />
+	</entry>
+
+	
+	<!-- objective vehicles -->
+	<entry key="spawn/aa_emplacement.vehicle/enemy">
+		<title value="Flugabwehrkanone" />
+		<image filename="journal_aa.png" />
+    <text value="Manche Karten verfügen über eine gegnerische Flugabwehrkanone, die freundliche Abwurf-Funkrufe verhindert, wie z.B. Fallschirmjäger. Finde die Position im gegnerischen Gebiet und zerstöre sie, um die Abwurfe wieder zu ermöglichen. Tarn-Mission und C4 passen gut für den Job, aber es gibt andere Möglichkeiten.%PSFlugabwehrkanonen werden nach Zerstörung nicht wieder respawnen." />
+	</entry>
+
+	<entry key="spawn/radar_tower.vehicle/enemy">
+		<title value="Funkturm" />
+		<image filename="journal_radar_tower.png" />
+    <text value="Ein Funkturm gewährleistet die Kommunikation zwischen Kommandant und Truppen. Zerstört man einen feindlichen Funkturm, wird der Feind angeschlagen, was bedeutet, dass dieser 1) aufhört anzugreifen, 2) sich die Spawnrate und Kapazität der Soldaten reduziert, und 3) sich Truppen nicht zwischen den Basen bewegen können, bis der Funkturm respawnt.%PSDer Funkturm ist wegen seiner strategischen Wichtigkeit schwer bewacht, also wirst du wahrscheinlich eine Tarnung verwenden müssen, um dorthin zu gelangen. Vergiss nicht den C4-Sprengsatz!%PSDer Funkturm stört auch Funkrufe in der Umgebung." />
+	</entry>
+
+	<entry key="inspect/radar_truck.vehicle/enemy">
+		<title value="Kommunikationstruck" />
+		<image filename="journal_radar_truck.png" />
+		<text value="Ein Kommunikationstruck gewährleistet die Kommunikation zwischen Kommandant und Truppen. Zerstört man einen feindlichen Kommunikationstruck, wird der Feind angeschlagen, was bedeutet, dass dieser 1) aufhört anzugreifen, 2) sich die Spawnrate und Kapazität der Soldaten reduziert, und 3) sich Truppen nicht zwischen den Basen bewegen können, bis der Truck respawnt.%PSDer Kommunkationstruck is bewacht und der Fahrer versucht in eine andere Basis zu fliehen, sobald ein Gefecht in der Nähe ausbricht.%PSDer Kommunkationstruck stört auch Funkrufe in der Umgebung." />
+	</entry>
+	
+	<entry key="inspect/radio_jammer.vehicle/enemy">
+		<title value="Funkstörsender" />
+		<image filename="journal_radio_jammer.png" />
+    <text value="Feindliche Funkstörsender verhindern Funkrufe, wenn man sich in der Nähe befindet, und bieten somit effektiven Widerstand gegen Mörserangriffe und Fallschirmjäger. Funkstörsender werden normalerweise von ein paar Soldaten bewacht. Schleiche dich ein und benutze C4 oder andere Sprengstoffe, um sie zu zerstören." />
+	</entry>
+	
+	<entry key="inspect/cargo_truck.vehicle/enemy">
+		<title value="Fracht-Trucks" />
+		<image filename="journal_cargo_truck.png" />
+    <text value="Feindliche Fracht-Trucks können mit verschiedenen Methoden gefangen werden. Die Anlieferung an eine befreundete Waffenkammer wird eine neues Ausrüstungsobjekt freischalten.%PSDer Fahrer neigt dazu, das Fahrzeug irgendwo im feindlichen Gebiet zu parken und wird bei feindlichem Kontakt fliehen. Du musst schnell und raffiniert sein, um zur Fahrertür zu kommen, ihn herauszuziehen (%control_jump) und zu bekämpfen, um das Fahrzeug zu erobern.%PSDu kannst den Truck auch mit Sprengstoff beschädigen, um ihn zu deaktivieren (aber nicht zerstören!). Dann musst du es mit einem Schraubenschlüssel reparieren, um es zu einer Waffenkammer zu fahren."/>
+		<!-- no space left: Once you've captured the truck, any enemy will try to stop the vehicle so watch out!" -->
+	</entry>
+
+	<entry key="inspect/prison/enemy">
+		<title value="Gefängnisse" />
+		<image filename="journal_prison.png" />
+    <text value="Gefangenentransporte und Gefängnistüren können mit Sprengstoff zerstört werden, um befreundete Gefangene zu befreien. Die Gefangenen werden für einen temporären Kapazitätsschub deiner Fraktion sorgen." />
+	</entry>
+	
+	<!-- map completion -->
+	<entry key="match_end/friendly">
+		<title value="Gewonnene Schlacht" />
+		<image filename="journal_completed.png" />
+    <text value="Gut gemacht!%PSNachdem die Schlacht vorbei ist, werden ein oder mehrere Extraktionspunkte für den Transport zu anderen Karten angezeigt. Du kannst sie in der Kartenansicht (%control_map) als Türsymbole sehen.%PSDa es hier nun sicher ist, ist es oft eine gute Idee, die verschiedenen Basen und ihre nähere Umgebung für Beutekisten oder andere interessante Dinge genauer unter die Lupe zu nehmen, vor allem falls du wenig RP haben solltest."/>
+	</entry>
+	<entry key="match_end/friendly">
+		<title value="Kampagnenübersicht" />
+		<image filename="journal_worldview.png" />
+    <text value="Die Kampagnenansicht zeigt den allgemeinen Status der Kampagne, die verschiedenen Karten und ihre Besatzungsfraktionen. Sobald deine Fraktion die aktuelle Karte besetzt, kannst du die nächste Karte ansteuern, um die Invasion weiterhin fortzuführen, indem du dich zum nächsten Extraktionspunkt begibst.%PSDu kannst auch zu bereits eroberten Karten zurückreisen, was nützlich sein kann, um versteckte Beute zu finden oder Frachtfahrzeuge zu finden, die du verpasst hast."/>
+	</entry>
+	<entry key="match_end/enemy">
+		<title value="Verlorene Schlacht" />
+		<image filename="journal_defeated.png" />
+		<text value="Oh nein, der Gegner hat die Schlacht gewonnen!%PSZeit es erneut zu versuchen, wa? Die Karten wird in Kürze neustarten." />
+	</entry>
+		
+	<!-- at 1000xp -->	
+	<entry key="xp_achieved/1000">
+		<title value="Funksprüche" />
+		<image filename="journal_radio_device.png" />
+    <text value="Du hast nun die Möglichkeit, Funksprüche zu tätigen! Zuerst Mörserangriffe, später Fallschirmjäger und andere Abwürfe. Zeige mit dem Fadenkreuz auf die Zielposition, halte %control_radio gedrückt, um die Funksprüche anzuzeigen, und wähle mit der linken Maustaste aus, was du an dieser Stelle rufen möchtest." />
+	</entry>
+	
+	<!-- squad -->
+	<entry key="xp_achieved/1250">
+		<title value="Squad-Kameraden" />
+		<image filename="journal_squad_init.png" />
+    
+    <text value="Squad-Kameraden schliessen sich automatisch den Squads von höherrangigen Soldaten an.%PSDu kannst die Tasten %control_decrease_squad_size/%control_increase_squad_size verwenden, um die Squad-Grösse zu steuern. Es gibt jedoch eine maximale Anzahl, abhängig von deinem Rang.%PSDas Medic-Zeichen informiert dich darüber, dass ein Kamerad in deinem Squad eine Verbandtasche besitzt.%PSVerwende den Squadbefehlsmodifikator (%control_squad_command), um deinem Squad Befehle zu erteilen; doppelklick, um sie anzuweisen, sich dabei zu beeilen. Die Verwendung des Squadbefehlsmodifikators einer stationären Waffe wie MG oder TOW befehligt einen Squad-Kameraden die stationäre Waffe zu besetzen." />
+	</entry>
+
+	<!-- vests & getting wounded & calling for help -->
+	<entry key="xp_achieved/1250">
+		<title value="Weste" />
+    <text value="Wenn du eine Weste trägst, kannst du ein paar Treffer aushalten, die sonst tödlich wären. Jeder Treffer verschlechtert die Eigenschaften der Weste - der erste Treffer wird von der Weste absorbiert, der zweite betäubt dich und der letzte Treffer verwundet den Träger.%PSWenn du verletzt bist, kannst du mit %control_shoot einen Sanitäter rufen oder mit %control_knife ein Respawnen forcieren. Wenn ein Sanitäter in der Nähe ist, rennt er auf dich zu um dich zu heilen.%PSWenn du verwundet bist, kannst du immer noch dein Funkgerät benutzen - alle Verstärkungsabwurfe beinhalten mindestens einen Sanitäter." />
+		<image filename="journal_vest.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1500">
+		<title value="Squad-Kameraden in Fahrzeuge" />
+		<image filename="journal_squad_vehicle.png" />
+    <text value="Wenn du ein Fahrzeug betrittst, wird dein Squad dir folgen, um die freien Plätze zu füllen. Du kannst den Befehl squad (%control_squad_command) verwenden, um deinem Fahrer oder Bordschützen ein Ziel zu geben. Du kannst auch die Karte benutzen (%control_map) und auf sie klicken (%control_squad_command), um ein weiter entferntes Ziel für den Fahrer festzulegen." />
+	</entry>
+			
+	<entry key="xp_achieved/1500">
+		<title value="Scharfschützengewehr" />
+    <text value="Scharfschützengewehre haben eine erweiterte Sichtweite, mit grosser Genauigkeit und Durchschlagskraft, erfordern aber ein Nachladen zwischen den einzelnen Schüssen und benötigen eine Weile zum Zielen. Geduckt oder liegend schiessen gewährleistet eine höchstmögliche Treffgenauigkeit." />
+		<image filename="journal_sniper_rifles.png" />
+	</entry>
+	
+	<!-- stealth, suppressed weapons -->
+	<entry key="xp_achieved/1000">
+		<title value="Schallgedämpfte Waffen" />
+		<image filename="journal_suppressed.png" />
+    <text value="Schallgedämpfte Waffen bieten einen grossen Vorteile gegen nichtsahnende Feinde, sind jedoch schwach gegen gewarnte und aktiv kämpfende Feinde.%PSDas macht sie besonders nützlich, wenn du alleine hinter den feindlichen Linien angreifst. Ziehe in Betracht deinen Squad loszuwerden (%control_decrease_squad_size) bevor du eine Tarn-Mission ausführst. Verwende %control_increase_squad_size, um Soldaten wieder zu erlauben, deinem Squad beizutreten."/>
+	</entry>
+
+	<entry key="xp_achieved/1100">
+		<title value="C4" />
+    <text value="C4 kann wie jede Granate geworfen werden, aber es bleibt auf dem haften, worauf es landet - Strukturen, Fahrzeuge, Wände, alles Mögliche. Einmal geworfen, kann es durch das Zielen des Fadenkreuzes darüber und %control_shoot drücken detoniert werden. Gehe in Deckung vor der Detonation!%PSMit einem C4 kannst du jedes Ziel oder Fahrzeug zerstören." />
+		<image filename="journal_c4.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1250">
+		<title value="Aufklärung feindlicher Basis" />
+		<image filename="journal_investigate.png" />
+    <text value="Basis-Aufklärung besteht darin, zu einer vom Gegner gehaltenen Basis zu gelangen und sich der Basismitte zu nähern. Sobald die Basis ausgekundschaftet wurde, wird dem Kommandanten ein Bericht über die Stärke des Feindes übermittelt, der Ratschläge zum weiteren Vorgehen geben wird.%PSWenn der Hauptangriff eine lange Pattsituation erreicht, lohnt es sich oft, die anderen Basen nach Eroberungsmöglichkeiten auzuklären." />
+	</entry>
+
+	<entry key="xp_achieved/1400">
+	    <title value="Eroberung einer Neben-Basis" />
+		<image filename="journal_base_tactics.png" />
+    <text value="Es ist möglich, Basen alleine oder mit deinem Squad zu erobern. Wenn es dir gelingt, hinter feindliche Linien zu gelangen und ein leichteres Angriffsziel zu finden, kannst du es erobern - aber sei vorsichtig vor gegnerischen Gegenangriffen. Alle einnehmbaren Basen sind mit roten Kreisen auf der Karte (%control_map) markiert."/>
+	</entry>
+	
+	<entry key="xp_achieved/1500">
+		<title value="Spawn-Leuchtfackel" />
+    <text value="Eine Spawn-Leuchtfakel kann verwendet werden, um einen Fallschirmjäger-Abwurfpunkt nur für Spieler als Spawnpunkt zu erstellen, wo auch immer du ihn werfen kannst. Kommt der Feind jedoch zu nahe heran, wird der Spawnpunkt vorübergehend deaktiviert, bis die Situation wieder geklärt wird." />
+		<image filename="journal_flare.png" />
+	</entry>	
+	
+	<!-- stealth, visibility, night -->
+	<entry key="xp_achieved/1750">
+		<title value="Tarn-Grundlagen" />
+		<image filename="journal_stealth1.png" />
+    <text value="Erfolgreiches Tarnverhalten basiert darauf, dass du vom Gegner unentdeckt bleibst. Deine Sichtbarkeit spielt eine wichtige Rolle.%PSDu kannst deine Sichtbarkeit auf verschiedene Arten senken: du kannst gehen (%control_walk), dich ducken (%control_crouch) und hinlegen (%control_prone), sowie dich nicht zu bewegen. Nachts wird deine Sichtbarkeit noch weiter abgesenkt. Feindliche Soldaten haben einen Sichtkegel und erkennen dich seltener von der Seite oder von hinten.%PSTarn- und Black-Ops-Anzüge verbessern weiter deine Tarnung. Der Black-Ops-Anzug bietet nachts einen grossen Bonus, jedoch nicht unter Tageslicht." />
+	</entry>
+	
+	<!-- stealth, execution -->
+	<entry key="xp_achieved/2000">
+		<title value="Tarnung, tiefgründig" />
+		<image filename="journal_stealth2.png" />
+    <text value="Nimm dir eine schallgedämpfte Waffe und erkunde zuerst das Zielgebiet, um eine Vorstellung davon zu bekommen, mit wie vielen Gegnern du es zu tun hast.%PSVerteidigende Soldaten führen oft Patrouillen durch, alleine oder in kleinen Gruppen, was sie besonders verwundbar durch leise Angriffe macht. Wenn ein Gegner dich entdeckt und andere alarmiert, ist es oft am besten zu fliehen, zu warten und zu beobachten - bis sie wieder entspannt sind.%PSStelle sicher, dass deine Zielgenauigkeit so gut wie möglich ist, bevor du Feinde angreifst.%PSDu kannst dich auch auf einen schnellen Folgeversuch vorbereiten, solltest du sterben, indem du einen Spawn-Leuchtfackel platzierst oder einen Spawn-Truck bringst." />
+	</entry>
+
+	<!-- difficult change -->
+	<entry key="difficulty_change">
+		<title value="Wie läuft's?" />
+		<image filename="journal_difficulty.png" />
+		<text value="Fühlt sich das Spiel zu schwer, zu leicht, oder vielleicht genau richtig an? Sie können den Schwierigkeitsgrad im Menü ändern, um ihn besser an Ihr Niveau anzupassen, falls erforderlich." />
+	</entry>
+
+</journal>
+
+

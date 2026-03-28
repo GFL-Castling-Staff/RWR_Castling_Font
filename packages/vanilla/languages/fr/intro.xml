@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <text key="Hint" text="une grenade à impacte a un faible rayon d'explosion mais est bien plus effectif contre les véhicules qu'une grenade à fragmentation"/>
+    <text key="Hint" text="Les tours/véhicules radar brouillent les signaux radio dans un rayon de 100 mètres"/> 
+    <text key="Hint" text="L'explosif C4 est très efficace contre les structures à haut points de vie"/>
+    <text key="Hint" text="Dans le cas de points de resources (RP) suffisants, il est conseillé d'acheter un gilet de protection"/>
+    <text key="Hint" text="Trop d'encombrement du sac-à-dos va grandement réduire votre visée"/> 
+    <text key="Hint" text="Se mettre à couvert est indispensable pour survivre, utilisez cette tactique le plus souvent possible"/>
+    <text key="Hint" text="Plonger au sol pour éviter une grenade peut sauver votre vie"/> 
+    <text key="Hint" text="Poignarder un ennemi rapporte beaucoup plus de XP qu'abattre un soldat par arme à feu"/> 
+    <text key="Hint" text="Prendre une base à revers peut être une bonne tactique pour sortir d'une impasse"/>
+    <text key="Hint" text="Contourner une base peut être une bonne tactique pour sortir d'une impasse"/>  
+    <text key="Hint" text="Pour capturer une base, entrez dans le rectangle en pointillés visible sur la carte"/>
+    <text key="Hint" text="Capturer une base requiert une majorité de troupes de 2/3 pour lancer le retardateur"/> 
+    <text key="Hint" text="Pour utiliser une mitrailleuse, vous devez être couchés pour tirer, sauf si vous êtes derrière une couverture"/> 
+    <text key="Hint" text="Une grenade incapacitante a un rayon d'explosion important mais ne tue pas"/>
+    <text key="Hint" text="Dans une campagne, vous pouvez seulement réapparaître avec une arme de votre armée, à moins de débloquer des armes ennemies"/>
+    <text key="Hint" text="Pour débloquer des armes ennemies dans une campagne, rapportez-en quelques-unes à une armurerie"/>
+    <text key="Hint" text="Les véhicules sont des cibles faciles pour de larges groupes d'infantrie. Utilisez-les avec prudence"/> 
+    <text key="Hint" text="Ne vous laissez pas abattre par vos propres morts, dans RWR vous allez mourir souvent"/> 
+    <text key="Hint" text="Il n'existe pas de 'meilleures' armes, chacune d'elles remplit un différent but"/> 
+    <text key="Hint" text="Tirer en coup-par-coup aide beaucoup pour limiter la dispersion des balles"/> 
+    <text key="Hint" text="Repérer un véhicule ennemi est un moyen facile de recevoir des RP"/> 
+    <text key="Hint" text="La vente d'objets de valeur perdus par des soldats tombés peut valoir le détour à l'armurerie"/> 
+    <text key="Hint" text="Un gilet Type-II absorbe 2 balles, la 3e met le porteur dans un état blessé"/> 
+    <text key="Hint" text="Un vêtement de camouflage ne protège pas mais rend le porteur moins facile à détecter par l'IA"/> 
+    <text key="Hint" text="Des armes plus lourdes baissent votre vitesse de mouvement"/>
+    <text key="Hint" text="Le commandant donne des ordres d'attaque - vous êtes cependant libre de faire ce que vous voulez"/> 
+    <text key="Hint" text="Uniquement les soldats portant un gilet de protection peuvent être soignés avec une trousse de soins"/>
+    <text key="Hint" text="Si vous êtes blessés, maintenez la touche attaque mêlée enfoncée pour forcer un respawn"/>              
+</intro>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

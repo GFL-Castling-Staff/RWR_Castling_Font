@@ -1,0 +1,297 @@
+<journal>
+	<!-- pre-added journal entries with key="start" -->
+	<!-- end of pre-added journal entries -->
+	
+	<!-- hello_note is a special note and isn't stored in journal -->
+	<entry key="hello_note">
+	    <title value="Notificaciones del diario" />
+		<text value="¡Hola! Recibirás estas notificaciones de vez en cuando para ayudarte a familiarizarte con el juego. Cuando veas una de estas entradas en la esquina superior derecha, ¡haz clic en ella para abrirla!" />
+		<image filename="journal_welcome.png" />
+	</entry>
+	
+	<!-- hello happens after hello_note, is stored in journal -->
+	<entry key="hello" _old_key="xp_achieved/0">
+	    <title value="Primeros pasos" />
+		<text value="Primero, echa un vistazo al mapa (%control_map) para tener una idea de dónde te encuentras ahora mismo. Debes observar dónde está tu base aliada más cercana y qué zonas han capturado tus enemigos.%PSReúnete con aliados y únete al ataque una vez que el comandante de la orden. Es recomendable mantenerse junto a los demás y apoyarlos cuando acabas de emoezar, ya que aún no dispones de un escuadrón propio. Trata de no liderar la batalla.%PSUtiliza el registro de chat (%control_statistics) para revisar las ordenes del comandante." />
+		<image filename="journal_welcome.png" />
+	</entry>
+
+	<entry key="move_against_stabbable_static_object">
+		<title value="Ataque cuerpo a cuerpo, apuñalamiento" />
+		<text value="Usa tu cuchillo (%control_knife) para romper cajas y conseguir algunos suministros básicos. El ataque cuerpo a cuerpo también se puede usar para suprimir enemigos al instante y en silencio cuando estás lo suficientemente cerca, además obtendrás más XP al apuñalar que con una eliminación normal." />
+		<image filename="journal_stab.png" />
+	</entry>
+
+	<entry key="first_death_at_start">
+		<title value="Sistema de cobertura" />
+		<text value="Es importante para mantenerse con vida que utilices las coberturas que tengas a mano. Puedes utilizar agacharse (%control_crouch) y tumbarse (%control_prone) para convertirte en un blanco más dificil de alcanzar. Al agacharte detrás de una cobertura del tamaño adecuado, te levantarás automáticamente al disparar (%control_shoot)." />
+		<image filename="journal_cover.png" />
+	</entry>
+	
+	<entry key="a_few_deaths_at_start">
+		<title value="Equipamiento al reaparecer" />
+		<text value="Cuando mueres, todo tu equipo junto con el contenido de la mochila, se deja caer al suelo. Los objetos permanecerán allí por un tiempo limitado antes de desaparecer, siendo este tiempo mayor para los objetos de mayor rareza.%PSCuando reaparezcas después de caer en combate, la mayoría de tu equipo se restablecerá, descontandote el coste RP automáticamente, excepcionalmente no se restablecen los artículos marcados como tales, por ejemplo chalecos antibalas o armas raras.%PSUsar este tipo de objetos, requerirá que prestes especial atención a mantenerte con vida, así que prepárate." />
+		<image filename="journal_non_respawnable_items.png" />
+	</entry>
+
+	<entry key="low_encumbrance_exceeded">
+		<title value="Mochila y peso" />
+		<text value="La mochila es tu almacenamiento temporal para objetos, úsalo generalmente para mover objetos a los alijos y armerias. Cuando caes en combate, todos los objetos de la mochila caen al suelo.%PSCada objeto tiene un peso determinado. Cuando tienes más del 20% de tu peso máximo, sufres una penalizacion por el peso: la velocidad de movimiento y la precisión de disparo disminuyes proporcionalmente.%PSCuando el peso alcanza el 60%, aparecerá una imágen de una mochila en el HUD y tu capacidad de combate se verá seriamente disminuida. Considera llevar menos peso al participar en la batalla." />
+		<image filename="journal_backpack.png" />
+	</entry>
+
+	<entry key="base_capture/friendly">
+	    <title value="Captura de bases" />
+		<image filename="journal_base.png" />
+		<text value="Las bases son capturadas por la facción con más tropas (el doble que las del enemigo) en el área central de la base.%PSUna vez hayas capturado una base, el enemigo puede volver a por ella con un contraataque, por lo que es una buena idea que asegures la zona con tropas aliadas antes de avanzar al siguiente objetivo."/>
+	</entry>
+		
+	<entry key="inspect/armory">
+	    <title value="Arsenal" />
+		<image filename="journal_armory.png" />
+		<text value="El arsenal te proporciona las armas y objetos básicos de tu facción.%PSCuando encuentres un botín, llévalo a el arsenal para obtener RP (puntos de recursos).%PSLleva 5 armas enemigas comunes (no marcadas como raras) para desbloquear esa arma en el arsenal, estando a la disposición de tu facción. Al entregar un maletín o un portátil a un arsenal, desbloquearas equipamiento avanzado.%PSSi logras capturar un camión de carga enemigo, llévalo a un arsenal una recompensa." />
+	</entry>
+
+	<entry key="inspect/stash">
+	    <title value="Alijo" />
+		<image filename="journal_stash.png" />
+		<text value="El alijo es tu espacio de almacenamiento personal permanente. Úsalo para guardar objetos que no quieres perder o que aún no puedes usar.%PSEs aconsejable que guardes las armas raras que aún no puedas usar en el alijo, para posteriormente, utilizarlas cuando estes lo suficientenemte cualificado.%PSTodos los alijos están conectados, de esta forma podras acceder a los objetos que hayas guardado en cualquier parte del mapa, incluso en territorio enemigo." />
+	</entry>
+	
+	<entry key="inspect/item_unlocker">
+	    <title value="Maletines y portátiles" />
+		<image filename="journal_briefcase.png" />
+		<text value="Se pueden entregar maletines y portátiles en el arsenal para desbloquear nuevo equipamiento.%PSLos portátiles, en concreto, desbloquean equipamiento relativo al sigilo." />
+	</entry>
+	
+	<entry key="inspect/vehicle/any">
+	    <title value="Vehículos" />
+		<text value="Los vehículos te proporcionan una forma de moverte más rápido. Algunos de ellos disponen de armamento, mientras que otros pueden tener un arsenal propio, también pueden funcionar como puntos de reaparición móviles.%PSPuedes acceder a todas sus plazas, como conductor, artillero o pasajero a distintos lados del vehículo. Acércate a un asiento, y podrás acceder a el mediante el boton saltar (%control_jump). Si un enemigo está ocupando un asiento, podrás sacarlo de vehiculo. Esto también te funcionará para apropiarte de un vehículo de soldados amigos de menor rango.%PSAlgunos vehículos solo podrás utilizarlos de forma efectiva mediante el apoyo de tu escuadrón, como por ejemplo los tanques." />
+		<image filename="journal_truck.png" />
+	</entry>
+
+	<entry key="inspect/vehicle/enemy">
+	    <title value="Vehículos enemigos" />
+		<text value="Necesitarás explosivos, lanzacohetes o granadas para dañar el blindaje de un vehículo. Con los lanzacohetes y las granadas de impacto causarás un gran daño.%PSLos vehículos ocupados por enemigos se muestran como iconos rojos en la vista de mapa. " />
+		<image filename="journal_vehicle.png" />
+	</entry>
+	
+	<entry key="inspect/apc/friendly">
+	    <title value="APCs" />
+		<text value="El APC tiene una sola plaza de artillero además del asiento del conductor y varias plazas de pasajeros en la parte trasera. Necesitarás como mínimo a un compañero de escuadrón para operar el APC de manera efectiva. Utiliza el comando de escuadrón (%control_squad_command) para dar órdenes al conductor o al artillero según tu posición.%PSEl APC altamente efectivo contra la infantería, pero no surte el mismo efecto contra vehículos." />
+		<image filename="journal_apc.png" />
+	</entry>
+
+	<entry key="inspect/tank/friendly">
+	    <title value="Tanques" />
+		<text value="El tanque dispone de dos plazas de artillero además del asiento del conductor. Necesitarás al menos a un compañero de escuadrón para operar un tanque de manera efectiva, preferiblemente dos. Usa el comando de escuadrón (%control_squad_command) para dar órdenes al conductor o artilleros.%PSLos tanques son increíblemente poderosos contra la infantería y vehículos, y se mueven sin dificultades por todos terrenos." />
+		<image filename="journal_tank.png" />
+	</entry>
+
+	<entry key="inspect/armored_truck.vehicle/friendly">
+	    <title value="Camión de reaparición" />
+		<text value="El camión de reaparición es un vehículo que solo los jugadores pueden utilizar. Cuando no te estas moviendo, y no te encuentras demasiado cerca del enemigo, te permite reaparecer en el camión. Esto lo convierte en un recurso muy valioso, cuando decidas realizar maniobras de flanqueo y al luchar en áreas que no disponen de puntos de reaparición cercanos.%PSEl camión de reaparición también funciona como un punto de control cuando operes tras las líneas enemigas.%PSDispone ademas de un gran número de plazas." />
+		<image filename="journal_spawntruck.png" />
+	</entry>
+
+	<entry key="inspect/mobile_armory.vehicle/any">
+	    <title value="Camiones armería" />
+		<text value="El camión armería es una arsenal portátil que solo los jugadores pueden conducir. Funciona de manera idéntica a una armería estándar. Cuando se encuentre inmóvil las tropas aliadas se encargarán de defenderlo. Por lo general, es una buena idea acercarlo al frente, para facilitar un punto de suministro más cercano." />
+		<image filename="journal_mobarmory.png" />
+	</entry>
+	
+	<entry key="xp_achieved/150"> <!-- was 100 -->
+		<title value="Granadas" />
+		<text value="Las granadas son excelentes herramientas para superar las coberturas enemigas y eliminar grupos de enemigos con su radio de explosión. Usa %control_grenade para lanzar la granada donde apuntes en ese momento. Es recomendable que practiques con ellas para acostumbrarte a su arco de lanzamiento, esto varía ligeramente según el tipo de granada y la diferencia de altura con el objetivo.%PSLas granadas también facilitan los combos de eliminaciones y con ello las recompensas de XP que implican." />
+		<image filename="journal_grenade.png" />
+	</entry>
+	
+	<entry key="xp_achieved/50"> <!-- was 200 -->
+		<title value="Fusil de asalto" />
+		<text value="Los fusiles de asalto disponen de un poder y alcance equilibrados. Procura disparar en ráfagas cortas para disminuir la dispersión. Disparar agachado o tumbado te proporcionará mayor precisión frente a disparar erguido o en movimiento. No pierdas el ojo del objetivo, ya que te indica la dispersión, y como se ve afectada por el retroceso." />
+		<image filename="journal_ar.png" />
+	</entry>
+
+	<entry key="xp_achieved/250">
+		<title value="Desplegables" />
+		<text value="Los sacos de arena te permiten crear una cobertura improvisada, que te protege del fuego de armas cortas y las explosiones de algunas granadas. Cambia al arma secundaria (%control_swap_weapon), mantén presionado %control_shoot y establece la dirección mediante la dirección de apuntado.%PSPuedes obtener nuevos desplegables completando entregas de camiones de carga y maletines." />
+		<image filename="journal_sandbag.png" />
+	</entry>
+	
+	<entry key="inspect/riot_shield.weapon">
+		<title value="Escudos anti-disturbios" />
+		<text value="Puedes utilizar los escudos anti-disturbios para bloquear proyectiles. Primero, cambia al equipamiento secundario (%control_swap_weapon), luego apunta el objetivo en la dirección que quieres cubrir y manten presionado %control_shoot. Otros soldados pueden utilizar el escudo como cobertura.%PSLas explosiones de granadas dañan el escudo y aturden al usuario, siendo las granadas de impacto aún más letales.%PSLos escudos pueden ser de gran utilidad en campo abierto sin coberturas." />
+		<image filename="journal_riot_shield.png" />
+	</entry>
+
+	<entry key="xp_achieved/100">    <!-- was inspect -->
+		<title value="Escopetas" />
+		<text value="Las escopetas disponen de un gran poder de impacto a corto alcance, pero son ineficaces a larga distancia. Por ello, te serán de gran utilidad en areas donde el combate a corto alcance se vea forzado, como trincheras o entornos urbanos. La postura tiene un efecto ínfimo sobre la precisión, por lo que es ideal para ser disparada en movimiento." />
+		<image filename="journal_shotguns.png" />
+	</entry>
+
+	<entry key="inspect/medikit.weapon">
+		<title value="Kits medicos" />
+		<text value="Puedes utilizar el kit médico para curar a un soldado herido que yace en el suelo. Acércate al soldado herido, cambia al arma secundaria (%control_swap_weapon) y mantén presionado (%control_shoot) hasta que se ponga de pie nuevamente.%PSSolo los soldados que esten equipados con un chaleco tienen la posibilidad de resultar heridos, además no puedes usar el botiquín en ti mismo.%PSEl kit médico es una herramienta especialmente útil en el modo multijugador." />
+		<image filename="journal_medikit.png" />
+	</entry>
+	
+	<!--
+	- at first rank up
+	-->
+	<entry key="xp_achieved/500">
+		<title value="Ametralladoras" />
+		<text value="Las ametralladoras disponen de una gran dispersión, gran alcance y un excelente daño, pero requieren que dispares tumbado o con el arma apoyada, lo que las convierte armas poco versátiles y destinadas a la supresión. Úsalas en asedios o para suprimir grandes grupos de enemigos." />
+		<image filename="journal_mg.png" />
+	</entry>
+
+	<entry key="xp_achieved/500">
+		<title value="Lanzadores" />
+		<text value="Los lanzadores son tu principal recurso anti blindaje. Después de adquirir uno, cambia al equipamiento secundario (%control_swap_weapon), apunta con precaución, observando el objetivo y su dispersión, y abre fuego al objetivo con %control_shoot cuando estes preparado. Se trata de armas de uso único." />
+		<image filename="journal_bazooka.png" />
+	</entry>
+
+	
+	<!-- objective vehicles -->
+	<entry key="spawn/aa_emplacement.vehicle/enemy">
+		<title value="Emplazamiento antiaéreo" />
+		<image filename="journal_aa.png" />
+		<text value="Algunos mapas cuentan con emplazamientos antiaéreos enemigos que evitan los apoyos aéreos aliados, como por ejemplo los paracaidistes. Encuentra y elimina el emplazamiento situado territorio enemigo para habilitar los apoyos nuevamente. La mejor estrategia para completar este objetivo es el uso de tácticas de infiltración junto con explosivos, pero hay otras formas de abordarlo.%PSLos emplazamientos AA no reaparecerán una vez que sean destruido." />
+	</entry>
+
+	<entry key="spawn/radar_tower.vehicle/enemy">
+		<title value="Torres de radar y comunicaciones" />
+		<image filename="journal_radar_tower.png" />
+		<text value="Una torre de radar se encarga de las comunicaciones entre el comandante y las tropas de una facción. Destruir una torre de radar anula dichas comunicaciones, lo que implica que el enemigo 1) dejará de atacar, 2) reducirá su velocidad y capacidad de llevar más efectivos al campo de batalla, y 3) las tropas no se moveran entre bases hasta que dicha torre reaparezca. %PS Dada la alta importancia de dicha estrucutra, se encuentra altamente protegida, por lo que usar tácticas de infiltración será útil para hacerte con el. ¡No olvide el C4! %PSLa torre también bloquea las comunicaciones de radio y con ello los apoyos." />
+	</entry>
+
+	<entry key="inspect/radar_truck.vehicle/enemy">
+		<title value="Camión de radar y comunicaciones" />
+		<image filename="journal_radar_truck.png" />
+		<text value="Un camión de radar se encarga de las comunicaciones entre el comandante y las tropas de una facción. Destruir un camión de radar anula dichas comunicaciones, lo que implica que el enemigo 1) dejará de atacar, 2) reducirá su velocidad y capacidad de llevar más efectivos al campo de batalla, y 3) las tropas no se moveran entre bases hasta que dicha torre reaparezca.%PSLos camiones de radar tienen guardias adicionales, y el el conductor huirá al sentirse amenazado.%PSEl camión también bloquea las comunicaciones de radio y con ello los apoyos." />
+	</entry>
+	
+	<entry key="inspect/radio_jammer.vehicle/enemy">
+		<title value="Inhibidores de radio" />
+		<image filename="journal_radio_jammer.png" />
+		<text value="Los inhibidores de radio enemigos obstaculizan las llamadas de radio en sus alrededores, esto anula el uso de apoyo de mortero y paracaidistas. La defensa de los inhibidores es baja. Infiltrate y usa cargas de C4 u otros explosivos para destruirlos." />
+	</entry>
+	
+	<entry key="inspect/cargo_truck.vehicle/enemy">
+		<title value="Camiones de carga" />
+		<image filename="journal_cargo_truck.png" />
+		<text value="Los camiones de carga enemigos pueden ser capturados de distintas formas, al entregar uno a un arsenal aliado desbloqueará nuevo equipamiento.%PSEl vehículo tiende a estar etsacionado en algún lugar del territorio enemigo y huirá cuando entre encombate. Debers que ser rápido y sigiloso para llegar a la puerta del conductor y con ello sacarlo (%control_jump) y luchar contra él para capturar el vehículo.%PSPuedes dañar el camión con explosivos para inutilizarlo (si no lo destruyes en el intento). Será necesario que lo repares para volver a el arsenal."/>
+		<!-- no space left: Once you've captured the truck, any enemy will try to stop the vehicle so watch out!" -->
+	</entry>
+
+	<entry key="inspect/prison/enemy">
+		<title value="Prisiones" />
+		<image filename="journal_prison.png" />
+		<text value="Los autobuses y puertas de las prisiónes pueden ser destruidos con explosivos para liberar a los prisioneros aliados. Los prisioneros proporcionarán temporalmente a tu facción un aumento de efectivos." />
+	</entry>
+	
+	<!-- map completion -->
+	<entry key="match_end/friendly">
+		<title value="Victoria" />
+		<image filename="journal_completed.png" />
+		<text value="¡Buen trabajo!%PSUna vez la batalla haya terminado, aparecerán uno o varios puntos de extracción para desplazarte a otros mapas. Puedes verlos en el mapa (%control_map) como íconos de puertas.%PSAhora, el mapa recién conquistado es seguro, es buena idea echar un vistazo más de cerca en las distintas bases y zonas cercanasallí encontraras cajas y botines que pueden aportarte RP si andas bajo de recursos."/>
+	</entry>
+	<entry key="match_end/friendly">
+		<title value="Mapa global" />
+		<image filename="journal_worldview.png" />
+		<text value="EL mapa global muestra el estado actual de la campaña, los diferentes mapas y las facciones que lo ocupan. Una vez que tu facción controle el mapa actual, puedes escoger el siguiente mapa al que te unirás para ayudar a la invasión. Para ello ve al punto de extracción correspondiente.%PSPuedes regresar a mapas controlados por los aliados, esto puede ser útil para localizar cualquier botín oculto. Desde cajas hasta vehículos de carga que has perdido."/>
+	</entry>
+	<entry key="match_end/enemy">
+		<title value="Derrota" />
+		<image filename="journal_defeated.png" />
+		<text value="Menudo desastre, el enemigo ha ganado la batalla!%PSToca volver a intentarlo? El mapa se reiniciara en un momento." />
+	</entry>
+		
+	<!-- at 1000xp -->	
+	<entry key="xp_achieved/1000">
+		<title value="Llamadas de radio" />
+		<image filename="journal_radio_device.png" />
+		<text value="¡Ya puedes hacer llamadas de radio! Apoyo de mortero, paracaidistas y más apoyos aéreos están ahora a tu disposición. Situa el punto de mira en la posición donde quieras solicitar el apoyo, mantén presionado %control_radio para ver los apoyos disponibles y selecciona con el botón izquierdo del ratón cual de ellos deseas solicitar." />
+	</entry>
+	
+	<!-- squad -->
+	<entry key="xp_achieved/1250">
+		<title value="Compañeros de escuadrón" />
+		<image filename="journal_squad_init.png" />
+		<text value="Los soldados se unen automáticamente a los escuadrones de soldados de mayor rango.%PSMediante %control_decrease_squad_size/%control_increase_squad_size puedes modificar el tamaño del escuadrón, el tamaño máximo está limitado por tu rango.%PSLa cruz médica indica que en tu escuadrón existe un efectivo con un kit médico.%PSUsa el comando de control de escuadra (%control_squad_command) para dar una orden de movimiento al escuadrón, mediante doble clic aligeraran el paso. EL uso del comando de contol de escuadra sobre un emplazamiento, como una MG o un TOW, hará que uno de tus soldados ocupe el arma." />
+	</entry>
+
+	<!-- vests & getting wounded & calling for help -->
+	<entry key="xp_achieved/1250">
+		<title value="Chalecos antibalas" />
+		<text value="Usar un chaleco antibalas te permite recibir algunos disparos que de otra forma serían letales. Cada disparo deteriorará el chaleco: el primer es absorbido por el chaleco, el segundo te dejará aturdido y el último golpe te herirá.%PSMientras te encuentres herido, puedes llamar a un médico con %control_shoot, o forzar tu reaparición manteniendo pulsado %control_knife. Cualquier médico que se encuentre cerca, acudirá para curarte.%PSA pesar de estar herido, aún puedes usar la radio, y todas los equipos de paracaidistas incluyen al menos un médico." />
+		<image filename="journal_vest.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1500">
+		<title value="Compañeros de escuadrón en vehículos" />
+		<image filename="journal_squad_vehicle.png" />
+		<text value="Cuando entres en un vehículo, tu escuadrón te seguirá para llenar las plazas libres. Puedes utilizar el comando de control de escuadra (%control_squad_command) para darle una orden a tu conductor o artillero. También puedes usar el mapa (%control_map) y hacer clic (%control_squad_command) para darle una orden en un punto alejado a tu conductor." />
+	</entry>
+			
+	<entry key="xp_achieved/1500">
+		<title value="Rifles de francotirador" />
+		<text value="Los rifles de francotirador disponen de un gran alcance, además de gran precisión y potencia, pero la mayoria de ellos requieren del uso de cerrojo, asi como de tiempo para apuntar. Realiza los disparos agachado o tumbado, para garantizar la mayor precisión posible." />
+		<image filename="journal_sniper_rifles.png" />
+	</entry>
+	
+	<!-- stealth, suppressed weapons -->
+	<entry key="xp_achieved/1000">
+		<title value="Armas silenciadas" />
+		<image filename="journal_suppressed.png" />
+		<text value="Las armas silenciadas son altamente eficientes contra los enemigos que no son conscientes de tu presencia ni estan alertados, pero pierden gran parte de su eficacia en combate convencional.%PSEsto les hace especialmente útiles cuando te infiltras tras las lineas enemigas. Considera la posibilidad de disolver tu escuadra (%control_decrease_squad_size) antes de realizar una misión de infiltración, cuando consideres que has finalizado la misión, usa %control_increase_squad_size para permitir que los compañeros de escuadrón se unan a ti nuevamente. " />
+	</entry>
+
+	<entry key="xp_achieved/1100">
+		<title value="C4" />
+		<text value="El C4 se puede lanzar como cualquier granada, y se adherirá alla donde caiga, ya sean estructuras, vehículos o paredes. Una vez lanzado, se puede detonar a distancia mediante %control_shoot colocando la retícula sobre él. ¡Asegurate de cubrirte antes de la detonación!%PSUn C4 destruirá cualquier objetivo o vehículo." />
+		<image filename="journal_c4.png" />
+	</entry>	
+	
+	<entry key="xp_achieved/1250">
+		<title value="Operaciones de reconocimiento" />
+		<image filename="journal_investigate.png" />
+		<text value="Las operaciones de reconocimiento consisten en desplazarte a una base ocupada por el enemigo y inspeccionar el centro de la base. Una vez que la base ha sido explorada, se envía automáticamente un informe sobre la capacidad del enemigo al comandante, quien evaluara la información y adaptará la estratégia a esta.$PSSi la batalla principal se encuentra en un bloqueo, vale la pena explorar las otras bases para analizar las posibilidades de captura." />
+	</entry>
+
+	<entry key="xp_achieved/1400">
+	    <title value="Captura de bases aisladas" />
+		<image filename="journal_base_tactics.png" />
+		<text value="Es posible capturar bases que se encuentren aisladas solo o con tu escuadrón. Si logras situarte detrás de las líneas enemigas y localizas un objetivo más fácil de atacar, puedes capturarlo, pero mantente alerta y preparate para los contraataques enemigos. Se pueden capturar todas las bases marcadas en el mapa (%control_map) con círculos rojos."/>
+	</entry>
+	
+	<entry key="xp_achieved/1500">
+		<title value="Bengala de reaparición" />
+		<text value="La bengala de reaparición cumple la función de punto de reaparición para jugadores, sea donde sea que la lances. Sin embargo, si el enemigo se acerca demasiado a la bengala, se desactivara temporalmente hasta que se vuelva un punto seguro otra vez." />
+		<image filename="journal_flare.png" />
+	</entry>	
+	
+	<!-- stealth, visibility, night -->
+	<entry key="xp_achieved/1750">
+		<title value="Sigilo básico" />
+		<image filename="journal_stealth1.png" />
+		<text value="EL sigilo consiste en pasar desapercibido por el enemigo; por ello tu visibilidad juega un papel fundamental.%PSPuedes disminuir tu visibilidad de diferentes formas: caminar (%control_walk), agacharse (%control_crouch) o arrastrarse (%control_prone) son formas de moverte sigilosamente, sin embargo permanecer inmovil es la mejor opción. Durante la noche es más fácil pasar desapercibido. Los soldados enemigos tienen una area de visión, y es menos probable que te detecten si te situas por los lados o por detrás.%PSEl traje de camuflaje potencia aún más tu sigilo. El uniforme táctico, disminuye tu visibilidad enormemente por la noche, pero no tiene ningún efecto durante el día." />
+	</entry>
+	
+	<!-- stealth, execution -->
+	<entry key="xp_achieved/2000">
+		<title value="Sigilo avanzado" />
+		<image filename="journal_stealth2.png" />
+		<text value="Para empezar, hazte con un arma silenciada y explora el área objetivo para tener una idea de cuántos enemigos enfrentas.%PSLos guardias a menudo realizan patrullas, solos o en pequeños grupos, lo cual los convierte en objetivos vulnerables ataques silenciosos. Si un enemigo te detecta y alerta a otros, es mejor huir, esperar y observar, hasta que se hayan relajado el ambiente otra vez.%PSAsegura tus disparos antes de abrir fuego contra los enemigos.%PSEs aconsejable también que te prepares para retomar la misión en caso de que mueras, prepara una bengala o un camión de reaparición para ello." />
+	</entry>
+
+	<!-- difficult change -->
+    <entry key="difficulty_change">
+        <title value="¿Cómo va todo?" />
+        <image filename="journal_difficulty.png" />
+        <text value="¿Te parece que el juego es demasiado difícil, demasiado fácil, o tal vez lo justo? Puedes cambiar la dificultad en el menú para que se adapte mejor a tu nivel si es necesario." />
+    </entry>
+
+</journal>
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <text key="Hint" text="Eine Aufschlaggranate hat einen geringen Explosionsradius, ist jedoch deutlich effektiver gegen Fahrzeuge als eine Handgranate"/>
+    <text key="Hint" text="Funktürme/-fahrzeuge stören Funksignale in einem Radius von 100 Metern"/> 
+    <text key="Hint" text="C4 Sprengstoff ist äusserst effektiv gegen Strukturen mit vielen Lebenspunkten"/>
+    <text key="Hint" text="Falls du über genügend Ressourcepunkte (RP) verfügst, ist es ratsam, eine Weste zu kaufen"/>
+    <text key="Hint" text="Zu viel Last im Rucksack mindert die Treffgenauigkeit drastisch"/> 
+    <text key="Hint" text="Deckung ist unabdingbar um zu überleben, verwende welche so oft wie möglich"/>
+    <text key="Hint" text="Einen Hechtsprung durchzuführen, um einer Granate zu entkommen, kann dir das Leben retten"/> 
+    <text key="Hint" text="Einen Gegner zu messern gibt dir deutlich mehr XP als ihn mit einer Feuerwaffe zu erschiessen"/> 
+    <text key="Hint" text="Eine Basis von hinten anzugreifen kann eine gute Taktik gegen eine Patt-Situation sein"/>
+    <text key="Hint" text="Den Gegner zu flankieren kann eine gute Taktik gegen eine Patt-Situation sein"/>  
+    <text key="Hint" text="Um eine Basis einzunehmen, bewege dich innerhalb der gestrichelten Vierecke, die auf der Karte sichtbar sind"/>
+    <text key="Hint" text="Eine Basis einzunehmen erfordert eine 2/3-Mehrheit von Truppen, um den Zähler zu aktivieren"/> 
+    <text key="Hint" text="Um ein Maschinengewehr zu verwenden, musst du dich hinlegen, es sei denn, du bist in Deckung"/> 
+    <text key="Hint" text="Eine Blendgranate besitzt einen grossen Detonationsradius, ist jedoch nicht tödlich"/>
+    <text key="Hint" text="Du kannst in einer Kampagne nicht mit einer feindlichen Waffe respawnen, es sei denn du hast die Waffe freigeschaltet"/>
+    <text key="Hint" text="Um in einer Kampagne eine feindliche Waffe freizuschalten, musst du einige dieser Waffen zu einer Waffenkammer bringen"/>
+    <text key="Hint" text="Fahrzeuge sind eine einfache Zielscheibe für grössere Infantriegruppen. Gehe damit vorsichtig um"/> 
+    <text key="Hint" text="Lass dich nicht von deinen eigenen Todesfällen runterkriegen, in RWR wirst du oft sterben"/> 
+    <text key="Hint" text="Es gibt keine 'beste' Waffe, jede erfüllt verschiedene Zwecke"/> 
+    <text key="Hint" text="Einzelschüsse abzufeuern hilft gegen Streuung der Kugeln"/> 
+    <text key="Hint" text="Feindliche Fahrzeuge sichten ist ein einfacher Weg, an RP ranzukommen"/> 
+    <text key="Hint" text="Der Verkauf von Wertobjekten, die von Soldaten fallen gelassen werden, ist den Weg zur Waffenkammer oft wert"/> 
+    <text key="Hint" text="Eine Typ-II Weste fängt 2 Kugeln ab, die dritte verwundet den Träger"/> 
+    <text key="Hint" text="Ein Tarnanzug ist kein Kugelschutz, macht es der KI jedoch schwerer, den Träger zu entdecken"/> 
+    <text key="Hint" text="Schwerere Waffen reduzieren die Bewegungsgeschwindigkeit"/>
+    <text key="Hint" text="Der Kommandant erteilt Angriffsbefehle - du bist jedoch frei zu machen, was du willst"/> 
+    <text key="Hint" text="Ausschliesslich Soldaten, die eine Schutzweste tragen, können durch eine Verbandtasche wiederbelebt werden"/> 
+    <text key="Hint" text="Falls verwundet und kein Sani in der Nähe, halte die Messer-Taste gedrückt um zu respawnen"/>            
+</intro>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
